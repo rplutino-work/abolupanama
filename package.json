@@ -1,0 +1,16 @@
+{
+  "name": "abolu-store-theme",
+  "version": "1.0.0",
+  "description": "Implementación de Vtex",
+  "repository": "",
+  "author": "Abolu",
+  "private": true,
+  "devDependencies": {
+      "@types/node": "^18.13.0",
+      "sass": "^1.69.5"
+  },
+  "scripts": {
+      "sass-react": "sass --watch --no-source-map styles/scss:styles/css",
+      "release": "vtex release patch stable"
+  }
+}
