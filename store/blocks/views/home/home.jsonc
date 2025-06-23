@@ -1,5 +1,5 @@
 {
-  "store.home.custom": { 
+  "store.home": { 
     "blocks": [
       "rich-text"
     ]

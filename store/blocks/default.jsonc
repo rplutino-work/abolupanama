@@ -1,9 +1,9 @@
 {
-  "store.orderplaced.custom": {
+  "store.orderplaced": {
     "blocks": ["order-placed"]
   },
 
-  "store.account.custom": {
+  "store.account": {
     "blocks": ["my-account"],
     "parent": {
       "challenge": "challenge.profile"

@@ -1,5 +1,5 @@
 {
-  "vendor": "abolupanamaprod",
+  "vendor": "abolupanama",
   "name": "store-theme",
   "version": "0.1.2",
   "builders": {
@@ -45,8 +45,6 @@
     "vtex.breadcrumb": "1.x",
     "vtex.sticky-layout": "0.x",
     "vtex.add-to-cart-button": "0.x",
-
-
     "vtex.product-summary-context": "0.x",
     "vtex.native-types": "0.x",
     "vtex.responsive-values": "0.x",
@@ -55,7 +53,7 @@
     "vtex.product-price": "1.x",
     "vtex.product-customizer": "2.x",
     "vtex.checkout-summary": "0.x",
-    "vtex.product-list": "0.x",    
+    "vtex.product-list": "0.x",
     "vtex.product-bookmark-interfaces": "1.x",
     "vtex.device-detector": "0.x",
     "vtex.store-icons": "0.x",
@@ -81,7 +79,7 @@
     "vtex.search-graphql": "0.x"
   },
   "peerDependencies": {
-   "vtex.quickorder": "3.x"
+    "vtex.quickorder": "3.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

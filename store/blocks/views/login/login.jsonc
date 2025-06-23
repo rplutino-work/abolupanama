@@ -1,5 +1,5 @@
 {
-    "store.login.custom": {
+    "store.login": {
     "blocks": ["login-content#default"]
   },
 
