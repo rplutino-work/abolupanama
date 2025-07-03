@@ -1,0 +1,65 @@
+{
+  "flex-layout.row#block-4": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false,
+      "fullWidth": true,
+      "blockClass": [
+        "home-block-4"
+      ]
+    },
+    "children": [
+      "rich-text#home-block-4"
+      // "list-context.product-list#block-4"
+    ]
+  },
+  "rich-text#home-block-4": {
+    "props": {
+      "text": "**Ofertas del mes**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "home-block-4"
+    }
+  },
+  "list-context.product-list#block-4": {
+    "props": {
+      "hideUnavailableItems": false,
+      "maxItems": 70
+    },
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#block-4"
+    ]
+  },
+  "slider-layout#block-4": {
+    "props": {
+      "fullWidth": true,
+      "centerModeSlidesGap": 20,
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "slideTransition": {
+        "speed": 500,
+        "delay": 0,
+        "timing": "ease-in-out"
+      },
+      "infinite": true,
+      "blockClass": [
+        "block-4"
+      ],
+      "centerMode": {
+        "desktop": "disabled",
+        "tablet": "disabled",
+        "phone": "to-the-left"
+      },
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never"
+    }
+  }
+}

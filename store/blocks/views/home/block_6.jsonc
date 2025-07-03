@@ -1,0 +1,65 @@
+{
+  "flex-layout.row#block-6": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false,
+      "fullWidth": true,
+      "blockClass": [
+        "home-block-6"
+      ]
+    },
+    "children": [
+      "rich-text#home-block-6"
+      // "list-context.product-list#block-6"
+    ]
+  },
+  "rich-text#home-block-6": {
+    "props": {
+      "text": "**Productos destacados**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "home-block-6"
+    }
+  },
+  "list-context.product-list#block-6": {
+    "props": {
+      "hideUnavailableItems": false,
+      "maxItems": 70
+    },
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#block-6"
+    ]
+  },
+  "slider-layout#block-6": {
+    "props": {
+      "fullWidth": true,
+      "centerModeSlidesGap": 20,
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "slideTransition": {
+        "speed": 500,
+        "delay": 0,
+        "timing": "ease-in-out"
+      },
+      "infinite": true,
+      "blockClass": [
+        "block-6"
+      ],
+      "centerMode": {
+        "desktop": "disabled",
+        "tablet": "disabled",
+        "phone": "to-the-left"
+      },
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never"
+    }
+  }
+}

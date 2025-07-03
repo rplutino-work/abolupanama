@@ -1,0 +1,83 @@
+{
+  "flex-layout.row#block-1": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false,
+      "fullWidth": true,
+      "blockClass": [
+        "home-block-1"
+      ]
+    },
+    "children": ["list-context.info-card-list#home-slider-1"]
+  },
+  "list-context.info-card-list#home-slider-1": {
+        "children": [
+            "slider-layout#home-slider-1"
+        ],
+        "props": {
+          "height": "fit-content",
+          "infoCards": [
+             {
+                "id": "info-card-example-1",
+                "htmlId": "pow-1",
+                "isFullModeStyle": true,
+                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/BANNERPOWERTOOLSDESK.png",
+                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/BANNERPOWERTOOLSDESK.png",
+                "blockClass": ["home-slider-1"]
+            },
+            {
+                "id": "info-card-example-2",
+                "htmlId": "pow-2",
+                "isFullModeStyle": true,
+                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/banner%20de%20catalogo%20desk.jpg",
+                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/banner%20de%20catalogo%20desk.jpg",
+                "blockClass": ["home-slider-1"]
+            },
+            {
+                "id": "info-card-example-3",
+                "htmlId": "pow-3",
+                "isFullModeStyle": true,
+                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/BANNER%20DE%20INTRO.jpg",
+                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/BANNER%20DE%20INTRO.jpg",
+                "blockClass": ["home-slider-1"]
+            },
+            {
+                "id": "info-card-example-4",
+                "htmlId": "pow-4",
+                "isFullModeStyle": true,
+                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/GENERACIONESpc.jpg",
+                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/GENERACIONESpc.jpg",
+                "blockClass": ["home-slider-1"]
+            },
+            {
+                "id": "info-card-example-5",
+                "htmlId": "pow-5",
+                "isFullModeStyle": true,
+                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/elsurtidomasamplio-desktop.jpg",
+                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/elsurtidomasamplio-desktop.jpg",
+                "blockClass": ["home-slider-1"]
+
+            }
+          ]
+        }
+      },
+  "slider-layout#home-slider-1": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "blockClass": "home-slider-1",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    }
+  }
+}

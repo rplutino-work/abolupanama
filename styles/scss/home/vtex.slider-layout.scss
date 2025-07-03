@@ -1,0 +1,483 @@
+
+  
+  .caretIcon {
+    color: #000c7a;
+  }
+  .infoCardContainer {
+    border: none;
+  }
+  /* Estilos para el contenedor del slider 1 */
+  
+  .sliderLayoutContainer--home-slider-1 .sliderTrackContainer {
+    height: 100%;
+    padding: 25px 0;
+  }
+  
+  .sliderLayoutContainer--home-slider-1 .sliderTrack {
+    height: 100%;
+  }
+  
+  /* Estilos personalizados para los bullets/dots */
+  .sliderLayoutContainer--home-slider-1 .paginationDotsContainer {
+    position: absolute;
+    display: flex;
+    gap: 6px;
+    z-index: 10;
+  }
+  
+  .sliderLayoutContainer--home-slider-1 .paginationDot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    opacity: 0.2;
+    border-radius: 50%;
+    border: 3px solid #000c7a;
+  }
+  
+  .sliderLayoutContainer--home-slider-1 .paginationDot--isActive {
+    opacity: 1;
+  }
+  
+  .sliderLayoutContainer--home-slider-1 .paginationDot:hover {
+    opacity: 1;
+  }
+  
+  /* Variante con borde más grueso para mejor visibilidad */
+  .sliderLayoutContainer--home-slider-1 .paginationDot {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .infoCardContainer--home-slider-1 {
+    width: 100%;
+    height: 100%;
+    min-height: 400px; /* Altura mínima para el slider */
+  }
+  
+  /* Asegurar que el info-card use toda la altura disponible */
+  .infoCardContainer--home-slider-1 .infoCard {
+    height: 100%;
+    min-height: 400px;
+  }
+  
+  /* Hacer que la imagen ocupe todo el espacio disponible */
+  .infoCardContainer--home-slider-1 .infoCardImage {
+    height: 100%;
+    min-height: 400px;
+    object-fit: cover; /* Esto estira la imagen manteniendo proporción */
+    width: 100%;
+  }
+  
+  /* Alternativa: si quieres que se estire sin mantener proporción */
+  .infoCardContainer--home-slider-1 .infoCardImage--stretch {
+    height: 100%;
+    min-height: 400px;
+    object-fit: fill; /* Estira la imagen completamente sin mantener proporción */
+    width: 100%;
+  }
+
+  :global(.vtex-info-card-list-0-x-home-slider-1) {
+    width: 100%;
+  }
+  .infoCardTextContainer--home-slider-1 {
+    display: none;
+  }
+  
+  
+  /* Responsivo para mobile */
+  @media (max-width: 768px) {
+    
+    .sliderLayoutContainer--home-slider-1 {
+      height: 300px;
+    }
+  
+    /* Bullets más pequeños en mobile */
+    .sliderLayoutContainer--home-slider-1 .paginationDot {
+      width: 10px;
+      height: 10px;
+    }
+
+    .infoCardContainer--home-slider-1 {
+      min-height: 300px;
+    }
+    
+    .infoCardContainer--home-slider-1 .infoCard {
+      min-height: 300px;
+    }
+    
+    .infoCardContainer--home-slider-1 .infoCardImage,
+    .infoCardContainer--home-slider-1 .infoCardImage--stretch {
+      min-height: 300px;
+    }
+  }
+  
+
+
+  /* Estilos para el contenedor del slider 2 */
+  
+  :global(.vtex-flex-layout-0-x-flexRow--home-block-2) {
+    padding: 3em 0;
+  }
+  .infoCardContainer--home-slider-2 {
+    background-color: rgb(230, 230, 230);
+    width: 85%;
+    height: 150px;
+    border-radius: 0.5em;
+    justify-content: space-around;
+  }
+  .infoCardCallActionContainer--home-slider-2 {
+    display: none;
+  }
+  .infoCardHeadline--home-slider-2 {
+    margin: 0;
+    color: rgb(0, 12, 122);
+    font-size: 1.4em;
+    font-weight: 700;
+  }
+  .sliderLayoutContainer--home-slider-2 {
+    padding: 25px 5rem;
+  }
+  
+  .sliderLayoutContainer--home-slider-2 .paginationDot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    opacity: 0.2;
+    border-radius: 50%;
+    border: 3px solid #000c7a;
+  }
+  
+  .sliderLayoutContainer--home-slider-2 .paginationDot--isActive {
+    opacity: 1;
+  }
+  
+  .sliderLayoutContainer--home-slider-2 .paginationDot:hover {
+    opacity: 1;
+  }
+  
+  /* Variante con borde más grueso para mejor visibilidad */
+  .sliderLayoutContainer--home-slider-2 .paginationDot {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  :global(.vtex-info-card-list-0-x-home-slider-2) {
+    display: flex;
+    justify-content: center;
+  }
+
+ 
+  
+  /* Responsivo para mobile */
+  @media (max-width: 768px) {
+    
+  
+    /* Bullets más pequeños en mobile */
+    .sliderLayoutContainer--home-slider-2 .paginationDot {
+      width: 6px;
+      height: 6px;
+    }
+  
+
+  }
+
+
+
+  /* Estilos para el contenedor del slider 3 */
+  
+  .sliderLayoutContainer--home-slider-3 .sliderTrackContainer {
+    height: 100%;
+    padding: 25px 0;
+  }
+  
+  .sliderLayoutContainer--home-slider-3 .sliderTrack {
+    height: 100%;
+  }
+  
+  /* Estilos personalizados para los bullets/dots */
+  .sliderLayoutContainer--home-slider-3 .paginationDotsContainer {
+    position: absolute;
+    display: flex;
+    gap: 6px;
+    z-index: 10;
+  }
+  
+  .sliderLayoutContainer--home-slider-3 .paginationDot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    opacity: 0.2;
+    border-radius: 50%;
+    border: 3px solid #000c7a;
+  }
+  
+  .sliderLayoutContainer--home-slider-3 .paginationDot--isActive {
+    opacity: 1;
+  }
+  
+  .sliderLayoutContainer--home-slider-3 .paginationDot:hover {
+    opacity: 1;
+  }
+  
+  /* Variante con borde más grueso para mejor visibilidad */
+  .sliderLayoutContainer--home-slider-3 .paginationDot {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .infoCardContainer--home-slider-3 {
+    width: 100%;
+    height: 100%;
+    min-height: 400px; /* Altura mínima para el slider */
+  }
+  
+  /* Asegurar que el info-card use toda la altura disponible */
+  .infoCardContainer--home-slider-3 .infoCard {
+    height: 100%;
+    min-height: 400px;
+  }
+  
+  /* Hacer que la imagen ocupe todo el espacio disponible */
+  .infoCardContainer--home-slider-3 .infoCardImage {
+    height: 100%;
+    min-height: 400px;
+    object-fit: cover; /* Esto estira la imagen manteniendo proporción */
+    width: 100%;
+  }
+  
+  /* Alternativa: si quieres que se estire sin mantener proporción */
+  .infoCardContainer--home-slider-3 .infoCardImage--stretch {
+    height: 100%;
+    min-height: 400px;
+    object-fit: fill; /* Estira la imagen completamente sin mantener proporción */
+    width: 100%;
+  }
+
+  :global(.vtex-info-card-list-0-x-home-slider-3) {
+    width: 100%;
+  }
+  .infoCardTextContainer--home-slider-3 {
+    display: none;
+  }
+  
+  
+  /* Responsivo para mobile */
+  @media (max-width: 768px) {
+    
+    .sliderLayoutContainer--home-slider-3 {
+      height: 300px;
+    }
+  
+    /* Bullets más pequeños en mobile */
+    .sliderLayoutContainer--home-slider-3 .paginationDot {
+      width: 10px;
+      height: 10px;
+    }
+
+    .infoCardContainer--home-slider-3 {
+      min-height: 300px;
+    }
+    
+    .infoCardContainer--home-slider-3 .infoCard {
+      min-height: 300px;
+    }
+    
+    .infoCardContainer--home-slider-3 .infoCardImage,
+    .infoCardContainer--home-slider-3 .infoCardImage--stretch {
+      min-height: 300px;
+    }
+  }
+
+
+
+
+
+/* Estilos para el contenedor del slider 5 */
+  
+.sliderLayoutContainer--home-slider-5 .sliderTrackContainer {
+  height: 100%;
+  padding: 25px 0;
+}
+
+.sliderLayoutContainer--home-slider-5 .sliderTrack {
+  height: 100%;
+}
+
+/* Estilos personalizados para los bullets/dots */
+.sliderLayoutContainer--home-slider-5 .paginationDotsContainer {
+  position: absolute;
+  display: flex;
+  gap: 6px;
+  z-index: 10;
+}
+
+.sliderLayoutContainer--home-slider-5 .paginationDot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  opacity: 0.2;
+  border-radius: 50%;
+  border: 3px solid #000c7a;
+}
+
+.sliderLayoutContainer--home-slider-5 .paginationDot--isActive {
+  opacity: 1;
+}
+
+.sliderLayoutContainer--home-slider-5 .paginationDot:hover {
+  opacity: 1;
+}
+
+/* Variante con borde más grueso para mejor visibilidad */
+.sliderLayoutContainer--home-slider-5 .paginationDot {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.infoCardContainer--home-slider-5 {
+  width: 100%;
+  height: 100%;
+  min-height: 400px; /* Altura mínima para el slider */
+}
+
+/* Asegurar que el info-card use toda la altura disponible */
+.infoCardContainer--home-slider-5 .infoCard {
+  height: 100%;
+  min-height: 400px;
+}
+
+/* Hacer que la imagen ocupe todo el espacio disponible */
+.infoCardContainer--home-slider-5 .infoCardImage {
+  height: 100%;
+  min-height: 400px;
+  object-fit: cover; /* Esto estira la imagen manteniendo proporción */
+  width: 100%;
+}
+
+/* Alternativa: si quieres que se estire sin mantener proporción */
+.infoCardContainer--home-slider-5 .infoCardImage--stretch {
+  height: 100%;
+  min-height: 400px;
+  object-fit: fill; /* Estira la imagen completamente sin mantener proporción */
+  width: 100%;
+}
+
+:global(.vtex-info-card-list-0-x-home-slider-5) {
+  width: 100%;
+}
+.infoCardTextContainer--home-slider-5 {
+  display: none;
+}
+
+
+/* Responsivo para mobile */
+@media (max-width: 768px) {
+  
+  .sliderLayoutContainer--home-slider-5 {
+    height: 300px;
+  }
+
+  /* Bullets más pequeños en mobile */
+  .sliderLayoutContainer--home-slider-5 .paginationDot {
+    width: 10px;
+    height: 10px;
+  }
+
+  .infoCardContainer--home-slider-5 {
+    min-height: 300px;
+  }
+  
+  .infoCardContainer--home-slider-5 .infoCard {
+    min-height: 300px;
+  }
+  
+  .infoCardContainer--home-slider-5 .infoCardImage,
+  .infoCardContainer--home-slider-5 .infoCardImage--stretch {
+    min-height: 300px;
+  }
+}
+
+
+
+
+
+/* Estilos para el contenedor del slider 2 */
+  
+:global(.vtex-flex-layout-0-x-flexRow--home-block-7) {
+  padding: 3em 0;
+}
+.infoCardContainer--home-slider-7 {
+  background-color: rgb(230, 230, 230);
+  width: 85%;
+  height: 150px;
+  border-radius: 0.5em;
+  justify-content: space-around;
+}
+.infoCardCallActionContainer--home-slider-7 {
+  display: none;
+}
+.infoCardHeadline--home-slider-7 {
+  margin: 0;
+  color: rgb(0, 12, 122);
+  font-size: 1.4em;
+  font-weight: 700;
+}
+.sliderLayoutContainer--home-slider-7 {
+  padding: 25px 5rem;
+}
+
+.sliderLayoutContainer--home-slider-7 .paginationDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  opacity: 0.2;
+  border-radius: 50%;
+  border: 3px solid #000c7a;
+}
+
+.sliderLayoutContainer--home-slider-7 .paginationDot--isActive {
+  opacity: 1;
+}
+
+.sliderLayoutContainer--home-slider-7 .paginationDot:hover {
+  opacity: 1;
+}
+
+/* Variante con borde más grueso para mejor visibilidad */
+.sliderLayoutContainer--home-slider-7 .paginationDot {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+:global(.vtex-info-card-list-0-x-home-slider-7) {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/* Responsivo para mobile */
+@media (max-width: 768px) {
+  
+
+  /* Bullets más pequeños en mobile */
+  .sliderLayoutContainer--home-slider-7 .paginationDot {
+    width: 6px;
+    height: 6px;
+  }
+
+
+}

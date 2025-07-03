@@ -1,0 +1,58 @@
+{
+  "flex-layout.row#block-3": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false,
+      "fullWidth": true,
+      "blockClass": [
+        "home-block-3"
+      ]
+    },
+    "children": ["list-context.info-card-list#home-slider-3"]
+  },
+  "list-context.info-card-list#home-slider-3": {
+        "children": [
+            "slider-layout#home-slider-3"
+        ],
+        "props": {
+          "height": "fit-content",
+          "infoCards": [
+             {
+                "id": "info-card-example-3",
+                "htmlId": "pow-1",
+                "isFullModeStyle": true,
+                "imageUrl": "https://pedidos.abolu.com/arquivos/POWER%20TOOLS%20PC.jpg",
+                "mobileImageUrl": "https://pedidos.abolu.com/arquivos/POWER%20TOOLS%20PC.jpg",
+                "blockClass": ["home-slider-3"]
+            },
+            {
+                "id": "info-card-example-2",
+                "htmlId": "pow-2",
+                "isFullModeStyle": true,
+                "imageUrl": "https://pedidos.abolu.com/arquivos/CRAFTSMAN%20PC.jpg",
+                "mobileImageUrl": "https://pedidos.abolu.com/arquivos/CRAFTSMAN%20PC.jpg",
+                "blockClass": ["home-slider-3"]
+            }
+          ]
+        }
+      },
+  "slider-layout#home-slider-3": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "blockClass": "home-slider-3",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    }
+  }
+}

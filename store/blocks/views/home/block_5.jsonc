@@ -1,0 +1,50 @@
+{
+  "flex-layout.row#block-5": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false,
+      "fullWidth": true,
+      "blockClass": [
+        "home-block-5"
+      ]
+    },
+    "children": ["list-context.info-card-list#home-slider-5"]
+  },
+  "list-context.info-card-list#home-slider-5": {
+        "children": [
+            "slider-layout#home-slider-5"
+        ],
+        "props": {
+          "height": "fit-content",
+          "infoCards": [
+             {
+                "id": "info-card-example-5",
+                "htmlId": "pow-1",
+                "isFullModeStyle": true,
+                "imageUrl": "https://pedidos.abolu.com/arquivos/LIFETIME-desktopp.jpg",
+                "mobileImageUrl": "https://pedidos.abolu.com/arquivos/LIFETIME-desktopp.jpg",
+                "blockClass": ["home-slider-5"]
+            }
+          ]
+        }
+      },
+  "slider-layout#home-slider-5": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "blockClass": "home-slider-5",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    }
+  }
+}

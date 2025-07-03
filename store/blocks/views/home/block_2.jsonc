@@ -1,0 +1,92 @@
+{
+  "flex-layout.row#block-2": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false,
+      "fullWidth": true,
+      "blockClass": [
+        "home-block-2"
+      ]
+    },
+    "children": ["list-context.info-card-list#home-slider-2"]
+  },
+  "rich-text#home-slider-2-title": { 
+    "props": { 
+      "text": "Departamentos",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  },
+  "list-context.info-card-list#home-slider-2": {
+        "children": [
+            "slider-layout#home-slider-2"
+        ],
+        "props": {
+          "height": "fit-content",
+          "infoCards": [
+             {
+                "id": "info-card-example-2",
+                "htmlId": "pow-1",
+                "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/manguera-jardineria.png",
+                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/manguera-jardineria.png",
+                "blockClass": ["home-slider-2"],
+                "headline": "Jardineria"
+            },
+            {
+                "id": "info-card-example-2",
+                "htmlId": "pow-2",
+                "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/mascotas.png",
+                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/mascotas.png",
+                "blockClass": ["home-slider-2"],
+                "headline": "Jardineria"
+            },
+            {
+                "id": "info-card-example-3",
+                "htmlId": "pow-3",
+                "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/plomeria.png",
+                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/plomeria.png",
+                "blockClass": ["home-slider-2"],
+                "headline": "Jardineria"
+            },
+            {
+                "id": "info-card-example-4",
+                "htmlId": "pow-4",
+                "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/seguridad.png",
+                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/seguridad.png",
+                "blockClass": ["home-slider-2"],
+                "headline": "Jardineria"
+            },
+            {
+                "id": "info-card-example-5",
+                "htmlId": "pow-5",
+                "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/adhesivos.png",
+                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/adhesivos.png",
+                "blockClass": ["home-slider-2"],
+                "headline": "Jardineria"
+
+            }
+          ]
+        }
+      },
+  "slider-layout#home-slider-2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "always",
+      "blockClass": "home-slider-2"
+    }
+  }
+}
