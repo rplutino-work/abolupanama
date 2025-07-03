@@ -1,0 +1,55 @@
+:global(.vtex-sticky-layout-0-x-container--sticky-header-desktop) {
+  padding: 10px 30px 20px 30px;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+}
+:global(.vtex-sticky-layout-0-x-container--sticky-header-desktop) .flexRowContent--pre-header {
+  gap: 10px;
+}
+:global(.vtex-sticky-layout-0-x-container--sticky-header-desktop) .flexRowContent--pre-header .stretchChildrenWidth {
+  width: auto !important;
+}
+:global(.vtex-sticky-layout-0-x-container--sticky-header-desktop) .flexRowContent--pre-header .stretchChildrenWidth .flexRowContent--pre-header-content {
+  align-items: center;
+}
+:global(.vtex-sticky-layout-0-x-container--sticky-header-desktop) .flexRowContent--pre-header .stretchChildrenWidth .flexRowContent--pre-header-content :global(.vtex-store-components-3-x-imageElement--pre-header-icon):hover {
+  transform: scale(0.93);
+  color: #ffa700;
+}
+:global(.vtex-sticky-layout-0-x-container--sticky-header-desktop) .flexRowContent--pre-header .stretchChildrenWidth .flexRowContent--pre-header-content :global(.vtex-rich-text-0-x-paragraph--pre-header-text) {
+  margin: 0;
+  color: #6e6e6e;
+  font-size: 13px;
+}
+:global(.vtex-sticky-layout-0-x-container--sticky-header-desktop) .flexRowContent--pre-header .stretchChildrenWidth .flexRowContent--pre-header-content :global(.vtex-rich-text-0-x-paragraph--pre-header-text) :global(.vtex-rich-text-0-x-link--pre-header-text) {
+  color: #6e6e6e;
+  text-decoration: none;
+}
+:global(.vtex-sticky-layout-0-x-container--sticky-header-desktop) .flexRow--header-desktop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+:global(.vtex-sticky-layout-0-x-container--sticky-header-desktop) .flexRow--header-desktop .flexRowContent--header-desktop {
+  align-items: center;
+  justify-content: space-between;
+}
+:global(.vtex-sticky-layout-0-x-container--sticky-header-desktop) .flexRowContent--header-menu-desktop-line .stretchChildrenWidth {
+  width: auto !important;
+}
+
+:global(.vtex-sticky-layout-0-x-container--sticky-header-mobile) {
+  background-color: #fff;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+  padding: 0px 10px 10px;
+}
+:global(.vtex-sticky-layout-0-x-container--sticky-header-mobile) .flexRowContent--bottom-header-mobile-content {
+  justify-content: space-between;
+}
+:global(.vtex-sticky-layout-0-x-container--sticky-header-mobile) .flexRowContent--bottom-header-mobile-content :global(.vtex-store-drawer-0-x-openIconContainer--menu-mobile) {
+  padding: 0;
+  display: flex;
+  align-items: center;
+}

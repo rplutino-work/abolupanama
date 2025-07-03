@@ -71,15 +71,12 @@
     "vtex.store-newsletter": "1.x",
     "vtex.css-handles": "1.x",
     "vtex.product-context": "0.x",
-    "street47.vertical-slider": "0.x",
-    "street47.minicart-edit": "0.x",
-    "street47.size-chart": "0.x",
-    "street47.insta-stories": "0.x",
     "vtex.overlay-layout": "0.x",
     "vtex.search-graphql": "0.x"
   },
   "peerDependencies": {
-    "vtex.quickorder": "3.x"
+    "vtex.quickorder": "3.x",
+    "vtex.mega-menu": "2.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

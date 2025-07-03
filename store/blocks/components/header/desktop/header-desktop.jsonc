@@ -1,0 +1,85 @@
+{
+  "header-layout.desktop": {
+    "title":"Header desktop",
+    "children": [
+      "sticky-layout#header_desktop"
+    ]
+  },
+  //// STICKY HEADER DESKTOP ////
+  "sticky-layout#header_desktop": {
+    "props":{
+      "blockClass":"sticky-header-desktop"
+    },
+    "children": [
+      "flex-layout.row#pre-header",
+      "flex-layout.row#header_desktop",
+      "flex-layout.row#header-menu-desktop",
+      "flex-layout.row#header-mega-menu"
+      ]
+  },
+
+  "flex-layout.row#header_desktop": {
+    "title":"Header Desktop",
+    "props":{
+      "horizontalAlign":"center",
+      "verticalAlign":"center",
+      "preventHorizontalStretch":true,
+      "preventVerticalStretch":true,
+      "fullWidth":true,
+      "blockClass":"header-desktop"
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#search_bar_desktop",
+      "flex-layout.col#icons-header"
+    ]
+  },
+
+  //// LOGO HEADER DESKTOP ////
+  "flex-layout.col#logo-desktop": {
+    "title":"Logo Desktop",
+    "props": {
+      // "width":"grow",
+      // "verticalAlign": "middle",
+      "blockClass":"logo-desktop"
+    },
+    "children": ["logo#header_desktop"]
+  },
+  "logo#header_desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/arquivos/logo_abolu.svg",
+      "width": "270"
+    }
+  },
+
+  //// ICONS ////
+
+  "flex-layout.col#icons-header": {
+    "props": {
+      "blockClass": "icons-header"
+    },
+    "children": [
+      "login#login_header", 
+      "minicart.v2#minicart_header"
+    ]
+  },
+
+  "login#login_header": {
+    "props": {
+      "emailAndPasswordTitle": "Iniciar sesión",
+      "accessCodeTitle": "Recibir código por mail",
+      "emailPlaceholder": "Tu mail",
+      "passwordPlaceholder": "Tu contraseña",
+      "emailVerificationButtonLabel": "Test",
+      "optionsTitle": "Elegí cómo ingresar",
+      "accessCodePlaceholder": "Código de acceso",
+      "hideIconLabel": true,
+      "showIconProfile": true,
+      "hasGoogleOneTap": true,
+      "providerPasswordButtonLabel": "INGRESÁ CON MAIL Y CONTRASEÑA",
+      "blockClass": "login-header"
+    }
+  }
+}

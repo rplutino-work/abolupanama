@@ -1,0 +1,74 @@
+.triggerContainer--search-trigger {
+  width: 100%;
+}
+
+.container--modal-search_bar {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.container--modal-search_bar .paper--modal-search_bar {
+  margin: 0;
+  width: 100%;
+  max-height: 50vh;
+  height: 50vh;
+  overflow: auto;
+}
+@media (max-width: 1023px) {
+  .container--modal-search_bar .paper--modal-search_bar {
+    max-height: 100vh;
+    height: 100vh;
+    border-radius: 0;
+  }
+}
+.container--modal-search_bar .paper--modal-search_bar .headerContainer--search-bar {
+  border: none;
+}
+.container--modal-search_bar .paper--modal-search_bar :global(.vtex-flex-layout-0-x-flexRow--search-body) {
+  width: 100%;
+  max-width: calc(70.5rem + 40px);
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  margin-bottom: 64px;
+  gap: 20px;
+}
+.container--modal-search_bar .paper--modal-search_bar :global(.vtex-flex-layout-0-x-flexRow--search-body) :global(.vtex-flex-layout-0-x-flexRowContent--search-body) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.container--modal-search_bar .paper--modal-search_bar :global(.vtex-flex-layout-0-x-flexRow--search-body) :global(.vtex-flex-layout-0-x-flexRowContent--search-body) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+}
+.container--modal-search_bar .paper--modal-search_bar :global(.vtex-flex-layout-0-x-flexRow--search-body) :global(.vtex-flex-layout-0-x-flexRowContent--search-body) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.vtex-rich-text-0-x-paragraph--most-searched-title) {
+  margin: 0;
+  font-size: 20px;
+}
+.container--modal-search_bar .paper--modal-search_bar :global(.vtex-flex-layout-0-x-flexRow--search-body) :global(.vtex-flex-layout-0-x-flexRowContent--search-body) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.vtex-store-link-0-x-link--modal-most-searched) {
+  color: #929292;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
+.container--modal-search_bar .paper--modal-search_bar :global(.vtex-flex-layout-0-x-flexRow--search-body) :global(.vtex-flex-layout-0-x-flexRowContent--search-body) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.vtex-input-prefix__group) {
+  border: none;
+  border-bottom: 1px solid #000;
+  border-radius: 0;
+  width: 100% !important;
+}
+.container--modal-search_bar .paper--modal-search_bar :global(.vtex-flex-layout-0-x-flexRow--search-body) :global(.vtex-flex-layout-0-x-flexRowContent--search-body) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input) {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+  text-align: left;
+  padding: 0;
+}

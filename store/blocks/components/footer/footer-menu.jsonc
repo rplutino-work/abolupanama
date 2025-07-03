@@ -1,0 +1,154 @@
+{
+  //Menu content 2
+  "vtex.menu@2.x:menu#content-2": {
+    "title": "content-footer-2",
+    "props": {
+      "items": [
+        {
+          "id": "menu-footer-content2-1",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/quienes-somos",
+            "noFollow": false,
+            "tagTitle": "nuestra-marca",
+            "text": "Nuestra marca"
+          }
+        },
+        {
+          "id": "menu-footer-content2-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/quienes-somos",
+            "noFollow": false,
+            "tagTitle": "blog",
+            "text": "Blog"
+          }
+        },
+        {
+          "id": "menu-footer-content2-3",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/contactenos",
+            "noFollow": false,
+            "tagTitle": "contactenos",
+            "text": "Contáctanos"
+          }
+        }
+      ]
+    }
+  },
+  //Menu content 3
+  "vtex.menu@2.x:menu#content-3": {
+    "title": "content-footer-3",
+    "props": {
+      "items": [
+        {
+          "id": "menu-footer-content3-1",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/centro-ayuda",
+            "noFollow": false,
+            "tagTitle": "centro-de-ayuda",
+            "text": "Centro de ayuda"
+          }
+        }
+      ]
+    }
+  },
+  //Menu content 4
+  "vtex.menu@2.x:menu#content-4": {
+    "title": "content-footer-4",
+    "props": {
+      "items": [
+        {
+          "id": "menu-footer-content4-1",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/marketing/products",
+            "noFollow": false,
+            "tagTitle": "solicitud-de-mercadeo",
+            "text": "Solicitud de mercadeo"
+          }
+        },
+        {
+          "id": "menu-footer-content4-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/marketing/gallery",
+            "noFollow": false,
+            "tagTitle": "contenido-para-redes-sociales",
+            "text": "Contenido para redes sociales"
+          }
+        }
+      ]
+    }
+  },
+  //// Mobile
+  "vtex.menu@2.x:menu#content-mobile-1": {
+    "title": "content-footer-1",
+    "props": {
+      "items": [
+        {
+          "id": "menu-footer-content2-1",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/atencion-al-cliente",
+            "noFollow": false,
+            "tagTitle": "centro-de-ayuda",
+            "text": "Centro de ayuda"
+          }
+        },
+        {
+          "id": "menu-footer-content2-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/atencion-al-cliente/entrega-y-retiro-de-productos",
+            "noFollow": false,
+            "tagTitle": "envio-a-todo-el-pais",
+            "text": "Envío a todo el pais"
+          }
+        },
+        {
+          "id": "menu-footer-content2-3",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/promociones-bancarias",
+            "noFollow": false,
+            "tagTitle": "promociones",
+            "text": "Promociones"
+          }
+        },
+        {
+          "id": "menu-footer-content2-4",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/Procard",
+            "noFollow": false,
+            "tagTitle": "procard",
+            "text": "Prodcard"
+          }
+        }
+      ]
+    }
+  }
+}

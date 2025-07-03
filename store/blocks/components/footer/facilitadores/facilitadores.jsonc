@@ -1,0 +1,231 @@
+{
+  //Facilitadores
+  "slider-layout#footer-benefits": {
+    "title": "Facilitadores",
+    "children": [
+      "flex-layout.row#footer-benefits-1",
+      "flex-layout.row#footer-benefits-2",
+      "flex-layout.row#footer-benefits-3",
+      "flex-layout.row#footer-benefits-4",
+      "flex-layout.row#footer-benefits-5",
+      "flex-layout.row#footer-benefits-6",
+      "flex-layout.row#footer-benefits-7"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 7,
+        "tablet": 2,
+        "mobile": 2
+      },
+      "showNavigationArrows": "never",
+      "showPaginationDots": "mobileOnly",
+      "fullWidth": true,
+      "infinite": false,
+      "blockClass": "footer-benefits"
+    }
+  },
+  "flex-layout.row#footer-benefits-1": {
+    "props": {
+      "blockClass": "footer-benefits-row",
+      "preventVerticalStretch": true,
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "width": "100%"
+    },
+    "children": [
+      "image#footer-benefits-1",
+      "rich-text#footer-benefits-1"
+    ]
+  },
+  "flex-layout.row#footer-benefits-2": {
+    "props": {
+      "blockClass": "footer-benefits-row",
+      "preventVerticalStretch": true,
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "width": "100%"
+    },
+    "children": [
+      "image#footer-benefits-2",
+      "rich-text#footer-benefits-2"
+    ]
+  },
+  "flex-layout.row#footer-benefits-3": {
+    "props": {
+      "blockClass": "footer-benefits-row",
+      "preventVerticalStretch": true,
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "width": "100%"
+    },
+    "children": [
+      "image#footer-benefits-3",
+      "rich-text#footer-benefits-3"
+    ]
+  },
+  "flex-layout.row#footer-benefits-4": {
+    "props": {
+      "blockClass": "footer-benefits-row",
+      "preventVerticalStretch": true,
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "width": "100%"
+    },
+    "children": [
+      "image#footer-benefits-4",
+      "rich-text#footer-benefits-4"
+    ]
+  },
+  "flex-layout.row#footer-benefits-5": {
+    "props": {
+      "blockClass": "footer-benefits-row",
+      "preventVerticalStretch": true,
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "width": "100%"
+    },
+    "children": [
+      "image#footer-benefits-5",
+      "rich-text#footer-benefits-5"
+    ]
+  },
+  "flex-layout.row#footer-benefits-6": {
+    "props": {
+      "blockClass": "footer-benefits-row",
+      "preventVerticalStretch": true,
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "width": "100%"
+    },
+    "children": [
+      "image#footer-benefits-6",
+      "rich-text#footer-benefits-6"
+    ]
+  },
+  "flex-layout.row#footer-benefits-7": {
+    "props": {
+      "blockClass": "footer-benefits-row",
+      "preventVerticalStretch": true,
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "width": "100%"
+    },
+    "children": [
+      "image#footer-benefits-7",
+      "rich-text#footer-benefits-7"
+    ]
+  },
+
+
+  //Imagenes Facilitadores
+  "image#footer-benefits-1": {
+    "props": {
+      "src": "https://abolupanamaprod.vteximg.com.br/arquivos/benefit-skusquantity.png",
+      "width": "42px",
+      "height":"38px"
+    }
+  },
+  "image#footer-benefits-2": {
+    "props": {
+      "src": "https://abolupanamaprod.vteximg.com.br/arquivos/benefit-skusquantity.png",
+      "width": "42px",
+      "height":"38px"
+    }
+  },
+  
+  "image#footer-benefits-3": {
+    "props": {
+      "src": "https://abolupanamaprod.vteximg.com.br/arquivos/benefit-skusquantity.png",
+      "width": "42px",
+      "height":"38px"
+    }
+  },
+
+  "image#footer-benefits-4": {
+    "props": {
+      "src": "https://abolupanamaprod.vteximg.com.br/arquivos/benefit-skusquantity.png",
+      "width": "42px",
+      "height":"38px"
+    }
+  },
+  "image#footer-benefits-5": {
+    "props": {
+      "src": "https://abolupanamaprod.vteximg.com.br/arquivos/benefit-skusquantity.png",
+      "width": "42px",
+      "height":"38px"
+    }
+  },
+  "image#footer-benefits-6": {
+    "props": {
+      "src": "https://abolupanamaprod.vteximg.com.br/arquivos/benefit-skusquantity.png",
+      "width": "42px",
+      "height":"38px"
+    }
+  },
+  "image#footer-benefits-7": {
+    "props": {
+      "src": "https://abolupanamaprod.vteximg.com.br/arquivos/benefit-skusquantity.png",
+      "width": "42px",
+      "height":"38px"
+    }
+  },
+  
+  //Textos Facilitadores
+  "rich-text#footer-benefits-1": {
+    "props": {
+      "text": "Entrega en 48 Horas",
+      "blockClass": [
+        "footer-benefits"
+      ]
+    }
+  },
+  "rich-text#footer-benefits-2": {
+    "props": {
+      "text": "Más de 8,000 Sku's",
+      "blockClass": [
+        "footer-benefits"
+      ]
+    }
+  },
+  "rich-text#footer-benefits-3": {
+    "props": {
+      "text": "Más de 50 marcas líderes en el mercado",
+      "blockClass": [
+        "footer-benefits-3",
+        "footer-benefits"
+      ]
+    }
+  },
+  "rich-text#footer-benefits-4": {
+    "props": {
+      "text": "Devoluciones de hasta 6 meses por lenta rotación",
+      "blockClass": [
+        "footer-benefits"
+      ]
+    }
+  },
+  "rich-text#footer-benefits-5": {
+    "props": {
+      "text": "Apoyo de Mercadeo",
+      "blockClass": [
+        "footer-benefits"
+      ]
+    }
+  },
+  "rich-text#footer-benefits-6": {
+    "props": {
+      "text": "Pedidos vía Web, Call Center, Whatsapp y Wechat",
+      "blockClass": [
+        "footer-benefits"
+      ]
+    }
+  },
+  "rich-text#footer-benefits-7": {
+    "props": {
+      "text": "Visitas constantes y personalizadas a nuestros clientes",
+      "blockClass": [
+        "footer-benefits"
+      ]
+    }
+  }
+}

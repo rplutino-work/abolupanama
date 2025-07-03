@@ -1,0 +1,101 @@
+{
+    "footer-layout.mobile": {
+      "children": [
+        "responsive-layout.phone#facilitadores",
+        "flex-layout.row#desplegables-footer",
+        "flex-layout.row#content-footer-information-mobile"
+      ]
+    },  
+    "flex-layout.row#content-footer-information-mobile":{
+    "title": "Content Footer Information Mobile",
+    "children":[
+      "flex-layout.col#content-information-1"
+    ],
+    "props":{
+      "blockClass": ["content-footer-information","content-footer-information-mobile"]
+    }
+  },
+    // Desplegables footer
+    "flex-layout.row#desplegables-footer":{
+      "children": [
+        "disclosure-layout#nosotros",
+        "disclosure-layout#mercadeo",
+        "disclosure-layout#ayuda"
+      ],
+      "props":{
+        "blockClass": ["desplegable-footer"]
+      }
+    },
+    //Desplegable clientes
+    "disclosure-layout#nosotros": {
+      "children": ["disclosure-trigger#nosotros", "disclosure-content#nosotros"],
+      "props":{
+        "blockClass": ["desplegable-footer","desplegable-footer-nosotros"]
+      }
+    },
+    "disclosure-trigger#nosotros": {
+      "children": ["rich-text#title_1"],
+      "props":{
+        "blockClass": ["desplegable-footer","desplegable-footer-nosotros"]
+      }
+    },
+    "disclosure-content#nosotros": {
+      "children": [
+        "vtex.menu@2.x:menu#content-2"
+      ],
+      "props":{
+        "blockClass": ["desplegable-footer","desplegable-footer-nosotros"]
+      }
+    },
+  
+    //Desplegable ayuda
+    "disclosure-layout#ayuda": {
+      "children": ["disclosure-trigger#ayuda", "disclosure-content#ayuda"],
+      "props":{
+        "blockClass": ["desplegable-footer","desplegable-footer-ayuda"]
+      }
+    },
+    "disclosure-trigger#ayuda": {
+      "children": ["rich-text#title_2"],
+      "props":{
+        "blockClass": ["desplegable-footer","desplegable-footer-ayuda"]
+      }
+    },
+    "disclosure-content#ayuda": {
+      "children": [
+        "vtex.menu@2.x:menu#content-3"
+      ],
+      "props":{
+        "blockClass": ["desplegable-footer","desplegable-footer-ayuda"]
+      }
+    },
+    "rich-text#ayuda": {
+      "props": {
+        "text": "ayuda",
+        "blockClass": ["desplegable-footer","desplegable-footer-ayuda"]
+      }
+    },
+
+
+    "disclosure-layout#mercadeo": {
+      "children": ["disclosure-trigger#mercadeo", "disclosure-content#mercadeo"],
+      "props":{
+        "blockClass": ["desplegable-footer","desplegable-footer-contacto"]
+      }
+    },
+    "disclosure-trigger#mercadeo": {
+      "children": ["rich-text#title_3"],
+      "props":{
+        "blockClass": ["desplegable-footer","desplegable-footer-mercadeo"]
+      }
+    },
+    "disclosure-content#mercadeo": {
+      "children": [
+        "vtex.menu@2.x:menu#content-4"
+      ],
+      "props":{
+        "blockClass": ["desplegable-footer","desplegable-footer-mercadeo"]
+      }
+    }
+  }
+  
