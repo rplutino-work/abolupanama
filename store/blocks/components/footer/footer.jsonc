@@ -4,23 +4,154 @@
   },
   "footer-layout.desktop": { 
     "children": [
-      "flex-layout.row#footer"
+      "responsive-layout.desktop#facilitadores",
+      "flex-layout.row#content-footer-information"
     ]
   },
-  "footer-layout.mobile": { 
-    "children": [
-      "flex-layout.row#footer"
-    ]
+  //Facilitadores
+  "responsive-layout.phone#facilitadores": {
+    "children": ["slider-layout#footer-benefits"]
   },
-  "flex-layout.row#footer": { 
-    "children": [
-      "image"
-    ]
+  //Facilitadores
+  "responsive-layout.desktop#facilitadores": {
+    "children": ["slider-layout#footer-benefits"]
   },
-  "image": {
+
+  //Content Footer Information
+  "flex-layout.row#content-footer-information":{
+    "title": "Content Footer Information",
+    "children":[
+      "flex-layout.col#content-information-1",
+      "flex-layout.col#content-information-2",
+      "flex-layout.col#content-information-3",
+      "flex-layout.col#content-information-last"
+    ],
+    "props":{
+      "blockClass": "content-footer-information"
+    }
+  },
+  //Content 1
+  "flex-layout.col#content-information-1":{
+    "children":[
+      "flex-layout.row#logo-desktop-footer",
+      "flex-layout.row#icono-redes-footer"
+    ],
+    "props":{
+      "blockClass": ["content-information", "content-information-1"]
+    }
+  },
+  "flex-layout.row#logo-desktop-footer": {
     "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+      "blockClass": "logo-desktop-footer"
+    },
+    "children": ["logo#footer"]
+  },
+  "logo#footer": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/arquivos/logo_abolu.svg",
+      "width": "167"
+    }
+  },
+   //Iconos redes sociales footer
+   "flex-layout.row#icono-redes-footer":{
+    "children": [
+      "image#icono-redes-1",
+      "image#icono-redes-2",
+      "image#icono-redes-3",
+      "image#icono-redes-4"
+    ],
+    "props":{
+      "blockClass": "redes-sociales-footer"
+    }
+  },
+  "image#icono-redes-1": {
+    "props": {
+      "src": "/arquivos/foot_facebook.svg",
+      "link": "https://www.facebook.com/abolupanama",
+      "width": "22.6px",
+      "height":"22.6px",
+      "blockClass": ["icon-redes-footer", "icon-redes-footer-1"]
+    }
+  },
+  "image#icono-redes-2": {
+    "props": {
+      "src": "/arquivos/foot_ig.svg",
+      "link": "https://www.facebook.com/abolupanama",
+      "width": "22.6px",
+      "height":"22.6px",
+      "blockClass": ["icon-redes-footer", "icon-redes-footer-2"]
+    }
+  },
+  "image#icono-redes-3": {
+    "props": {
+      "src": "/arquivos/foot_twitter.svg",
+      "link": "https://www.facebook.com/abolupanama",
+      "width": "22.6px",
+      "height":"22.6px",
+      "blockClass": ["icon-redes-footer", "icon-redes-footer-3"]
+    }
+  },
+  "image#icono-redes-4": {
+    "props": {
+      "src": "/arquivos/foot_youtube.svg",
+      "link": "https://www.facebook.com/abolupanama",
+      "width": "22.6px",
+      "height":"22.6px",
+      "blockClass": ["icon-redes-footer", "icon-redes-footer-4"]
+    }
+  },
+
+
+  // Segunda columna
+
+  "flex-layout.col#content-information-2":{
+    "children":[
+      "rich-text#title_1",
+      "vtex.menu@2.x:menu#content-2"
+    ],
+    "props":{
+      "blockClass": ["content-information", "content-information-2"]
+    }
+  },
+  "rich-text#title_1":{
+    "props":{
+      "text": "Nosotros",
+      "blockClass": "title_footer"
+    }
+  },
+
+  //Tercera columna
+  "flex-layout.col#content-information-3":{
+    "children":[
+      "rich-text#title_2",
+      "vtex.menu@2.x:menu#content-3"
+    ],
+    "props":{
+      "blockClass": ["content-information", "content-information-3"]
+    }
+  },
+  "rich-text#title_2":{
+    "props":{
+      "text": "Ayuda",
+      "blockClass": "title_footer"
+    }
+  },
+  // Cuarta columna
+  "flex-layout.col#content-information-last":{
+    "children":[
+      "rich-text#title_3",
+      "vtex.menu@2.x:menu#content-4"
+    ],
+    "props":{
+      "blockClass": ["content-information", "content-information-4"]
+    }
+  },
+  "rich-text#title_3":{
+    "props":{
+      "text": "Mercadeo",
+      "blockClass": "title_footer"
     }
   }
 }

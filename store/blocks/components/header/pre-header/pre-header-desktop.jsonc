@@ -1,0 +1,176 @@
+{
+  //// PRE HEADER ////
+  "flex-layout.row#pre-header": {
+    "title":"Pre header desktop",
+    "props": {
+      "blockClass": "pre-header",
+      "fullWidth":true,
+      "horizontalAlign":"center"
+    },
+    "children": [
+      "flex-layout.col#pre-header-1",
+      "flex-layout.col#pre-header-2",
+      "flex-layout.col#pre-header-3",
+      "flex-layout.col#pre-header-4",
+      "flex-layout.col#pre-header-5",
+      "flex-layout.col#pre-header-6"
+    ]
+  },
+  //// PRE HEADER 1 ////
+  "flex-layout.col#pre-header-1": {
+    "props": {
+      "blockClass": "pre-header-container"
+    },
+    "children": [
+      "flex-layout.row#pre-header-content"
+    ]
+  },
+  "flex-layout.row#pre-header-content": {
+    "props": {
+      "blockClass": "pre-header-content"
+    },
+    "children": [
+      "image#pre-header-icon",
+      "rich-text#pre-header-text"
+    ]
+  },
+  "rich-text#pre-header-text":{
+    "props":{
+      "text": "[Reposición](/replace)",
+      "blockClass": "pre-header-text"
+    }
+  },
+  "image#pre-header-icon": {
+    "props": {
+      "src": "/arquivos/foot_facebook.svg",
+      "link": "https://www.facebook.com/abolupanama",
+      "width": "22.6px",
+      "height":"22.6px",
+      "blockClass": ["pre-header-icon"]
+    }
+  },
+  //// PRE HEADER 2 ////
+  "flex-layout.col#pre-header-2": {
+    "props": {
+      "blockClass": ["pre-header-container"]
+    },
+    "children": [
+      "flex-layout.row#pre-header-content-2"
+    ]
+  },
+  "flex-layout.row#pre-header-content-2": {
+    "props": {
+      "blockClass": "pre-header-content"
+    },
+    "children": [
+      "image#pre-header-icon",
+      "rich-text#pre-header-text"
+    ]
+  },
+  "rich-text#pre-header-text-2":{
+    "props":{
+      "text": "[Compra por código](/buy-by-code) ",
+      "blockClass": "pre-header-text"
+    }
+  },
+
+  //// PRE HEADER 3 ////
+  "flex-layout.col#pre-header-3": {
+    "props": {
+      "blockClass": ["pre-header-container"]
+    },
+    "children": [
+      "flex-layout.row#pre-header-content-3"
+    ]
+  },
+  "flex-layout.row#pre-header-content-3": {
+    "props": {
+      "blockClass": "pre-header-content"
+    },
+    "children": [
+      "image#pre-header-icon",
+      "rich-text#pre-header-text-3"
+    ]
+  },
+  "rich-text#pre-header-text-3":{
+    "props":{
+      "text": "[Favoritos](/wish-list)",
+      "blockClass": "pre-header-text"
+    }
+  },
+
+  //// PRE HEADER 4 ////
+  "flex-layout.col#pre-header-4": {
+    "props": {
+      "blockClass": ["pre-header-container"]
+    },
+    "children": [
+      "flex-layout.row#pre-header-content-4"
+    ]
+  },
+  "flex-layout.row#pre-header-content-4": {
+    "props": {
+      "blockClass": "pre-header-content"
+    },
+    "children": [
+      "image#pre-header-icon",
+      "rich-text#pre-header-text-4"
+    ]
+  },
+  "rich-text#pre-header-text-4":{
+    "props":{
+      "text": "[Mercadeo](/marketing)",
+      "blockClass": "pre-header-text"
+    }
+  },
+
+  //// PRE HEADER 5 ////
+  "flex-layout.col#pre-header-5": {
+    "props": {
+      "blockClass": ["pre-header-container"]
+    },
+    "children": [
+      "flex-layout.row#pre-header-content-5"
+    ]
+  },
+  "flex-layout.row#pre-header-content-5": {
+    "props": {
+      "blockClass": "pre-header-content"
+    },
+    "children": [
+      "image#pre-header-icon",
+      "rich-text#pre-header-text-5"
+    ]
+  },
+  "rich-text#pre-header-text-5":{
+    "props":{
+      "text": "[Devoluciones](/returns)",
+      "blockClass": "pre-header-text"
+    }
+  },
+
+  //// PRE HEADER 6 ////
+  "flex-layout.col#pre-header-6": {
+    "props": {
+      "blockClass": ["pre-header-container"]
+    },
+    "children": [
+      "flex-layout.row#pre-header-content-6"
+    ]
+  },
+  "flex-layout.row#pre-header-content-6": {
+    "props": {
+      "blockClass": "pre-header-content"
+    },
+    "children": [
+      "image#pre-header-icon",
+      "rich-text#pre-header-text-6"
+    ]
+  },
+  "rich-text#pre-header-text-6":{
+    "props":{
+      "text": "[Contáctanos](/contact)",
+      "blockClass": "pre-header-text"
+    }
+  }
+}

@@ -1,0 +1,188 @@
+{
+     
+  "header-layout.mobile": {
+    "title":"Header mobile",
+    "children": ["sticky-layout#mobile"]
+  },
+  "sticky-layout#mobile": {
+    "props":{
+      "blockClass":"sticky-header-mobile"
+    },
+    "children": ["flex-layout.row#mobile"]
+  },
+  "flex-layout.row#mobile": {
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": false,
+      "fullWidth": true,
+      "horizontalAlign": "center",
+      "colJustify":"between"
+    },
+    "children": [
+        "flex-layout.col#logo-mobile",
+        "flex-layout.col#bottom_header_mobile"
+    ]
+  },
+  "flex-layout.col#logo-mobile": {
+    "props": {
+      "blockClass": "logo-mobile",
+      "horizontalAlign":"center",
+      "verticalAlign":"middle"
+    },
+    "children": ["logo#header_mobile"]
+  },
+  "flex-layout.col#bottom_header_mobile": {
+    "props": {
+      "blockClass": "bottom-header-mobile"
+    },
+    "children": [
+        "flex-layout.row#bottom_header_mobile"
+    ]
+  },
+  "flex-layout.row#bottom_header_mobile":{
+    "props": {
+      "blockClass": "bottom-header-mobile-content",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    },
+    "children": [
+        "drawer#menu-mobile",
+        "flex-layout.col#search_bar_desktop",
+        "login",
+        "minicart.v2#minicart_header"
+    ]
+  },
+  //// LOGO MOBILE ////
+  "logo#header_mobile": {
+    "title":"Logo mobile",
+    "props": {
+      "title": "Logo mobile",
+      "href": "/",
+      "url": "/arquivos/logo_abolu.svg",
+      "width": "150"
+    }
+  },
+  //// MENU MOBILE ////
+  "drawer#menu-mobile": {
+    "props": {
+      "blockClass": "menu-mobile"
+    },
+    "children": [
+        "drawer#mega_menu",
+        "vtex.menu@2.x:menu#category-menu",
+        "flex-layout.row#other_items_category"
+    ],
+    "blocks": ["drawer-header#my-drawer"]
+  },
+  "drawer#mega_menu": {
+    "props": {
+      "blockClass": "mega-menu-drawer-mobile"
+    },
+    "children": [
+        "mega-menu#mobile"
+    ],
+    "blocks": ["drawer-header#my-drawer"]
+  },
+  "mega-menu#mobile": {
+    "props": {
+      "defaultDepartmentActive": "",
+      "title":"",
+    //   "orientation": "vertical",
+      "openOnly": "vertical"
+    }
+  },
+  "drawer-header#my-drawer": {
+    "children": ["flex-layout.row#drawer-header"]
+  },
+  "flex-layout.row#drawer-header": {
+    "children": [
+      "flex-layout.col#mega-menu-go-back-btn",
+      "flex-layout.col#spacer",
+      "flex-layout.col#drawer-close-button"
+    ],
+    "props": {
+      "blockClass": "drawer-header",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.col#drawer-close-button": {
+    "children": ["drawer-close-button"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "right"
+    }
+  },
+  "flex-layout.col#mega-menu-go-back-btn": {
+    "children": ["mega-menu-go-back-btn"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "left",
+      "paddingLeft": 4
+    }
+  },
+  "flex-layout.row#other_items_category":{
+    "props":{
+        "blockClass": "other_items_category"
+    },
+    "children": [
+        "link#fake_category-1",
+        "link#fake_category-2",
+        "link#fake_category-3",
+        "link#fake_category-4",
+        "link#fake_category-5",
+        "link#fake_category-6"
+    ]
+  },
+  "link#fake_category-1": {
+    "props": {
+      "href": "/replace",
+      "label": "Reposición",
+      "blockClass": "category_links_mobile"
+    }
+  },
+  "link#fake_category-2": {
+    "props": {
+      "href": "/buy-by-code",
+      "label": "Compra por código",
+      "blockClass": "category_links_mobile"
+    }
+  },
+  "link#fake_category-3": {
+    "props": {
+      "href": "/wish-list",
+      "label": "Favoritos",
+      "blockClass": "category_links_mobile"
+    }
+  },
+  "link#fake_category-4": {
+    "props": {
+      "href": "/marketing",
+      "label": "Mercadeo",
+      "blockClass": "category_links_mobile"
+    }
+  },
+  "link#fake_category-5": {
+    "props": {
+      "href": "/returns",
+      "label": "Devoluciones",
+      "blockClass": "category_links_mobile"
+    }
+  },
+  "link#fake_category-6": {
+    "props": {
+      "href": "/contact",
+      "label": "Contáctanos",
+      "blockClass": "category_links_mobile"
+    }
+  }
+}

@@ -1,0 +1,161 @@
+{
+     //// MODAL SEARCH //// 
+  "flex-layout.col#search_bar_desktop": {
+    "props": {
+      "blockClass": "header_search_bar",
+      "width":"40%"
+    },
+    "children": [
+      "modal-trigger#header-search-bar"
+    ]
+  },
+
+  //// MODAL TRIGGER ////
+  "modal-trigger#header-search-bar": {
+    "props": {
+      "blockClass": "search-trigger"
+    },
+    "children": ["search-bar#header", "modal-layout#search-bar-header"]
+  },
+
+  //// MODAL LAYOUT ////
+  "modal-layout#search-bar-header": {
+    "props": {
+      "blockClass": "modal-search_bar"
+    },
+    "children": [
+      "modal-header#search-bar",
+      "flex-layout.row#header-search-bar"
+    ]
+  },
+
+  //// MODAL HEADER ////
+  "modal-header#search-bar":{
+   "props":{
+    "blockClass": "search-bar"
+   }
+  },
+
+  "flex-layout.row#header-search-bar": {
+    "props": {
+      "blockClass": "header-search-bar"
+    },
+    "children": [
+      "flex-layout.col#header-search-bar"
+    ]
+  },
+
+  "flex-layout.col#header-search-bar": {
+    "props": {
+      "blockClass": "header-search-bar"
+    },
+    "children": [
+      "flex-layout.row#header-search-bar-body"
+    ]
+  },
+
+  //// SEARCH BAR BODY ////
+  "flex-layout.row#header-search-bar-body": {
+    "props": {
+      "blockClass": "search-body"
+    },
+    "children": [
+      "search-bar#modal-search-content",
+      "flex-layout.col#search-modal-title-most-searched",
+      "flex-layout.col#search-modal-most-searched"
+    ]
+  },
+
+  "search-bar#modal-search-content": {
+    "props": {
+      "blockClass": ["custom","search-bar-content-mobile"],
+      "placeholder": "¿Qué estás buscando?",
+      "openAutocompleteOnFocus": false,
+      "maxWidth": "73rem",
+      "autocompleteFullWidth": false,
+      "autoFocus": true,
+      "blocks": ["autocomplete-result-list.v2"]
+    }
+  },
+
+  "flex-layout.col#search-modal-title-most-searched": {
+    "props": {
+      "blockClass": "title-most-searched"
+    },
+    "children": [
+      "rich-text#search-modal-most-searched-title"
+    ]
+  },
+
+  "rich-text#search-modal-most-searched-title": {
+    "props": {
+      "blockClass": "most-searched-title",
+      "text": "Lo más buscado"
+    }
+  },
+
+  "flex-layout.col#search-modal-most-searched": {
+    "props": {
+      "blockClass": "text-most-searched"
+    },
+    "children": [
+      "link#search-modal-most-searched-1",
+      "link#search-modal-most-searched-2",
+      "link#search-modal-most-searched-3",
+      "link#search-modal-most-searched-4"
+    ]
+  },
+
+  "link#search-modal-most-searched-1": {
+    "props": {
+      "href": "/electricidad",
+      "label": "Electricidad",
+      "blockClass": "modal-most-searched"
+    }
+  },
+  "link#search-modal-most-searched-2": {
+    "props": {
+      "href": "/abrasivos",
+      "label": "Abrasivos",
+      "blockClass": "modal-most-searched"
+    }
+  },
+  "link#search-modal-most-searched-3": {
+    "props": {
+      "href": "/automotriz",
+      "label": "Automotriz",
+      "blockClass": "modal-most-searched"
+    }
+  },
+  "link#search-modal-most-searched-4": {
+    "props": {
+      "href": "/cerrajeria",
+      "label": "Cerrajería",
+      "blockClass": "modal-most-searched"
+    }
+  },
+
+
+
+  "search-bar#header": {
+    "props": {
+      "blockClass": "search_bar_header",
+      "placeholder": "¿Qué estás buscando?",
+      "openAutocompleteOnFocus": false,
+      "maxWidth": "73rem",
+      "autocompleteFullWidth": false,
+      "autoFocus": false,
+      "blocks": ["autocomplete-result-list.v2"]
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": [ "product-summary.shelf"],
+    "props": {
+      "maxSuggestedProducts": 3,
+      "__unstableProductOriginVtex": true,
+      "blockClass":"customr",
+      "simulationBehavior": "skip"
+
+    }
+  }
+}

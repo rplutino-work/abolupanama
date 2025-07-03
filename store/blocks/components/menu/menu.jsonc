@@ -1,0 +1,139 @@
+{
+     //// MEGA MENU ////
+  "flex-layout.row#header-menu-desktop": {
+    "props": {
+      "blockClass": "header-menu-desktop-line"
+    },
+    "children": [
+      "flex-layout.col#trigger-mega-menu",
+      "vtex.menu@2.x:menu#category-menu"
+    ]
+  },
+  "flex-layout.row#header-mega-menu": {
+    "props": {
+      "blockClass": "header-mega-menu"
+    },
+    "children": [
+      "mega-menu#desktop"
+  ]
+  },
+  "mega-menu#desktop": {
+    "props": {
+      "openOnly": "horizontal",
+      "title":""
+    }
+  },
+  "flex-layout.col#trigger-mega-menu": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "header-mega-menu-trigger"
+    },
+    "children": [
+      "mega-menu-trigger-btn"
+    ]
+  },
+  "mega-menu-trigger-btn": {
+    "props": {
+      "Drawer": "drawer",
+      "title": "Menu"
+    }
+  },
+
+    //// CATEGORY MENU ////
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "blockClass": "category-menu-line"
+    },
+    "children": [
+      "menu-item#productos",
+      "menu-item#marcas",
+      "menu-item#ofertas",
+      "menu-item#lo-nuevo"
+    ]
+  },
+  "menu-item#productos": {
+    "props": {
+      "id": "menu-item-productos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": ["category-line"],
+      "itemProps": {
+        "type": "internal",
+        "href": "/productos",
+        "noFollow": false,
+        "tagTitle": "Productos",
+        "text": "Productos"
+      }
+    },
+    "blocks": [
+
+    ]
+  },
+  "menu-item#marcas": {
+    "props": {
+      "id": "menu-item-marcas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": ["category-line"],
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Marcas",
+        "text": "Marcas"
+      }
+    },
+    "blocks": [
+      // "vtex.menu@2.x:submenu#cyber-monday"
+    ]
+  },
+  "vtex.menu@2.x:submenu#cyber-monday": {
+      "props": {
+        "width": "auto"
+      },
+      "children": [
+        "mega-menu#mobile"
+      ]
+    },
+  "menu-item#ofertas": {
+    "props": {
+      "id": "menu-item-ofertas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": ["category-line","category-line-color"],
+      "itemProps": {
+        "type": "internal",
+        "href": "/ofertas",
+        "noFollow": false,
+        "tagTitle": "Ofertas",
+        "text": "Ofertas"
+      }
+    },
+    "blocks": [
+      
+    ]
+  },
+  "menu-item#lo-nuevo": {
+    "props": {
+      "id": "menu-item-lo-nuevo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": ["category-line"],
+      "itemProps": {
+        "type": "internal",
+        "href": "/lo-nuevo",
+        "noFollow": false,
+        "tagTitle": "Lo nuevo",
+        "text": "Lo nuevo"
+      }
+    },
+    "blocks": [
+      
+    ]
+  }
+}

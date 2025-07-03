@@ -1,0 +1,77 @@
+.paginationDotsContainer--footer-benefits {
+  top: 165%;
+}
+@media screen and (max-width: 1023px) {
+  .paginationDotsContainer--footer-benefits {
+    top: 90%;
+  }
+}
+
+.paginationDot--footer-benefits {
+  width: 6px !important;
+  height: 6px !important;
+  background-color: #fff;
+  padding: 0;
+  margin: 0 7.5px;
+}
+
+.paginationDot--footer-benefits--isActive {
+  background-color: #fff;
+  position: relative;
+}
+.paginationDot--footer-benefits--isActive::after {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: transparent;
+  outline: 1px solid #fff;
+  outline-offset: 1px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 1023px) {
+  .paginationDot--footer-benefits--isActive::after {
+    background-color: transparent;
+    border: 1px solid #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    outline: none;
+  }
+}
+
+.sliderTrack--footer-benefits {
+  justify-content: center;
+  max-width: 1440px;
+  max-height: 228px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1024px) {
+  .sliderTrack--footer-benefits {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .sliderTrack--footer-benefits {
+    justify-content: flex-start;
+  }
+}
+
+.sliderLayoutContainer--footer-benefits {
+  margin-top: 0;
+  padding: 35px;
+  background-color: #000c7a;
+}
+
+@media screen and (max-width: 1023px) {
+  .slide--footer-benefits {
+    width: 50vw !important;
+  }
+  .slide--footer-benefits::after {
+    display: none;
+  }
+}

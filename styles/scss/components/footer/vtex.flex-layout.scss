@@ -1,0 +1,91 @@
+@import '../../utils/variables.scss';
+
+.flexRow--content-footer-information{
+    padding: 103px 210px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    @media (max-width:1023px){
+        padding: 20px 0;
+    }
+    .flexRowContent--content-footer-information{
+        gap: 120px;
+        .flexColChild--content-information{
+            height: auto !important;
+            .flexRowContent--redes-sociales-footer{
+                @media (max-width:1023px){
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 10px;
+                }
+            }
+            .flexRow--logo-desktop-footer{
+                :global(.vtex-store-components-3-x-logoContainer){
+                    padding: 0;
+                    max-width: 167px;
+                    max-height: 38.36px;
+                    min-width: unset !important;
+                    :global(.vtex-store-components-3-x-logoImage){
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+            :global(.vtex-rich-text-0-x-paragraph--title_footer){
+                font-size: 18px;
+                color: $color-blue;
+                margin: 0 0 10px;
+                font-weight: 700;
+                cursor: pointer;
+                &:hover{
+                    color: #040d62;
+                }
+            }
+            :global(.vtex-menu-2-x-menuContainer){
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                justify-content: center;
+                padding: 0;
+                :global(.vtex-menu-2-x-menuItem){
+                    margin-bottom: 18px;
+                    :global(.vtex-menu-2-x-styledLinkContainer){
+                        margin: 0;
+                        padding: 0;
+                        :global(.vtex-menu-2-x-styledLink){
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            color: $color-black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Footer Mobile
+.flexRow--desplegable-footer {
+    margin-top: 30px;
+    @media (max-width:1023px){
+        margin-top: 0;
+    }
+    :global(.vtex-store-components-3-x-container) {
+      padding: 0;
+  
+      .stretchChildrenWidth {
+        display: flex;
+        flex-direction: column;
+        &:last-child {
+          :global(.vtex-disclosure-layout-1-x-trigger--desplegable-footer) {
+            border-bottom: 1px solid #dadada;
+            background-color: transparent !important;
+          }
+          :global(.vtex-disclosure-layout-1-x-trigger--desplegable-footer--visible) {
+            border-bottom: none;
+          }
+        }
+      }
+    }
+  }

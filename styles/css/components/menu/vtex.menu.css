@@ -1,0 +1,50 @@
+.menuContainerNav--category-menu-line {
+  margin-left: 20px;
+}
+.menuContainerNav--category-menu-line .menuContainer--category-menu-line {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.menuContainerNav--category-menu-line .menuContainer--category-menu-line .styledLinkContainer--category-line {
+  padding: 0;
+  margin: 0;
+}
+.menuContainerNav--category-menu-line .menuContainer--category-menu-line .styledLinkContent--category-line {
+  font-size: 16px;
+  font-weight: 700;
+  color: #6e6e6e;
+  text-transform: uppercase;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  text-decoration: none;
+}
+.menuContainerNav--category-menu-line .menuContainer--category-menu-line .styledLinkContent--category-line::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: #000c7a;
+  transition: width 0.3s ease-in-out;
+}
+.menuContainerNav--category-menu-line .menuContainer--category-menu-line .styledLinkContent--category-line:hover {
+  color: #000c7a;
+}
+.menuContainerNav--category-menu-line .menuContainer--category-menu-line .styledLinkContent--category-line:hover::after {
+  width: 100%;
+}
+.menuContainerNav--category-menu-line .menuContainer--category-menu-line .styledLinkContent--category-line-color {
+  color: #db0000;
+}
+.menuContainerNav--category-menu-line .menuContainer--category-menu-line .styledLinkContent--category-line-color::after {
+  background-color: #db0000;
+}
+.menuContainerNav--category-menu-line .menuContainer--category-menu-line .styledLinkContent--category-line-color:hover {
+  color: #db0000;
+}
+.menuContainerNav--category-menu-line .menuContainer--category-menu-line .styledLinkContent--category-line-color:hover::after {
+  background-color: #db0000;
+  width: 100%;
+}
