@@ -127,7 +127,8 @@
     "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "left",
-      "paddingLeft": 4
+      "paddingLeft": 4,
+      "blockClass": "mega-menu-go-back-btn"
     }
   },
   "flex-layout.row#other_items_category":{
