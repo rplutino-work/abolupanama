@@ -6,6 +6,7 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--bottom-header-mobile-content){
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     gap: 40px;
     @media(max-width:1023px){
         gap: 10px;

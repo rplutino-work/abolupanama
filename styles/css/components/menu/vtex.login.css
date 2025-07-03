@@ -38,16 +38,18 @@
 }
 
 :global(.vtex-mega-menu-2-x-menuContainerNav) {
-  max-width: 85vw !important;
-  height: 80vh !important;
-  max-height: 80vh !important;
-  background-color: #fff;
+  max-width: 100vw !important;
+  width: 100%;
+  height: 100vh !important;
+  max-height: 100vh !important;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 :global(.vtex-mega-menu-2-x-menuContainerNav) :global(.vtex-mega-menu-2-x-menuContainer) {
   font-size: 14px;
   line-height: 18px;
   text-decoration: none;
   color: #363f45 !important;
+  background-color: #fff;
   font-weight: 500;
   max-height: calc(100vh - 200px) !important;
 }
@@ -71,10 +73,12 @@
   color: #000c7a;
 }
 :global(.vtex-mega-menu-2-x-menuContainerNav) :global(.vtex-mega-menu-2-x-submenuContainer) {
-  max-width: calc(100vw - 430px) !important;
   height: 100% !important;
   max-height: calc(100vh - 200px) !important;
   padding: 24px 0 32px 24px;
+  width: 1200px !important;
+  background-color: #fff;
+  max-width: max-content !important;
 }
 :global(.vtex-mega-menu-2-x-menuContainerNav) :global(.vtex-mega-menu-2-x-submenuContainer) :global(.vtex-mega-menu-2-x-submenuContainerTitle) {
   color: #000c7a;

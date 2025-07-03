@@ -23,9 +23,9 @@
     "props":{
       "horizontalAlign":"center",
       "verticalAlign":"center",
-      "preventHorizontalStretch":true,
-      "preventVerticalStretch":true,
-      "fullWidth":true,
+      // "preventHorizontalStretch":true,
+      // "preventVerticalStretch":true,
+      // "fullWidth":true,
       "blockClass":"header-desktop"
     },
     "children": [
@@ -39,7 +39,7 @@
   "flex-layout.col#logo-desktop": {
     "title":"Logo Desktop",
     "props": {
-      // "width":"grow",
+      "width":"20%",
       // "verticalAlign": "middle",
       "blockClass":"logo-desktop"
     },
@@ -58,7 +58,8 @@
 
   "flex-layout.col#icons-header": {
     "props": {
-      "blockClass": "icons-header"
+      "blockClass": "icons-header",
+      "width":"10%"
     },
     "children": [
       "login#login_header", 
