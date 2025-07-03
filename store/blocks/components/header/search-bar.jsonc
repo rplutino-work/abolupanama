@@ -3,7 +3,7 @@
   "flex-layout.col#search_bar_desktop": {
     "props": {
       "blockClass": "header_search_bar",
-      "width":"70%"
+      "width":"65%"
     },
     "children": [
       "modal-trigger#header-search-bar"

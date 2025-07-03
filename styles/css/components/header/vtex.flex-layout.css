@@ -32,6 +32,14 @@
   margin-bottom: 10px;
   background-color: #fff;
 }
+:global(.vtex-sticky-layout-0-x-container--sticky-header-desktop) .flexRow--header-desktop :global(.vtex-store-components-3-x-container) {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+:global(.vtex-sticky-layout-0-x-container--sticky-header-desktop) .flexRow--header-desktop :global(.vtex-store-components-3-x-container) :global(.vtex-store-components-3-x-logoContainer) {
+  padding: 0;
+}
 :global(.vtex-sticky-layout-0-x-container--sticky-header-desktop) .flexRow--header-desktop .flexRowContent--header-desktop {
   align-items: center;
   justify-content: space-between;

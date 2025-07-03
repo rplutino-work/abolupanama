@@ -35,6 +35,14 @@
         justify-content: center;
         margin-bottom: 10px;
         background-color: #fff;
+        :global(.vtex-store-components-3-x-container){
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            :global(.vtex-store-components-3-x-logoContainer){
+                padding: 0;
+            }
+        }
         .flexRowContent--header-desktop{
             align-items: center;
             justify-content: space-between;
