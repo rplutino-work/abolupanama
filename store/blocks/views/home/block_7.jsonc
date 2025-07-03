@@ -5,19 +5,20 @@
       "verticalAlign": "center",
       "preventHorizontalStretch": false,
       "preventVerticalStretch": false,
+      "colSizing": "auto",
       "fullWidth": true,
       "blockClass": [
         "home-block-7"
       ]
     },
-    "children": ["list-context.info-card-list#home-slider-7"]
+    "children": ["rich-text#home-block-7", "list-context.info-card-list#home-slider-7"]
   },
-  "rich-text#home-slider-7-title": { 
-    "props": { 
-      "text": "Departamentos",
+  "rich-text#home-block-7": {
+    "props": {
+      "text": "**Marcas**",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-1"
+      "blockClass": "home-block-7"
     }
   },
   "list-context.info-card-list#home-slider-7": {
@@ -85,7 +86,7 @@
       },
       "infinite": true,
       "showNavigationArrows": "never",
-      "showPaginationDots": "always",
+      "showPaginationDots": "never",
       "blockClass": "home-slider-7"
     }
   }
