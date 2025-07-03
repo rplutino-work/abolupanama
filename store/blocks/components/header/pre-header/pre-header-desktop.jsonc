@@ -30,7 +30,7 @@
       "blockClass": "pre-header-content"
     },
     "children": [
-      "image#pre-header-icon",
+      // "image#pre-header-icon",
       "rich-text#pre-header-text"
     ]
   },
@@ -63,7 +63,7 @@
       "blockClass": "pre-header-content"
     },
     "children": [
-      "image#pre-header-icon",
+      // "image#pre-header-icon",
       "rich-text#pre-header-text"
     ]
   },
@@ -88,7 +88,7 @@
       "blockClass": "pre-header-content"
     },
     "children": [
-      "image#pre-header-icon",
+      // "image#pre-header-icon",
       "rich-text#pre-header-text-3"
     ]
   },
@@ -113,7 +113,7 @@
       "blockClass": "pre-header-content"
     },
     "children": [
-      "image#pre-header-icon",
+      // "image#pre-header-icon",
       "rich-text#pre-header-text-4"
     ]
   },
@@ -138,7 +138,7 @@
       "blockClass": "pre-header-content"
     },
     "children": [
-      "image#pre-header-icon",
+      // "image#pre-header-icon",
       "rich-text#pre-header-text-5"
     ]
   },
@@ -163,7 +163,7 @@
       "blockClass": "pre-header-content"
     },
     "children": [
-      "image#pre-header-icon",
+      // "image#pre-header-icon",
       "rich-text#pre-header-text-6"
     ]
   },
