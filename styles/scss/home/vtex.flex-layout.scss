@@ -33,3 +33,18 @@
   justify-content: flex-start;
   font-size: 1.5rem;
 }
+
+@media (max-width: 768px) {
+  :global(.vtex-rich-text-0-x-container--home-block-4) {
+    margin: 0;
+    justify-content: center;
+  }
+  :global(.vtex-rich-text-0-x-container--home-block-6) {
+    margin: 0;
+    justify-content: center;
+  }
+  :global(.vtex-rich-text-0-x-container--home-block-7) {
+    margin: 0;
+    justify-content: center;
+  }
+}

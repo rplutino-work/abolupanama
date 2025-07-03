@@ -471,6 +471,13 @@
 
 /* Responsivo para mobile */
 @media (max-width: 768px) {
+  .infoCardContainer--home-slider-7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+  }
   .sliderLayoutContainer--home-slider-7 {
     padding: 0;
   }
