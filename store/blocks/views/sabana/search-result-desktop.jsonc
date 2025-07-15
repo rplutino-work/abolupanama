@@ -1,0 +1,128 @@
+{
+  "search-result-layout.desktop": {
+    "title":"Resultado de busqueda desktop",
+    "children": [
+      // "flex-layout.row#banner-one",
+      // "flex-layout.row#pow-slider",
+      "flex-layout.row#result"
+    ],
+    "props": {
+      "pagination": "infinite",
+      "defaultGalleryLayout": "4x4-desktop",
+      "props": {
+        "preventRouteChange": true,
+        "hiddenFacets": {
+          "specificationFilters": {
+            "hiddenFilters": [
+              {
+                "name": "Departamento"
+              },
+              {
+                "name": "Marca"
+              },
+              {
+                "name": "Color"
+              }
+            ]
+          }
+        },
+        "showFacetQuantity": true
+      }
+    }
+  },
+  "flex-layout.row#result": {
+    "children": ["flex-layout.col#content", "back-to-top-button"],
+    "props": {
+      "preventHorizontalStretch": true,
+      "fullWidth": true,
+      "blockClass": "content-row-sabana"
+    }
+  },
+  "flex-layout.col#content": {
+    "children": [
+      // "gallery-category-navigator",
+      // "flex-layout.row#searchinfo",
+      // "flex-layout.row#fetchprevious",
+      "flex-layout.row#products"
+      // "flex-layout.row#spinner",
+      // "flex-layout.row#fetchmore"
+    ],
+    "props": {
+      "width": "grow",
+      "preventVerticalStretch": true,
+      "blockClass": "content-sabana-col"
+    }
+  },
+  "flex-layout.row#products": {
+    "children": ["search-content#desktop"],
+    "props": {
+      "blockClass": "container-sabana"
+    }
+  },
+  "search-content#desktop": {
+    "blocks": ["gallery#desktop", "not-found"]
+  },
+  "gallery#desktop": {
+    "props": {
+      "layouts": [
+        {
+          "name": "2x2-desktop",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "(min-width:1300px)": 2,
+            "desktop": 2,
+            "tablet": 2,
+            "phone": 1
+          }
+        },
+        {
+          "name": "4x4-desktop",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "(min-width:1300px)": 4,
+            "desktop": 4,
+            "tablet": 4,
+            "phone": 2
+          }
+        },
+        {
+          "name": "8x8-desktop",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "(min-width:1300px)": 8,
+            "desktop": 8,
+            "tablet": 8,
+            "phone": 3
+          }
+        }
+      ],
+      // "ListSummary": "product-summary.shelf#listLayout",
+      "GridSummary": "product-summary.shelf#product-full"
+    }
+  },
+  "gallery-layout-switcher#desktop": {
+    "children": [
+      "gallery-layout-option#2x2-desktop",
+      "gallery-layout-option#4x4-desktop",
+      "gallery-layout-option#8x8-desktop"
+    ]
+  },
+  "gallery-layout-option#2x2-desktop": {
+    "props": {
+      "name": "2x2-desktop",
+      "blockClass": "switcher-2x2-desktop"
+    }
+  },
+  "gallery-layout-option#4x4-desktop": {
+    "props": {
+      "name": "4x4-desktop",
+      "blockClass": "switcher-4x4-desktop"
+    }
+  },
+  "gallery-layout-option#8x8-desktop": {
+    "props": {
+      "name": "8x8-desktop",
+      "blockClass": "switcher-8x8-desktop"
+    }
+  }
+}

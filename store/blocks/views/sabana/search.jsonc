@@ -1,7 +1,28 @@
 {
   "store.search": {
     "blocks": [
-      
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 15
+      }
+    }
+  },
+  "search-result-layout": {
+    "blocks": [
+      "search-result-layout.desktop"
+      // "search-result-layout.mobile",
+      // "search-not-found-layout"
     ]
   }
+  // "search-not-found-layout": {
+  //   "children": [
+  //     "flex-layout.row#not-found-1",
+  //     "flex-layout.row#not-found-2",
+  //     "list-context.product-list#slider-not-found"
+  //   ]
+  // },
 }

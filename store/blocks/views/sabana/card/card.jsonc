@@ -1,5 +1,5 @@
 {
-    "product-summary.shelf": {
+    "product-summary.shelf#product-full": {
         "children": [
         "product-summary-add-to-list-button",
         "product-summary-name",
