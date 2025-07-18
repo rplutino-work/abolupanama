@@ -1,13 +1,162 @@
 {
     "product-summary.shelf#product-full": {
+      "title":"Card de producto mobile",
         "children": [
-        "product-summary-add-to-list-button",
-        "product-summary-name",
-        "product-rating-inline",
-        "product-summary-space",
-        "product-summary-price",
-        "product-identifier.summary",
-        "add-to-cart-button"
-        ]
+        "add-to-list-btn",
+        "flex-layout.row#product-image-desktop",
+        "flex-layout.row#product-name-and-brand",
+        "flex-layout.row#selling-price-savings",
+        "flex-layout.row#buyButtonsSummaryListDesktop"
+        ],
+        "props": {
+          "blockClass": "product-card-container"
+        }
+    },
+    "flex-layout.row#product-image-desktop": {
+    "props": {
+      "blockClass": "image-cuc-container"
+    },
+    "children": [
+      "flex-layout.col#product-image-desktop"
+    ]
+  },
+  "flex-layout.col#product-image-desktop": {
+    "props": {
+      "blockClass": "image-cuc-colection"
+    },
+    "children": [
+      "product-summary-image#shelf",
+      "product-price-savings"
+    ]
+  },
+  "product-summary-image#shelf": {
+    "props": {
+      "showBadge": false,
+      "width": 1000,
+      "height": "auto",
+      "hoverImage": {
+          "criteria": "index",
+          "index": 1
+      }
     }
+  },
+  "product-price-savings": {
+    "props": {
+      "markers": [
+        "highlight"
+      ],
+      "blockClass": [
+        "discount"
+      ],
+      "message": "-{savingsPercentage}"
+    }
+  },
+  "flex-layout.row#product-name-and-brand": {
+    "props" :{
+      "blockClass": "product-name-and-brand",
+      "fullWidth": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#product-name-color",
+        "flex-layout.row#product-brand-and-sku"
+    ]
+  },
+  "flex-layout.row#product-name-color": {
+    "props" :{
+      "blockClass": "shelf-container-name-color",
+      "fullWidth": true
+    },
+    "children": ["product-summary-name"]
+  },
+  "flex-layout.row#product-brand-and-sku": {
+    "props" :{
+      "blockClass": "product-brand-and-sku",
+      "fullWidth": true,
+      "colSizing": "auto"
+    },
+    "children": ["flex-layout.row#brand", "product-identifier.product"]
+  },
+  "flex-layout.row#brand": {
+    "props" :{
+      "blockClass": "product-brand-and-sku-brand",
+      "fullWidth": false
+    },
+    "children": [
+      "vtex.store-components:product-brand"
+    ]
+  },
+  "vtex.store-components:product-brand": {
+    "props": {
+      "displayMode": "text"
+    }
+  },
+  "flex-layout.row#selling-price-savings": {
+    "props": {
+      "colGap": 2,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "marginBottom": 4,
+      "blockClass": "product-prices"
+    },
+    "children": [
+      "product-selling-price#summary",
+      "product-list-price#summary"
+      //"product-price-savings#summary"
+    ]
+  },
+  "product-installments#summary": {
+      "props": {
+        "blockClass": "summary"
+      }
+  },
+  "product-selling-price#summary": {
+    "props": {
+        "markers": [
+          "highlight"
+        ],
+        "blockClass": "summary",
+        "message": "Precio especial {sellingPriceValue}"
+      }
+  },
+  "product-price-savings#summary": {
+    "props": {
+      "markers": [
+        "discount"
+      ],
+      "blockClass": "summary"
+    }
+  },
+  "product-list-price#summary": {
+    "props": {
+        "markers": [
+          "highlight"
+        ],
+        "blockClass": "summary",
+        "message": "Precio unitario {listPriceValue}"
+      }
+  },
+  "flex-layout.row#buyButtonsSummaryListDesktop": {
+    "props": {
+      "blockClass": "add-to-cart-button"
+    },
+    "children": [
+      "flex-layout.row#buyNowButton"
+    ]
+  },
+  "flex-layout.row#buyNowButton": {
+    "props": {
+      "blockClass": "buyNowButton"
+    },
+    "children": [
+      "add-to-cart-button#buyNow"
+    ]
+  },
+  "add-to-cart-button#buyNow": {
+    "props": {
+      "text": "Agregar al carrito",
+      "isOneClickBuy": false,
+      "blockClass": "buyNow"
+    }
+  }
 }

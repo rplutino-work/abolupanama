@@ -1,0 +1,47 @@
+:global(.vtex-search-result-3-x-searchResultContainer) {
+    padding-left: 0;
+    padding-right: 0;
+}
+.flexCol--content-sabana-col {
+    flex-direction: row;
+    padding: 30px;
+    padding-right: 0;
+    .flexRowContent--container-sabana {
+        flex-direction: column;
+    }
+    .flexColChild--content-sabana-col:first-child {
+        width: 20%;
+    }
+    .flexColChild--content-sabana-col:last-child {
+        width: 80%;
+    }
+}
+.flexRow--breadcrumbs {
+    padding-top: 2rem;
+    padding-left: 30px;
+}
+.flexRowContent--content-row-sabana {
+    flex-direction: column;
+    .flexRowContent--orderByAndSwitcher {
+        justify-content: space-between;
+        :global(.vtex-flex-layout-0-x-flexColChild--productCountCol) {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            :global(.vtex-search-result-3-x-totalProducts--layout) {
+                text-transform: capitalize;
+                font-size: 15px;
+                padding: 0;
+                padding-left: 0.5em;
+            }
+        }
+        :global(.vtex-search-result-3-x-filterPopupTitle) {
+            text-transform: capitalize;
+            font-size: 15px;
+        }
+    }
+    .flexRowContent--container-sabana {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

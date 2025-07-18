@@ -1,0 +1,25 @@
+.filterMessage {
+  margin: 1rem 0 1rem;
+  font-weight: 500;
+}
+
+.filterTitleSpan {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.filter__container--selectedFilters {
+  display: none;
+}
+
+.filterSelectedFilters {
+  display: none;
+}
+
+:global(.vtex-breadcrumb-1-x-link--breadcrumb--search) {
+  text-transform: capitalize;
+}
+
+:global(.vtex-checkbox__line-container) {
+  align-items: center;
+}
