@@ -1,0 +1,88 @@
+:global(.vtex-flex-layout-0-x-flexRow--tab-layout-product) {
+  padding: 0px 40px;
+}
+@media (max-width: 1023px) {
+  :global(.vtex-flex-layout-0-x-flexRow--tab-layout-product) {
+    padding: 0px;
+  }
+}
+@media (max-width: 1023px) {
+  :global(.vtex-flex-layout-0-x-flexRow--tab-layout-product) .container--layout-product {
+    overflow: hidden;
+  }
+}
+:global(.vtex-flex-layout-0-x-flexRow--tab-layout-product) .container--layout-product .listContainer--tab-list-product {
+  border-bottom: 2px solid #000c7a;
+  justify-content: flex-start;
+}
+@media (max-width: 1023px) {
+  :global(.vtex-flex-layout-0-x-flexRow--tab-layout-product) .container--layout-product .listContainer--tab-list-product {
+    flex-wrap: nowrap;
+    overflow-y: scroll;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--tab-layout-product) .container--layout-product .listContainer--tab-list-product::-webkit-scrollbar {
+    background-color: transparent !important;
+    border-radius: 8px !important;
+    width: 2px !important;
+    height: 2px !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--tab-layout-product) .container--layout-product .listContainer--tab-list-product::-webkit-scrollbar-thumb {
+    background-color: #000 !important;
+    height: auto !important;
+    border-radius: 8px !important;
+  }
+}
+:global(.vtex-flex-layout-0-x-flexRow--tab-layout-product) .container--layout-product .listContainer--tab-list-product .listItem--tab-list-product {
+  margin: 0;
+  padding: 0;
+}
+:global(.vtex-flex-layout-0-x-flexRow--tab-layout-product) .container--layout-product .listContainer--tab-list-product .listItem--tab-list-product :global(.vtex-button) :global(.vtex-button__label) {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #000;
+}
+@media (max-width: 1023px) {
+  :global(.vtex-flex-layout-0-x-flexRow--tab-layout-product) .container--layout-product .listContainer--tab-list-product .listItem--tab-list-product :global(.vtex-button) :global(.vtex-button__label) {
+    text-wrap: nowrap;
+  }
+}
+:global(.vtex-flex-layout-0-x-flexRow--tab-layout-product) .container--layout-product .listContainer--tab-list-product .listItem--tab-list-product :global(.vtex-button):hover {
+  background-color: transparent;
+}
+:global(.vtex-flex-layout-0-x-flexRow--tab-layout-product) .container--layout-product .listContainer--tab-list-product .listItemActive--tab-list-product :global(.vtex-button) {
+  background-color: #000c7a;
+  border: 1px solid #000c7a;
+  border-radius: 8px 8px 0 0;
+}
+:global(.vtex-flex-layout-0-x-flexRow--tab-layout-product) .container--layout-product .listContainer--tab-list-product .listItemActive--tab-list-product :global(.vtex-button) :global(.vtex-button__label) {
+  color: #fff;
+}
+:global(.vtex-flex-layout-0-x-flexRow--tab-layout-product) .container--layout-product .listContainer--tab-list-product .listItemActive--tab-list-product :global(.vtex-button):hover {
+  background-color: #000c7a;
+}
+:global(.vtex-flex-layout-0-x-flexRow--tab-layout-product) .container--layout-product .contentItem--tab-content-product {
+  animation: heightAnim 500ms ease-in-out;
+  padding: 32px;
+  min-height: 60px;
+}
+@media (max-width: 1023px) {
+  :global(.vtex-flex-layout-0-x-flexRow--tab-layout-product) .container--layout-product .contentItem--tab-content-product {
+    padding: 20px;
+  }
+}
+:global(.vtex-flex-layout-0-x-flexRow--tab-layout-product) .container--layout-product .contentItem--tab-content-product :global(.vtex-rich-text-0-x-paragraph--product-garantia) {
+  margin: 0;
+  font-size: 16px;
+  color: #000;
+}
+
+@keyframes heightAnim {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}

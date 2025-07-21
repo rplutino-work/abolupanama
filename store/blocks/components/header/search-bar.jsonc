@@ -60,6 +60,7 @@
       "blockClass": "search-body"
     },
     "children": [
+      // "search-bar#header-modal",
       "search-bar#modal-search-content",
       "flex-layout.col#search-modal-title-most-searched",
       "flex-layout.col#search-modal-most-searched"
@@ -75,6 +76,16 @@
       "autocompleteFullWidth": false,
       "autoFocus": true,
       "blocks": ["autocomplete-result-list.v2"]
+    }
+  },
+  "search-bar#header-modal": {
+    "props": {
+      "placeholder": "¿Qué estás buscando?",
+      "autoFocus": true,
+      "maxWidth": "73rem",
+      "autocompleteFullWidth": false,
+      "containerMode":"overlay",
+      "emptyPlaceholder":"no hay resultados para la busqueda"
     }
   },
 

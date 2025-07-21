@@ -1,0 +1,179 @@
+{
+    "flex-layout.col#right-col": {
+    "props": {
+      "blockClass": "product-details",
+      "preventVerticalStretch": true,
+      "rowGap": 0
+    },
+    "children": [
+      "vtex.store-components:product-name",
+      "flex-layout.row#product-identifier-brand",
+      "flex-layout.row#product-price",
+      "sku-selector#color",
+      "product-quantity#product-quantity",
+      "flex-layout.col#buy-button"
+    //   "check-permission#product-price",
+    //   "check-permission#buy-button",
+    ]
+  },
+
+  "sku-selector#color":{
+    "props":{
+      "blockClass":"product-sku-selector",
+      "visibleVariations": ["Color"],
+      "variationsSpacing": 1,
+      "showValueNameForImageVariation": true,
+      "initialSelection": "complete",
+      "imageHeight": 78
+    }
+  },
+
+  "product-quantity#product-quantity": {
+    "props": {
+      "showLabel":true
+    }
+  },
+
+  "flex-layout.row#product-identifier-brand":{
+    "props":{
+        "blockClass":"product-identifier-brand",
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "preserveLayoutOnMobile": true,
+        "fullWidth": true
+    },
+    "children": [
+        "flex-layout.col#product-identifier",
+        "flex-layout.col#product-brand"
+    ]
+  },
+  
+
+  "flex-layout.col#product-brand": {
+    "props":{
+        "blockClass":"product-brand"
+    },
+    "children": [
+        "vtex.store-components:product-brand"
+    ]
+  },
+  "flex-layout.col#product-identifier": {
+    "props":{
+        "blockClass":"product-identifier"
+    },
+    "children": [
+        "product-identifier.product#product-identifier"
+    ]
+  },
+  "vtex.store-components:product-brand": {
+    "props": {
+      "displayMode": "text",
+      "withLink":"text"
+    }
+  },
+
+  "product-identifier.product#product-identifier": {
+    "props": {
+      "label": "custom",
+      "customLabel": "SkuId",
+      "idField": "skuReferenceId"
+    }
+  },
+
+  "check-permission#buy-button": {
+    "props": {
+      "roles": [
+        "store-admin",
+        "sales-admin",
+        "sales-manager",
+        "sales-representative",
+        "customer-admin",
+        "customer-approver",
+        "customer-buyer"
+      ]
+    },
+    "blocks": [
+      "allowed-content#buy-button"
+    ]
+  },
+  "allowed-content#buy-button": {
+    "children": ["flex-layout.col#buy-button"]
+  },
+   /*BOTON COMPRAR*/
+   "flex-layout.col#buy-button": {
+    "props": {
+      "blockClass": "add-to-cart-button"
+    },
+    "children": [
+      "add-to-cart-button#producto"
+    ]
+  },
+  "add-to-cart-button#producto": {
+    "props": {
+      "text": "Agregar al carrito",
+      "unavailableText": "Sin stock",
+      "blockClass":"btn-agregar",
+      "addToCartFeedback": "customEvent"
+    }
+  },
+  "check-permission#product-price": {
+    "props": {
+      "roles": [
+        "store-admin",
+        "sales-admin",
+        "sales-manager",
+        "sales-representative",
+        "customer-admin",
+        "customer-approver",
+        "customer-buyer"
+      ]
+    },
+    "blocks": [
+      "allowed-content#user_register",
+      "disallowed-content#user_register"
+    ]
+  },
+  "allowed-content#user_register": {
+    "children": [
+      "flex-layout.row#product-price",
+      "sku-selector#color",
+      "product-quantity#product-quantity",
+      "flex-layout.col#buy-button"
+    ]
+  },
+  "disallowed-content#user_register": {
+    "children": ["rich-text#product-price"]
+  },
+  "rich-text#product-price": {
+    "props": {
+      "blockClass": ["product-price-message"],
+      "text": "Información solo para clientes registrados"
+    }
+  },
+  "product-price#product-details": {
+    "props": {
+      "showInstallments": true,
+      "showSavings": true
+    }
+  },
+  //Content prices
+  "flex-layout.row#product-price": {
+    "props": {
+      "blockClass": "product-price"
+    },
+    "children": [
+      "product-selling-price#custom",
+      "product-list-price#custom"
+    ]
+  },
+  "product-selling-price#custom": {
+    "props": {
+      "alwaysShow": true
+    }
+  },
+  "product-list-price#custom": {
+    "props": {
+      "alwaysShow": true
+    }
+  }
+}

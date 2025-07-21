@@ -1,0 +1,112 @@
+{
+    "flex-layout.row#tab-layout-product": {
+    "title": "Tab de productos ficha",
+    "children": ["tab-layout#product"],
+    "props": {
+      "blockClass": "tab-layout-product"
+    }
+  },
+  "tab-layout#product": {
+    "children": ["tab-list#product", "tab-content#product"],
+    "props": {
+      "blockClass": "layout-product",
+      "defaultActiveTabId": "tab-list-1"
+    }
+  },
+  "tab-list#product": {
+    "title": "Tab list product",
+    "props": {
+      "blockClass": "tab-list-product"
+    },
+    "children": [
+      "tab-list.item#tab-list-1",
+      "tab-list.item#tab-list-2",
+      "tab-list.item#tab-list-3"
+    ]
+  },
+  "tab-content#product": {
+    "title": "Tab content product",
+    "props": {
+      "blockClass": "tab-content-product"
+    },
+    "children": [
+      "tab-content.item#tab-content-1",
+      "tab-content.item#tab-content-2",
+      "tab-content.item#tab-content-3"
+    ]
+  },
+  //Tab layout 1
+  "tab-list.item#tab-list-1": {
+    "title":"Tab 1",
+    "props": {
+      "tabId": "tab-list-1",
+      "label": "Descripción",
+      "blockClass": ["tab-list-product"],
+      "defaultActiveTab": true
+    }
+  },
+
+  "tab-content.item#tab-content-1": {
+    "title":"Tab content 1",
+    "children": ["especificaciones-customs#descripcion"],
+    "props": {
+      "tabId": "tab-list-1",
+      "blockClass": ["tab-content-product"]
+    }
+  },
+  "especificaciones-customs#descripcion": {
+    "props": {
+      "type": "description"
+    }
+  },
+  //Tab layout 2
+  "tab-list.item#tab-list-2": {
+    "title":"Tab 2",
+    "props": {
+      "tabId": "tab-list-2",
+      "label": "Soluciones / usos",
+      "blockClass": ["tab-list-product"],
+      "defaultActiveTab": true
+    }
+  },
+
+  "tab-content.item#tab-content-2": {
+    "title":"Tab content 2",
+    "children": ["especificaciones-customs#solutions"],
+    "props": {
+      "tabId": "tab-list-2",
+      "blockClass": ["tab-content-product"]
+    }
+  },
+  "especificaciones-customs#solutions": {
+    "props": {
+      "type": "soluciones"
+    }
+  },
+
+  //Tab layout 3
+  "tab-list.item#tab-list-3": {
+    "title":"Tab 3",
+    "props": {
+      "tabId": "tab-list-3",
+      "label": "Garantía",
+      "blockClass": ["tab-list-product"],
+      "defaultActiveTab": true
+    }
+  },
+
+  "tab-content.item#tab-content-3": {
+    "title":"Tab content 3",
+    "children": ["rich-text#product-garantia"],
+    "props": {
+      "tabId": "tab-list-3",
+      "blockClass": ["tab-content-product"]
+    }
+  },
+  "rich-text#product-garantia": {
+    "props": {
+      "blockClass": ["product-garantia"],
+      "text": "Este y todos los productos best value tienen una garantía de por vida por cualquier defecto de fabricación. la garantía no incluye uso indebido, ni abuso. para hacer efectiva la garantía, el producto debe de ser llevado al lugar donde lo compró. best value usa corp BEST VALUE USA CORP"
+    }
+  }
+}

@@ -1,3 +1,7 @@
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header-desktop) {
+  height: auto !important;
+}
+
 :global(.vtex-sticky-layout-0-x-container--sticky-header-desktop) {
   padding: 10px 30px 20px 30px;
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);

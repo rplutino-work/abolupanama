@@ -1,0 +1,141 @@
+/* TABLA DE TALLES */
+
+.tallas-title{
+    text-align: center;
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.tallas-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; 
+  padding-bottom: 80px;
+}
+  
+.foto-container {
+  width: 65%;
+}
+  
+.medidas-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; Espacio entre las etiquetas de medida */
+  border-top: 1px solid #DADADA;
+  border-left: 1px solid #DADADA;
+}
+  
+.medida-item {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #DADADA;
+  /* justify-content: space-between; */
+}
+  
+.medida-label {
+  padding: 20px;
+  background-color: #F2F2F2;
+  width: 95px;
+  text-align: center;
+  font-family: "WorkSansMedium";
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+  
+.medida-value {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.medidas-container .medida-item:first-of-type .medida-value{
+  font-family: "WorkSansMedium";
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.medida-value div{
+  width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #DADADA;
+}
+
+
+.description-composition-content-text{
+  font-size: 16px;
+  color: #000;
+}
+
+
+@media(max-width:991px){
+  .tallas-container{
+    padding: 0 20px;
+  }
+
+  .tallas-title{
+    font-size: 20px;
+    width: 40%;
+    margin: 0 auto 30px;
+  }
+
+  .medidas-container{
+    flex-direction: row;
+    border-top: 1px solid #F2F2F2;
+    border-left: 1px solid #F2F2F2
+  }
+  .medidas-container .medida-item:first-of-type{
+    border-right: 1px solid #8C8C8C;
+  }
+
+  .medida-label {
+    /* width: 85px; */
+    width: auto;
+  }
+  .medida-item{
+    flex-direction: column;
+    border: none;
+  }
+
+  .medida-value{
+    flex-direction: column;
+  }
+  
+  .medida-value div{
+    height: 50px;
+    border-bottom: 1px solid #F2F2F2;
+    border-right: 1px solid #F2F2F2;
+  }
+}
+
+/* TABLA DE TALLES */
+  
+
+/* DESCRIPCION Y CUIDADOS */
+.description-composition-content h6{
+  font-family: "WorkSansMedium";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 17px;
+  margin-bottom: 0;
+
+}
+.description-composition-content ul{
+  padding: 0;
+  margin-top: 0;
+}
+.description-composition-content ul li{
+  list-style: none;
+  font-size: 12px;
+  color: #6B6B6B;
+  line-height: 17px;
+}
+
+/* FIN DESCRIPCION Y CUIDADOS */
