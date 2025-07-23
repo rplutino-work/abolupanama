@@ -1,7 +1,10 @@
 :global(.vtex-flex-layout-0-x-flexRow--tab-layout-product){
     padding: 0px 40px;
     @media(max-width:1023px){
-        padding: 0px;
+        padding: 0px 20px;
+    }
+    :global(.vtex-store-components-3-x-container){
+        padding: 0;
     }
     .container--layout-product{
         @media(max-width:1023px){

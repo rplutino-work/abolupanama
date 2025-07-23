@@ -3,8 +3,11 @@
 }
 @media (max-width: 1023px) {
   :global(.vtex-flex-layout-0-x-flexRow--tab-layout-product) {
-    padding: 0px;
+    padding: 0px 20px;
   }
+}
+:global(.vtex-flex-layout-0-x-flexRow--tab-layout-product) :global(.vtex-store-components-3-x-container) {
+  padding: 0;
 }
 @media (max-width: 1023px) {
   :global(.vtex-flex-layout-0-x-flexRow--tab-layout-product) .container--layout-product {

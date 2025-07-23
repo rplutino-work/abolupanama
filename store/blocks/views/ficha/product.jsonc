@@ -120,9 +120,10 @@
   "flex-layout.col#product-image": {
     "props": {
       "width": "60%",
-      "rowGap": 0
+      "rowGap": 0,
+      "blockClass": "product-image"
     },
-    "children": ["product-images"]
+    "children": ["product-images","product-price-savings"]
   },
   "product-images": {
     "props": {
