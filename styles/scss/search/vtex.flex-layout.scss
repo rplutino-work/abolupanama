@@ -1,3 +1,5 @@
+@import "../utils/media.scss";
+
 :global(.vtex-search-result-3-x-searchResultContainer) {
     padding-left: 0;
     padding-right: 0;
@@ -19,6 +21,10 @@
 .flexRow--breadcrumbs {
     padding-top: 2rem;
     padding-left: 30px;
+    @include respond(phone) {
+        padding-top: 1.5rem;
+        padding-left: 10px;
+      }
 }
 .flexRowContent--content-row-sabana {
     flex-direction: column;
@@ -40,8 +46,41 @@
             font-size: 15px;
         }
     }
+    .flexRowContent--orderByAndSwitcher-mobile {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
     .flexRowContent--container-sabana {
         padding-left: 30px;
         padding-right: 30px;
     }
+}
+
+.flexRowContent--orderByAndSwitcher-mobile {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem 0 3rem;
+    border-bottom: 1px solid #f2f4f5;
+    :global(.vtex-search-result-3-x-orderBy--layout) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        :global(.vtex-search-result-3-x-orderByButton) {
+            padding: 0;
+            :global(.vtex-search-result-3-x-orderByText) {
+                display: block;
+                color: #3f3f40;
+            }
+        }
+    }
+    :global(.vtex-search-result-3-x-orderByOptionsContainer) {
+        left: -25px;
+    }
+    
+}
+:global(.vtex-search-result-3-x-totalProducts--layout) {
+    @include respond(phone) {
+        border: none;
+      }
 }

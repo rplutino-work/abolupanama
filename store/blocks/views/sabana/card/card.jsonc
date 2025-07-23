@@ -116,7 +116,7 @@
           "highlight"
         ],
         "blockClass": "summary",
-        "message": "Precio especial {sellingPriceValue}"
+        "message": "Precio unitario {sellingPriceValue}"
       }
   },
   "product-price-savings#summary": {
@@ -132,8 +132,8 @@
         "markers": [
           "highlight"
         ],
-        "blockClass": "summary",
-        "message": "Precio unitario {listPriceValue}"
+        "blockClass": "summary"
+        // "message": "Precio unitario {listPriceValue}"
       }
   },
   "flex-layout.row#buyButtonsSummaryListDesktop": {

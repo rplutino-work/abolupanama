@@ -22,6 +22,12 @@
   padding-top: 2rem;
   padding-left: 30px;
 }
+@media only screen and (max-width: 1023px) {
+  .flexRow--breadcrumbs {
+    padding-top: 1.5rem;
+    padding-left: 10px;
+  }
+}
 
 .flexRowContent--content-row-sabana {
   flex-direction: column;
@@ -44,7 +50,40 @@
   text-transform: capitalize;
   font-size: 15px;
 }
+.flexRowContent--content-row-sabana .flexRowContent--orderByAndSwitcher-mobile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 .flexRowContent--content-row-sabana .flexRowContent--container-sabana {
   padding-left: 30px;
   padding-right: 30px;
+}
+
+.flexRowContent--orderByAndSwitcher-mobile {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem 0 3rem;
+  border-bottom: 1px solid #f2f4f5;
+}
+.flexRowContent--orderByAndSwitcher-mobile :global(.vtex-search-result-3-x-orderBy--layout) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flexRowContent--orderByAndSwitcher-mobile :global(.vtex-search-result-3-x-orderBy--layout) :global(.vtex-search-result-3-x-orderByButton) {
+  padding: 0;
+}
+.flexRowContent--orderByAndSwitcher-mobile :global(.vtex-search-result-3-x-orderBy--layout) :global(.vtex-search-result-3-x-orderByButton) :global(.vtex-search-result-3-x-orderByText) {
+  display: block;
+  color: #3f3f40;
+}
+.flexRowContent--orderByAndSwitcher-mobile :global(.vtex-search-result-3-x-orderByOptionsContainer) {
+  left: -25px;
+}
+
+@media only screen and (max-width: 1023px) {
+  :global(.vtex-search-result-3-x-totalProducts--layout) {
+    border: none;
+  }
 }

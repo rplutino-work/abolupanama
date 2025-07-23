@@ -2,6 +2,12 @@
   padding-left: 0;
 }
 
+@media only screen and (max-width: 1023px) {
+  :global(.vtex-search-result-3-x-gallery--4x4-mobile) {
+    padding: 2rem 1rem;
+  }
+}
+
 :global(.vtex-search-result-3-x-galleryItem) {
   padding: 0.5em;
 }
@@ -26,6 +32,12 @@
   top: 0;
   left: 0;
   z-index: 2;
+  background-color: #db0000;
+  font-size: 0.8em;
+  font-weight: 700;
+  color: #fff;
+  padding: 5px;
+  border-radius: 2px;
 }
 :global(.vtex-search-result-3-x-galleryItem) .element--product-card-container .image--hover {
   z-index: 1;
@@ -58,6 +70,7 @@
 :global(.vtex-search-result-3-x-galleryItem) .element--product-card-container :global(.vtex-flex-layout-0-x-flexRowContent--product-brand-and-sku) {
   justify-content: flex-start;
   align-items: center;
+  display: flex;
 }
 :global(.vtex-search-result-3-x-galleryItem) .element--product-card-container :global(.vtex-flex-layout-0-x-flexRowContent--product-brand-and-sku) :global(.vtex-product-identifier-0-x-product-identifier--productReference) {
   display: flex;
@@ -99,6 +112,11 @@
 :global(.vtex-search-result-3-x-galleryItem) .element--product-card-container :global(.vtex-flex-layout-0-x-flexRowContent--product-prices) {
   padding: 1rem 0;
   justify-content: space-between;
+}
+@media only screen and (max-width: 1023px) {
+  :global(.vtex-search-result-3-x-galleryItem) .element--product-card-container :global(.vtex-flex-layout-0-x-flexRowContent--product-prices) {
+    flex-direction: column;
+  }
 }
 :global(.vtex-search-result-3-x-galleryItem) .element--product-card-container :global(.vtex-flex-layout-0-x-flexRowContent--product-prices) :global(.vtex-product-price-1-x-sellingPrice--summary) {
   display: flex;
@@ -142,7 +160,7 @@
   display: flex;
   font-style: normal;
   font-weight: 700;
-  font-size: 1.3rem;
+  font-size: 0.7rem;
   display: flex;
   align-items: center;
   letter-spacing: 0.25px;

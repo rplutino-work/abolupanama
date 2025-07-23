@@ -1,6 +1,13 @@
+@import "../utils/media.scss";
+
 :global(.vtex-search-result-3-x-gallery--4x4-desktop) {
   // padding: 4rem;
   padding-left: 0;
+}
+:global(.vtex-search-result-3-x-gallery--4x4-mobile) {
+  @include respond(phone) {
+    padding: 2rem 1rem;
+  }
 }
 :global(.vtex-search-result-3-x-galleryItem) {
   padding: 0.5em;
@@ -28,6 +35,12 @@
           top: 0;
           left: 0;
           z-index: 2;
+          background-color: #db0000;
+          font-size: .8em;
+          font-weight: 700;
+          color: #fff;
+          padding: 5px;
+          border-radius: 2px;
         }
       }
       //imagen 
@@ -64,6 +77,7 @@
       :global(.vtex-flex-layout-0-x-flexRowContent--product-brand-and-sku) {
         justify-content: flex-start;
         align-items: center;
+        display: flex;
         :global(.vtex-product-identifier-0-x-product-identifier--productReference) {
           display: flex;
           align-items: center;
@@ -106,6 +120,9 @@
       :global(.vtex-flex-layout-0-x-flexRowContent--product-prices) {
         padding: 1rem 0;
         justify-content: space-between;
+        @include respond(phone) {
+          flex-direction: column;
+        }
         :global(.vtex-product-price-1-x-sellingPrice--summary) {
           display: flex;
           flex-direction: column;
@@ -148,7 +165,7 @@
             display: flex;
             font-style: normal;
             font-weight: 700;
-            font-size: 1.3rem;
+            font-size: 0.7rem;
             display: flex;
             align-items: center;
             letter-spacing: .25px;
