@@ -21,7 +21,7 @@
 }
 .flexRowContent--product-main .flexCol--product-image :global(.vtex-product-price-1-x-savings--discount) {
   position: absolute;
-  top: 20px;
+  top: 10px;
   left: 20%;
   z-index: 2;
   background-color: #db0000;
