@@ -59,7 +59,7 @@
     },
     "children": [
       "flex-layout.row#product-name-color",
-        "flex-layout.row#product-brand-and-sku"
+      "flex-layout.row#product-brand-and-sku"
     ]
   },
   "flex-layout.row#product-name-color": {

@@ -4,43 +4,81 @@
 }
 .flexRowContent--product-main .flexColChild--product-details :global(.vtex-store-components-3-x-productBrand) {
   font-size: 28px;
-  color: #000;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+  color: #3f3f40;
 }
-.flexRowContent--product-main .flexColChild--product-details .flexRow--product-identifier-brand {
-  margin-top: 20px;
-}
-.flexRowContent--product-main .flexColChild--product-details .flexRow--product-identifier-brand .flexRowContent--product-identifier-brand {
+.flexRowContent--product-main .flexColChild--product-details :global(.vtex-flex-layout-0-x-flexRowContent--product-brand-and-sku) {
   justify-content: flex-start;
   align-items: center;
-  gap: 10px;
+  display: flex;
+  margin-bottom: 20px;
 }
-.flexRowContent--product-main .flexColChild--product-details .flexRow--product-identifier-brand .flexRowContent--product-identifier-brand .stretchChildrenWidth {
-  width: auto !important;
+.flexRowContent--product-main .flexColChild--product-details :global(.vtex-flex-layout-0-x-flexRowContent--product-brand-and-sku) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
   padding: 0 !important;
 }
-.flexRowContent--product-main .flexColChild--product-details .flexRow--product-identifier-brand .flexRowContent--product-identifier-brand .stretchChildrenWidth :global(.vtex-product-identifier-0-x-product-identifier) {
-  color: #6e6e6e;
-  font-size: 16px;
+.flexRowContent--product-main .flexColChild--product-details :global(.vtex-flex-layout-0-x-flexRowContent--product-brand-and-sku) :global(.vtex-product-identifier-0-x-product-identifier--productReference) {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+  color: #3f3f40;
 }
-.flexRowContent--product-main .flexColChild--product-details .flexRow--product-identifier-brand .flexRowContent--product-identifier-brand .stretchChildrenWidth :global(.vtex-product-identifier-0-x-product-identifier)::before {
-  content: "(";
-}
-.flexRowContent--product-main .flexColChild--product-details .flexRow--product-identifier-brand .flexRowContent--product-identifier-brand .stretchChildrenWidth :global(.vtex-product-identifier-0-x-product-identifier)::after {
+.flexRowContent--product-main .flexColChild--product-details :global(.vtex-flex-layout-0-x-flexRowContent--product-brand-and-sku) :global(.vtex-product-identifier-0-x-product-identifier--productReference)::after {
   content: ")";
+  display: block;
+  width: 1px;
 }
-.flexRowContent--product-main .flexColChild--product-details .flexRow--product-identifier-brand .flexRowContent--product-identifier-brand .stretchChildrenWidth :global(.vtex-store-components-3-x-productBrandNameLink) {
+.flexRowContent--product-main .flexColChild--product-details :global(.vtex-flex-layout-0-x-flexRowContent--product-brand-and-sku) :global(.vtex-product-identifier-0-x-product-identifier--productReference)::before {
+  content: "(";
+  display: block;
+  padding-left: 3px;
+}
+.flexRowContent--product-main .flexColChild--product-details :global(.vtex-flex-layout-0-x-flexRowContent--product-brand-and-sku) :global(.vtex-product-identifier-0-x-product-identifier__label) {
+  display: none;
+}
+.flexRowContent--product-main .flexColChild--product-details :global(.vtex-flex-layout-0-x-flexRowContent--product-brand-and-sku) :global(.vtex-product-identifier-0-x-product-identifier__separator) {
+  display: none;
+}
+.flexRowContent--product-main .flexColChild--product-details :global(.vtex-flex-layout-0-x-flexRowContent--product-brand-and-sku) .productBrandLogoWrapper, .flexRowContent--product-main .flexColChild--product-details :global(.vtex-flex-layout-0-x-flexRowContent--product-brand-and-sku) .productBrandLogo {
+  height: auto !important;
+}
+.flexRowContent--product-main .flexColChild--product-details :global(.vtex-flex-layout-0-x-flexRowContent--product-brand-and-sku) .productBrandLogo {
+  height: 32px !important;
+}
+.flexRowContent--product-main .flexColChild--product-details :global(.vtex-flex-layout-0-x-flexRowContent--product-brand-and-sku) :global(.vtex-store-components-3-x-productBrandContainer) {
+  display: flex;
+  font-size: 13px;
   color: #000c7a;
-  font-weight: 700;
-  text-decoration: none;
-  font-weight: 16px;
-  transition: color 0.3s ease-in-out;
+  font-weight: 800;
 }
-.flexRowContent--product-main .flexColChild--product-details .flexRow--product-identifier-brand .flexRowContent--product-identifier-brand .stretchChildrenWidth :global(.vtex-store-components-3-x-productBrandNameLink):hover {
-  color: #0068b5;
+.flexRowContent--product-main .flexColChild--product-details .flexRowContent--product-price {
+  justify-content: flex-start;
+  gap: 10px;
+}
+.flexRowContent--product-main .flexColChild--product-details .flexRowContent--product-price .stretchChildrenWidth {
+  padding: 0 !important;
 }
 .flexRowContent--product-main .flexColChild--product-details :global(.vtex-product-price-1-x-sellingPriceValue) :global(.vtex-product-price-1-x-currencyContainer) {
-  font-size: 20px;
   font-weight: 600;
+  color: black !important;
+  font-weight: 700;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.25px;
+}
+.flexRowContent--product-main .flexColChild--product-details :global(.vtex-product-price-1-x-listPriceValue) :global(.vtex-product-price-1-x-currencyContainer) {
+  color: #7f7f7f !important;
+  font-weight: 700;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.25px;
 }
 .flexRowContent--product-main .flexColChild--product-details :global(.vtex-store-components-3-x-skuSelectorContainer--product-sku-selector) {
   margin-top: 20px;
@@ -100,4 +138,5 @@
 }
 .flexRowContent--product-main .flexColChild--product-details .flexColChild--add-to-cart-button :global(.vtex-button) :global(.vtex-button__label) :global(.vtex-add-to-cart-button-0-x-buttonText) {
   font-size: 16px;
+  text-transform: capitalize;
 }

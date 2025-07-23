@@ -1,5 +1,5 @@
 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header-desktop) {
-  height: auto !important;
+  margin-bottom: 40px;
 }
 
 :global(.vtex-sticky-layout-0-x-container--sticky-header-desktop) {

@@ -82,7 +82,8 @@
     "vtex.render-runtime": "8.x",
     "vtex.format-currency": "0.x",
     "vtex.storefront-permissions-ui": "1.x",
-    "vtex.b2b-organizations": "1.x"
+    "vtex.b2b-organizations": "1.x",
+    "vtex.totalizer-translator": "2.x"
   },
   "peerDependencies": {
     "vtex.quickorder": "3.x",

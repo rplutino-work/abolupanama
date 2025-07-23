@@ -3,6 +3,7 @@
 :global(.vtex-search-result-3-x-searchResultContainer) {
     padding-left: 0;
     padding-right: 0;
+    padding-top: 0;
 }
 .flexCol--content-sabana-col {
     flex-direction: row;
@@ -19,7 +20,7 @@
     }
 }
 .flexRow--breadcrumbs {
-    padding-top: 2rem;
+    // padding-top: 2rem;
     padding-left: 30px;
     @include respond(phone) {
         padding-top: 1.5rem;

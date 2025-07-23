@@ -6,48 +6,87 @@
     .flexColChild--product-details{
         :global(.vtex-store-components-3-x-productBrand){
             font-size: 28px;
-            color: #000;
+            text-transform: uppercase;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 0.25px;
+            color: #3f3f40;
         }
         // product brand and identifier
-        .flexRow--product-identifier-brand{
-            margin-top: 20px;
-
-            .flexRowContent--product-identifier-brand {
-                justify-content: flex-start;
-                align-items: center;
-                gap: 10px;
-                .stretchChildrenWidth{
-                    width: auto !important;
-                    padding: 0 !important;
-                    :global(.vtex-product-identifier-0-x-product-identifier){
-                        color: #6e6e6e;
-                        font-size: 16px;
-                        &::before{
-                            content: "(";
-                        }
-                        &::after{
-                            content: ")";
-                        }
-                    }
-                    :global(.vtex-store-components-3-x-productBrandNameLink){
-                        color: #000c7a;
-                        font-weight: 700;
-                        text-decoration: none;
-                        font-weight: 16px;
-                        transition: color 0.3s ease-in-out;
-                        &:hover{
-                            color:#0068b5;
-                        }
-                    }
-                }
+        //marca y sku
+        :global(.vtex-flex-layout-0-x-flexRowContent--product-brand-and-sku) {
+            :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+              padding: 0 !important;
+            }
+            justify-content: flex-start;
+            align-items: center;
+            display: flex;
+            margin-bottom: 20px;
+            :global(.vtex-product-identifier-0-x-product-identifier--productReference) {
+            display: flex;
+            align-items: center;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 18px;
+            letter-spacing: 0.25px;
+            color: #3f3f40;
+            &::after {
+                content: ")";
+                display: block;
+                width: 1px;
+            }
+            &::before {
+                content: "(";
+                display: block;
+                padding-left: 3px;
+            }
+            }
+            :global(.vtex-product-identifier-0-x-product-identifier__label) {
+            display: none;
+            }
+            :global(.vtex-product-identifier-0-x-product-identifier__separator) {
+            display: none;
+            }
+            .productBrandLogoWrapper, .productBrandLogo {
+            height: auto !important;
+            }
+            .productBrandLogo {
+            height: 32px !important;
+            }
+            :global(.vtex-store-components-3-x-productBrandContainer) {
+            display: flex;
+            font-size: 13px;
+            color: #000c7a;
+            font-weight: 800;
             }
         }
-
+        .flexRowContent--product-price {
+            justify-content: flex-start;
+            gap: 10px;
+            .stretchChildrenWidth {
+              padding: 0 !important;
+            }
+        }
         //product price
         :global(.vtex-product-price-1-x-sellingPriceValue){
             :global(.vtex-product-price-1-x-currencyContainer){
-                font-size: 20px;
                 font-weight: 600;
+                color: black !important;
+                font-weight: 700;
+                font-size: 1.3rem;
+                display: flex;
+                align-items: center;
+                letter-spacing: 0.25px;
+            }
+        }
+        :global(.vtex-product-price-1-x-listPriceValue){
+            :global(.vtex-product-price-1-x-currencyContainer){
+                color: #7f7f7f !important;
+                font-weight: 700;
+                font-size: 1.3rem;
+                display: flex;
+                align-items: center;
+                letter-spacing: 0.25px;
             }
         }
 
@@ -112,6 +151,7 @@
                     border: none !important;
                     :global(.vtex-add-to-cart-button-0-x-buttonText){
                         font-size: 16px; 
+                        text-transform: capitalize;
                     }
                 }
             }

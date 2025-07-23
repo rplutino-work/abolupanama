@@ -2,7 +2,8 @@
 
 //// STICKY HEADER DESKTOP ////
 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header-desktop){
-    height: auto !important;
+    // height: auto !important;
+    margin-bottom: 40px;
 }
 :global(.vtex-sticky-layout-0-x-container--sticky-header-desktop){
     padding: 10px 30px 20px 30px;

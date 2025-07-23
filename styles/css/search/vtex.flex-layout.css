@@ -1,6 +1,7 @@
 :global(.vtex-search-result-3-x-searchResultContainer) {
   padding-left: 0;
   padding-right: 0;
+  padding-top: 0;
 }
 
 .flexCol--content-sabana-col {
@@ -19,7 +20,6 @@
 }
 
 .flexRow--breadcrumbs {
-  padding-top: 2rem;
   padding-left: 30px;
 }
 @media only screen and (max-width: 1023px) {

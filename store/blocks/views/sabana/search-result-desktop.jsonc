@@ -30,7 +30,7 @@
       }
     }
   },
-  //Banner principañ
+  //Banner principal
   "flex-layout.row#banner-one": {
     "children": [
       "search-banner#one"

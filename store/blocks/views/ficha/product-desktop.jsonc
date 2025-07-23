@@ -7,7 +7,8 @@
     },
     "children": [
       "vtex.store-components:product-name",
-      "flex-layout.row#product-identifier-brand",
+      // "flex-layout.row#product-identifier-brand",
+      "flex-layout.row#product-brand-and-sku",
       "flex-layout.row#product-price",
       "sku-selector#color",
       "product-quantity#product-quantity",
@@ -43,8 +44,9 @@
         "fullWidth": true
     },
     "children": [
-        "flex-layout.col#product-identifier",
-        "flex-layout.col#product-brand"
+        "flex-layout.col#product-brand",
+        "flex-layout.col#product-identifier"
+        
     ]
   },
   
@@ -159,7 +161,8 @@
   //Content prices
   "flex-layout.row#product-price": {
     "props": {
-      "blockClass": "product-price"
+      "blockClass": "product-price",
+      "colSizing": "auto"
     },
     "children": [
       "product-selling-price#custom",
