@@ -1,6 +1,41 @@
+@media (max-width: 1023px) {
+  .flexRow--product-main {
+    padding: 0px 20px;
+  }
+  .flexRow--product-main :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+  }
+}
+
 .flexRowContent--product-main {
   width: 90%;
   margin: 0 auto;
+}
+@media (max-width: 1023px) {
+  .flexRowContent--product-main {
+    width: 100%;
+  }
+}
+.flexRowContent--product-main .flexCol--product-image {
+  position: relative;
+}
+.flexRowContent--product-main .flexCol--product-image :global(.vtex-product-price-1-x-savings--discount) {
+  position: absolute;
+  top: 20px;
+  left: 20%;
+  z-index: 2;
+  background-color: #db0000;
+  font-size: 0.8em;
+  font-weight: 700;
+  color: #fff;
+  padding: 5px;
+  border-radius: 2px;
+}
+@media (max-width: 1023px) {
+  .flexRowContent--product-main .flexCol--product-image :global(.vtex-product-price-1-x-savings--discount) {
+    top: 10px;
+    left: 10px;
+  }
 }
 .flexRowContent--product-main .flexColChild--product-details :global(.vtex-store-components-3-x-productBrand) {
   font-size: 28px;
