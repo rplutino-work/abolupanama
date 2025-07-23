@@ -1,0 +1,10 @@
+.relatedProducts--productos-relacionados{
+    padding: 0px 40px;
+    @media(max-width:1023px){
+        padding: 0px 20px;
+    }
+    .title--productos-relacionados{
+        font-size: 28px;
+        color: #000;
+    }
+}

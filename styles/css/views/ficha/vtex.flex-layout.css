@@ -1,0 +1,103 @@
+.flexRowContent--product-main {
+  width: 90%;
+  margin: 0 auto;
+}
+.flexRowContent--product-main .flexColChild--product-details :global(.vtex-store-components-3-x-productBrand) {
+  font-size: 28px;
+  color: #000;
+}
+.flexRowContent--product-main .flexColChild--product-details .flexRow--product-identifier-brand {
+  margin-top: 20px;
+}
+.flexRowContent--product-main .flexColChild--product-details .flexRow--product-identifier-brand .flexRowContent--product-identifier-brand {
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+.flexRowContent--product-main .flexColChild--product-details .flexRow--product-identifier-brand .flexRowContent--product-identifier-brand .stretchChildrenWidth {
+  width: auto !important;
+  padding: 0 !important;
+}
+.flexRowContent--product-main .flexColChild--product-details .flexRow--product-identifier-brand .flexRowContent--product-identifier-brand .stretchChildrenWidth :global(.vtex-product-identifier-0-x-product-identifier) {
+  color: #6e6e6e;
+  font-size: 16px;
+}
+.flexRowContent--product-main .flexColChild--product-details .flexRow--product-identifier-brand .flexRowContent--product-identifier-brand .stretchChildrenWidth :global(.vtex-product-identifier-0-x-product-identifier)::before {
+  content: "(";
+}
+.flexRowContent--product-main .flexColChild--product-details .flexRow--product-identifier-brand .flexRowContent--product-identifier-brand .stretchChildrenWidth :global(.vtex-product-identifier-0-x-product-identifier)::after {
+  content: ")";
+}
+.flexRowContent--product-main .flexColChild--product-details .flexRow--product-identifier-brand .flexRowContent--product-identifier-brand .stretchChildrenWidth :global(.vtex-store-components-3-x-productBrandNameLink) {
+  color: #000c7a;
+  font-weight: 700;
+  text-decoration: none;
+  font-weight: 16px;
+  transition: color 0.3s ease-in-out;
+}
+.flexRowContent--product-main .flexColChild--product-details .flexRow--product-identifier-brand .flexRowContent--product-identifier-brand .stretchChildrenWidth :global(.vtex-store-components-3-x-productBrandNameLink):hover {
+  color: #0068b5;
+}
+.flexRowContent--product-main .flexColChild--product-details :global(.vtex-product-price-1-x-sellingPriceValue) :global(.vtex-product-price-1-x-currencyContainer) {
+  font-size: 20px;
+  font-weight: 600;
+}
+.flexRowContent--product-main .flexColChild--product-details :global(.vtex-store-components-3-x-skuSelectorContainer--product-sku-selector) {
+  margin-top: 20px;
+}
+.flexRowContent--product-main .flexColChild--product-details :global(.vtex-store-components-3-x-skuSelectorContainer--product-sku-selector) :global(.vtex-store-components-3-x-skuSelectorName),
+.flexRowContent--product-main .flexColChild--product-details :global(.vtex-store-components-3-x-skuSelectorContainer--product-sku-selector) :global(.vtex-store-components-3-x-skuSelectorNameSeparator) {
+  display: none;
+}
+.flexRowContent--product-main .flexColChild--product-details :global(.vtex-store-components-3-x-skuSelectorContainer--product-sku-selector) :global(.vtex-store-components-3-x-skuSelectorSelectorImageValue) {
+  color: #000c7a;
+  font-size: 16px;
+  font-weight: 700;
+}
+.flexRowContent--product-main .flexColChild--product-details :global(.vtex-product-quantity-1-x-quantitySelectorContainer) {
+  margin-top: 20px;
+}
+.flexRowContent--product-main .flexColChild--product-details :global(.vtex-product-quantity-1-x-quantitySelectorContainer) :global(.vtex-product-quantity-1-x-quantitySelectorTitle) {
+  color: #000;
+  font-size: 16px;
+}
+.flexRowContent--product-main .flexColChild--product-details :global(.vtex-product-quantity-1-x-quantitySelectorContainer) :global(.vtex-numeric-stepper-container) {
+  gap: 5px;
+}
+.flexRowContent--product-main .flexColChild--product-details :global(.vtex-product-quantity-1-x-quantitySelectorContainer) :global(.vtex-numeric-stepper-container) :global(.vtex-numeric-stepper__input) {
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+.flexRowContent--product-main .flexColChild--product-details :global(.vtex-product-quantity-1-x-quantitySelectorContainer) :global(.vtex-numeric-stepper-container) :global(.vtex-numeric-stepper__minus-button-container) :global(.vtex-numeric-stepper__plus-button),
+.flexRowContent--product-main .flexColChild--product-details :global(.vtex-product-quantity-1-x-quantitySelectorContainer) :global(.vtex-numeric-stepper-container) :global(.vtex-numeric-stepper__minus-button-container) :global(.vtex-numeric-stepper__minus-button),
+.flexRowContent--product-main .flexColChild--product-details :global(.vtex-product-quantity-1-x-quantitySelectorContainer) :global(.vtex-numeric-stepper-container) :global(.vtex-numeric-stepper__plus-button-container) :global(.vtex-numeric-stepper__plus-button),
+.flexRowContent--product-main .flexColChild--product-details :global(.vtex-product-quantity-1-x-quantitySelectorContainer) :global(.vtex-numeric-stepper-container) :global(.vtex-numeric-stepper__plus-button-container) :global(.vtex-numeric-stepper__minus-button) {
+  background-color: #000c7a;
+  color: #fff;
+  border-radius: 0;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+.flexRowContent--product-main .flexColChild--product-details :global(.vtex-product-quantity-1-x-quantitySelectorContainer) :global(.vtex-numeric-stepper-container) :global(.vtex-numeric-stepper__minus-button-container) :global(.vtex-numeric-stepper__plus-button):hover,
+.flexRowContent--product-main .flexColChild--product-details :global(.vtex-product-quantity-1-x-quantitySelectorContainer) :global(.vtex-numeric-stepper-container) :global(.vtex-numeric-stepper__minus-button-container) :global(.vtex-numeric-stepper__minus-button):hover,
+.flexRowContent--product-main .flexColChild--product-details :global(.vtex-product-quantity-1-x-quantitySelectorContainer) :global(.vtex-numeric-stepper-container) :global(.vtex-numeric-stepper__plus-button-container) :global(.vtex-numeric-stepper__plus-button):hover,
+.flexRowContent--product-main .flexColChild--product-details :global(.vtex-product-quantity-1-x-quantitySelectorContainer) :global(.vtex-numeric-stepper-container) :global(.vtex-numeric-stepper__plus-button-container) :global(.vtex-numeric-stepper__minus-button):hover {
+  background-color: #0068b5;
+}
+.flexRowContent--product-main .flexColChild--product-details .flexColChild--add-to-cart-button :global(.vtex-button) {
+  height: 45px;
+  background-color: #000c7a;
+  transition: background-color 350ms ease-in-out;
+  border: none !important;
+}
+.flexRowContent--product-main .flexColChild--product-details .flexColChild--add-to-cart-button :global(.vtex-button):hover {
+  background-color: #0068b5;
+}
+.flexRowContent--product-main .flexColChild--product-details .flexColChild--add-to-cart-button :global(.vtex-button) :global(.vtex-button__label) {
+  border: none !important;
+}
+.flexRowContent--product-main .flexColChild--product-details .flexColChild--add-to-cart-button :global(.vtex-button) :global(.vtex-button__label) :global(.vtex-add-to-cart-button-0-x-buttonText) {
+  font-size: 16px;
+}

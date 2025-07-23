@@ -1,7 +1,143 @@
 {
   "store.product": {
     "children": [
-      
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-main",
+      "flex-layout.row#tab-layout-product",
+      "responsive-layout.desktop#ultimos-vistos",
+      "responsive-layout.mobile#ultimos-vistos"
     ]
+  },
+  "responsive-layout.desktop#ultimos-vistos": {
+    "title": "Ultimos vistos Desktop",
+    "children": [
+      "shelf.relatedProducts#productos-relacionados-desktop"
+    ]
+  },
+  "responsive-layout.mobile#ultimos-vistos": {
+    "title": "Ultimos vistos Desktop",
+    "children": [
+      "shelf.relatedProducts#ultimos-vistos-mobile"
+    ]
+  },
+  "responsive-layout.desktop#productos-relacionados": {
+    "title": "Productos relacionados Desktop",
+    "children": [
+      "shelf.relatedProducts#productos-relacionados-desktop"
+    ]
+  },
+  "responsive-layout.mobile#productos-relacionados": {
+    "title": "Productos relacionados Desktop",
+    "children": [
+      "shelf.relatedProducts#productos-relacionados-mobile"
+    ]
+  },
+  "shelf.relatedProducts#productos-relacionados-desktop": {
+    "props": {
+      "blockClass": "productos-relacionados",
+      // "recommendation": "similars",
+      "recommendation": "buy",
+      "hideOutOfStockItems": false,
+      "productList": {
+        "titleText": "Otras personas compraron con este producto:",
+        "itemsPerPage": 4,
+        "minItemsPerPage": 4,
+        "arrows": true,
+        "scroll": "BY_PAGE"
+      }
+    },
+    "blocks": ["product-summary.shelf#product-full"]
+  },
+  "shelf.relatedProducts#productos-relacionados-mobile": {
+    "props": {
+      "blockClass": "productos-relacionados",
+      // "recommendation": "similars",
+      "recommendation": "buy",
+      "hideOutOfStockItems": false,
+      "productList": {
+        "titleText": "Otras personas compraron con este producto:",
+        "itemsPerPage": 2,
+        "minItemsPerPage": 2,
+        "arrows": true,
+        "scroll": "BY_PAGE"
+      }
+    },
+    "blocks": ["product-summary.shelf#product-full"]
+  },
+  "shelf.relatedProducts#ultimos-vistos-desktop": {
+    "props": {
+      "blockClass": "productos-relacionados",
+      // "recommendation": "similars",
+      "recommendation": "view",
+      "hideOutOfStockItems": false,
+      "productList": {
+        "titleText": "Quienes vieron también compraron",
+        "itemsPerPage": 4,
+        "minItemsPerPage": 4,
+        "arrows": true,
+        "scroll": "BY_PAGE"
+      }
+    },
+    "blocks": ["product-summary.shelf#product-full"]
+  },
+  "shelf.relatedProducts#ultimos-vistos-mobile": {
+    "props": {
+      "blockClass": "productos-relacionados",
+      // "recommendation": "similars",
+      "recommendation": "view",
+      "hideOutOfStockItems": false,
+      "productList": {
+        "titleText": "Quienes vieron también compraron",
+        "itemsPerPage": 2,
+        "minItemsPerPage": 2,
+        "arrows": true,
+        "scroll": "BY_PAGE"
+      }
+    },
+    "blocks": ["product-summary.shelf#product-full"]
+  },
+  // BREADCRUMB
+  "flex-layout.row#product-breadcrumb": {
+    "props": {
+      "blockClass": "breadcrumbs"
+    },
+    "children": ["breadcrumb"]
+  },
+
+  "flex-layout.row#product-main": {
+    "title": "Contenedor Producto",
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7,
+      "blockClass":"product-main"
+    },
+    "children": ["flex-layout.col#product-image", "flex-layout.col#right-col"]
+  },
+  "flex-layout.col#product-image": {
+    "props": {
+      "width": "60%",
+      "rowGap": 0
+    },
+    "children": ["product-images"]
+  },
+  "product-images": {
+    "props": {
+      "displayThumbnailsArrows": true
+    }
+  },
+
+  "share#default": {
+    "props": {
+      "social": {
+        "Facebook": true,
+        "WhatsApp": true,
+        "Twitter": false,
+        "Pinterest": true
+      }
+    }
   }
 }
