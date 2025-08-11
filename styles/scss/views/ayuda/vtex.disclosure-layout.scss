@@ -1,0 +1,99 @@
+:global(.vtex-rich-text-0-x-paragraph--preguntas-frecuentes-title) {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 75px;
+    margin-top: 60px;
+    @media (max-width: 1023px) {
+      font-size: 20px;
+      font-style: normal;
+      line-height: 25px;
+      letter-spacing: 0.15px;
+      margin-bottom: 30px;
+    }
+  }
+
+:global(.vtex-flex-layout-0-x-flexRow--preguntas-frecuentes){
+    .content--preguntas-frecuentes--visible{
+        padding: 0px 20px !important;
+    }
+    .trigger--visible{
+        display: flex !important;
+        width: 100%;
+        border: none;
+        justify-content: center !important;
+        // background: none;
+        background-color: #0068b5!important;
+        :global(.vtex-flex-layout-0-x-flexCol--container-imagen){
+            :global(.vtex-flex-layout-0-x-flexColChild--container-imagen){
+            }
+        }
+        :global(.vtex-rich-text-0-x-paragraph--preguntas-frecuentes-question),
+        :global(.vtex-rich-text-0-x-link--preguntas-frecuentes-question){
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 25px;
+            letter-spacing: .15px;
+            text-align: center;
+            text-transform: capitalize;
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+    .trigger--hidden{
+        display: flex !important;
+        width: 100%;
+        justify-content: center !important;
+        border: none;
+        background: none;
+        :global(.vtex-flex-layout-0-x-flexCol--container-imagen){
+            :global(.vtex-flex-layout-0-x-flexColChild--container-imagen){
+            }
+        }
+        :global(.vtex-rich-text-0-x-paragraph--preguntas-frecuentes-question),
+        :global(.vtex-rich-text-0-x-link--preguntas-frecuentes-question){
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 25px;
+            letter-spacing: .15px;
+            text-align: center;
+            text-transform: capitalize;
+            color: #000;
+        }
+    } 
+
+    :global(.vtex-rich-text-0-x-paragraph--content-stock) {
+        font-size: 14px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 18px;
+        letter-spacing: 0.25px;
+        color: #000000;
+      }
+
+      .trigger{
+        position: relative;
+        :global(.vtex-flex-layout-0-x-flexCol--container-imagen){
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: center;
+        }
+
+        :global(.vtex-rich-text-0-x-container--trigger-icon--foter){
+            display: none;
+            position: absolute;
+            // top: 20px;
+            right: 20px;
+        }
+    }
+}
+
+
+:global(.vtex-flex-layout-0-x-flexColChild--preguntas-frecuentes){
+    width: 100%;
+    .trigger--hidden{
+        justify-content: center;
+    }
+}

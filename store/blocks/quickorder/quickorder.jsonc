@@ -1,0 +1,114 @@
+{
+  "store.quickorder": {
+    "blocks": [
+      "flex-layout.row#textarea",
+      "flex-layout.row#upload",
+      "flex-layout.row#autocomplete",
+      "flex-layout.row#quickCategories"
+    ]
+  },
+  "flex-layout.row#textarea": {
+    "children": [
+      "rich-text#title-textarea",
+      "flex-layout.row#quickorder-textarea"
+    ],
+    "props": {
+      "blockClass": ["textarea", "content-layout"]
+    }
+  },
+  "rich-text#title-textarea": {
+    "props": {
+      "text": "Quick Order",
+      "blockClass": [
+        "title-block",
+        "title-textarea"
+      ]
+    }
+  },
+  "flex-layout.row#quickorder-textarea": {
+    "children": [
+      "quickorder-textarea"
+    ],
+    "props": {
+      "blockClass": "quickorder-textarea"
+    }
+  },
+  "quickorder-textarea": {
+    "props": {
+      "componentOnly": false,
+      "text": "Copy/Paste Skus, ",
+      "description": "([Sku's Code],[Quantity])"
+    }
+  },
+  "flex-layout.row#upload": {
+    "children": [
+      "flex-layout.col#upload"
+    ],
+    "props": {
+      "blockClass": ["upload", "content-layout"]
+    }
+  },
+  "flex-layout.col#upload": {
+    "children": [
+      "quickorder-upload"
+    ],
+    "props": {
+      "blockClass": "upload"
+    }
+  },
+  "quickorder-upload": {
+    "props": {
+      "componentOnly": false,
+      "text": "Upload",
+      "description": "Upload a Spreadsheet with two columns (SKU, Quantity) to bulk order",
+      "downloadText": "Click here to download a spreadsheet model"
+    }
+  },
+  "flex-layout.row#autocomplete": {
+    "children": [
+      "flex-layout.col#autocomplete"
+    ],
+    "props": {
+      "blockClass":["autocomplete", "content-layout"]
+    }
+  },
+  "flex-layout.col#autocomplete": {
+    "children": [
+      "quickorder-autocomplete"
+    ],
+    "props": {
+      "blockClass": "autocomplete"
+    }
+  },
+  "quickorder-autocomplete": {
+    "props": {
+      "componentOnly": false,
+      "text": "One by One",
+      "description": "Type the product name, select, enter quantity and add to the cart"
+    }
+  },
+  "flex-layout.row#quickCategories": {
+    "children": [
+      "flex-layout.col#categories"
+    ],
+    "props": {
+      "paddingBottom": 9,
+      "blockClass": ["quickCategories", "content-layout"]
+    }
+  },
+  "flex-layout.col#categories": {
+    "children": [
+      "quickorder-categories"
+    ],
+    "props": {
+      "blockClass": "quickCategories"
+    }
+  },
+  "quickorder-categories": {
+    "props": {
+      "componentOnly": false,
+      "text": "Categories",
+      "description": "Add products directly from their categories"
+    }
+  }
+}

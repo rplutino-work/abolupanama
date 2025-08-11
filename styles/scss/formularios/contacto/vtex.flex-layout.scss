@@ -1,0 +1,24 @@
+.flexCol--formulario_contacto{
+    max-width: 500px;
+    margin: 30px 0;
+
+    :global(.vtex-rich-text-0-x-headingLevel2--title_form){
+        color: #000c7a;
+        font-size: 28px;
+        margin-top: 0;
+        margin-bottom: 16px;
+        font-weight: 700;
+        // margin-top: 30px;
+    }
+    :global(.vtex-rich-text-0-x-headingLevel4--title_form){
+        font-size: 20px;
+        color: #000c7a;
+        margin-top: 0;
+        margin-bottom: 16px;
+        font-weight: 700;
+    }
+        :global(.vtex-rich-text-0-x-headingLevel4--title_form){
+        line-height: 1.5;
+        font-size: 16px;
+    }
+}

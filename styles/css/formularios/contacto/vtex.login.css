@@ -1,0 +1,63 @@
+:global(.vtex-flex-layout-0-x-flexCol--formulario_contacto) :global(.vtex-input__label),
+:global(.vtex-flex-layout-0-x-flexCol--formulario_contacto) :global(.vtex-dropdown__label),
+:global(.vtex-flex-layout-0-x-flexCol--formulario_contacto) :global(.vtex-textarea__label) {
+  font-size: 12px;
+  color: #000;
+  margin-top: 10px;
+}
+:global(.vtex-flex-layout-0-x-flexCol--formulario_contacto) :global(.vtex-input-prefix__group),
+:global(.vtex-flex-layout-0-x-flexCol--formulario_contacto) :global(.vtex-styleguide-9-x-container),
+:global(.vtex-flex-layout-0-x-flexCol--formulario_contacto) :global(.vtex-textarea__input) {
+  border-radius: 10px;
+  border: 1px solid #c8c8c8;
+  height: 45px;
+}
+:global(.vtex-flex-layout-0-x-flexCol--formulario_contacto) :global(.vtex-input-prefix__group) :global(.vtex-dropdown__caption),
+:global(.vtex-flex-layout-0-x-flexCol--formulario_contacto) :global(.vtex-styleguide-9-x-container) :global(.vtex-dropdown__caption),
+:global(.vtex-flex-layout-0-x-flexCol--formulario_contacto) :global(.vtex-textarea__input) :global(.vtex-dropdown__caption) {
+  color: #c8c8c8;
+  font-size: 14px;
+}
+:global(.vtex-flex-layout-0-x-flexCol--formulario_contacto) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input)::placeholder,
+:global(.vtex-flex-layout-0-x-flexCol--formulario_contacto) :global(.vtex-styleguide-9-x-container) :global(.vtex-styleguide-9-x-input)::placeholder,
+:global(.vtex-flex-layout-0-x-flexCol--formulario_contacto) :global(.vtex-textarea__input) :global(.vtex-styleguide-9-x-input)::placeholder {
+  color: #c8c8c8;
+  font-size: 14px;
+}
+:global(.vtex-flex-layout-0-x-flexCol--formulario_contacto) :global(.vtex-input-prefix__group)::placeholder,
+:global(.vtex-flex-layout-0-x-flexCol--formulario_contacto) :global(.vtex-styleguide-9-x-container)::placeholder,
+:global(.vtex-flex-layout-0-x-flexCol--formulario_contacto) :global(.vtex-textarea__input)::placeholder {
+  color: #c8c8c8;
+  font-size: 14px;
+}
+:global(.vtex-flex-layout-0-x-flexCol--formulario_contacto) :global(.vtex-textarea__input) {
+  height: unset;
+  max-width: 500px;
+}
+:global(.vtex-flex-layout-0-x-flexCol--formulario_contacto) :global(.vtex-store-form-0-x-formSubmitContainer--submit_form) {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+:global(.vtex-flex-layout-0-x-flexCol--formulario_contacto) :global(.vtex-store-form-0-x-formSubmitContainer--submit_form) :global(.vtex-store-form-0-x-formSubmitButton--submit_form) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+:global(.vtex-flex-layout-0-x-flexCol--formulario_contacto) :global(.vtex-store-form-0-x-formSubmitContainer--submit_form) :global(.vtex-button) {
+  width: 350px;
+  background-color: #000c7a;
+  border-radius: 10px;
+  border: 1px solid #000c7a;
+  height: 45px;
+  font-size: 16px;
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
+}
+:global(.vtex-flex-layout-0-x-flexCol--formulario_contacto) :global(.vtex-store-form-0-x-formSubmitContainer--submit_form) :global(.vtex-button):hover {
+  transition: all 0.3s ease-in-out;
+  background-color: #0068b5;
+  border: 1px solid #0068b5;
+}
+:global(.vtex-flex-layout-0-x-flexCol--formulario_contacto) :global(.vtex-store-form-0-x-formSubmitContainer--submit_form) :global(.vtex-button) :global(.vtex-button__label) {
+  color: #fff;
+}

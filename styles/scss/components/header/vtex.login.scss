@@ -46,7 +46,12 @@
                         background-size: cover;
                     }
                     :global(.vtex-minicart-2-x-minicartIconContainer--minicartCustom){
-                        display: none;
+                        :global(.vtex-store-icons-0-x-cartIcon){
+                            display: none;
+                        }
+                        :global(.vtex-minicart-2-x-minicartQuantityBadge--minicartCustom){
+                            background-color: #000c7a;
+                        }
                     }
                 }
             }

@@ -1,0 +1,92 @@
+{
+  "my-account-link.wishlist-link": {
+    "props": {
+      "label": "Favoritos"
+    }
+  },
+  "my-account-page.wishlist-page": {
+    "children": [
+      "flex-layout.row#top-whishlist",
+      "responsive-layout.desktop#product-wishlist",
+      "responsive-layout.tablet#product-wishlist",
+      "responsive-layout.phone#product-wishlist"
+    ]
+  },
+  "store.wishlist": {
+    "blocks": [
+      "flex-layout.row#top-whishlist",
+      "responsive-layout.desktop#product-wishlist",
+      "responsive-layout.tablet#product-wishlist",
+      "responsive-layout.phone#product-wishlist"
+    ]
+  },
+  "responsive-layout.desktop#product-wishlist": {
+    "children": ["list-context.wishlist"]
+  },
+  "responsive-layout.tablet#product-wishlist": {
+    "children": ["list-context.wishlist#mobile"]
+  },
+  "responsive-layout.phone#product-wishlist": {
+    "children": ["list-context.wishlist#mobile"]
+  },
+  "flex-layout.row#top-whishlist": {
+    "props": {
+      "blockClass": "titleWishlist"
+    },
+    "children": ["flex-layout.col#title"]
+  },
+  "flex-layout.col#title": {
+    "children": ["rich-text#title"],
+    "props": {
+      "blockClass": "titleWishlist",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title": {
+    "props": {
+      "text": "### Favoritos",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "titleWishlist"
+    }
+  },
+  "list-context.wishlist": {
+    "props": {
+      "showViewEmptyList": true
+    },
+    "blocks": [
+      "wishlist-empty-list",
+      "product-summary.shelf#product-full"
+    ],
+    "children": ["list-context-renderer#wishlist"]
+  },
+  "list-context.wishlist#mobile": {
+    "props": {
+      "showViewEmptyList": true
+    },
+    "blocks": [
+      "wishlist-empty-list",
+      "product-summary.shelf#product-full"
+    ],
+    "children": ["list-context-renderer#wishlist"]
+  },
+  "list-context-renderer#wishlist": {
+    "props": {
+      "listElement": "div",
+      "itemElement": "div",
+      "blockClass": "wishlist"
+    }
+  },
+  "wishlist-empty-list": {
+    "children": ["rich-text#description"]
+  },
+  "rich-text#description": {
+    "props": {
+      "blockClass": "without-product-wishlist",
+      "text": "No tenés ningún producto guardado.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2"
+    }
+  }
+}

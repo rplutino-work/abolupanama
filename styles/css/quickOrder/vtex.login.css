@@ -1,0 +1,139 @@
+:global(.render-route-store-quickorder .flex.flex-grow-1) {
+  background-color: #F5F5F5;
+}
+
+:global(.vtex-quickorder-3-x-componentContainer) {
+  width: 100%;
+  padding: 0;
+}
+
+:global(.vtex-quickorder-3-x-componentContainer .w-100.mb5) {
+  margin: 0;
+}
+
+:global(.vtex-quickorder-3-x-componentContainer .bg-base) {
+  padding: 0;
+}
+
+:global(.vtex-quickorder-3-x-componentContainer .vtex-textarea .vtex-textarea__input) {
+  min-height: 99px;
+  border-radius: 2px;
+  border: 1px solid #E3E2E2;
+}
+
+:global(.vtex-quickorder-3-x-textContainer) {
+  width: 100%;
+}
+
+:global(.vtex-quickorder-3-x-textContainer .vtex-quickorder-3-x-textContainerTitle) {
+  margin: 0 0 10px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  color: #000;
+}
+
+:global(.vtex-quickorder-3-x-textContainer .vtex-quickorder-3-x-textContainerDescription) {
+  margin: 0 0 3.12rem;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #000;
+}
+
+:global(.vtex-quickorder-3-x-componentContainer .vtex-quickorder-3-x-dropzoneContainer .flex.flex-column) {
+  border-color: #E3E2E2;
+  border-radius: 2px;
+}
+
+:global(.vtex-quickorder-3-x-dropzoneContainer .flex.flex-column .flex.items-center) {
+  width: 60px !important;
+  height: 60px !important;
+  background-color: #929292;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+:global(.vtex-quickorder-3-x-dropzoneContainer .flex.flex-column .pt7) {
+  margin-top: 10px;
+  padding: 0;
+}
+
+:global(.vtex-quickorder-3-x-dropzoneText),
+:global(.vtex-quickorder-3-x-dropzoneLink) {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+:global(.vtex-quickorder-3-x-autoCompleteBlock .vtex-quickorder-3-x-componentContainer) {
+  position: relative;
+}
+
+:global(.vtex-quickorder-3-x-autoCompleteBlock .vtex-quickorder-3-x-componentContainer)::before {
+  position: absolute;
+  left: 0;
+  top: -20px;
+  content: "Buscar un producto ...";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+:global(.vtex-quickorder-3-x-autoCompleteBlock .vtex-quickorder-3-x-componentContainer input) {
+  padding-left: 0.8rem;
+  border-color: #E3E2E2;
+}
+
+:global(.vtex-quickorder-3-x-autoCompleteBlock .flex.flex-row button) {
+  border-color: #E3E2E2;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--quickCategories .vtex-quickorder-3-x-textContainer .vtex-quickorder-3-x-categoryTitle) {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--quickCategories .vtex-quickorder-3-x-textContainer .vtex-quickorder-3-x-categoryHelper) {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0 0 3.12rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--quickCategories .vtex-quickorder-3-x-componentContainer .vtex-button) {
+  position: absolute;
+  bottom: -70px;
+  right: 0;
+  width: 340px;
+  height: 45px;
+  background-color: #000c7a;
+  border: none;
+  border-radius: 30px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--quickCategories .vtex-quickorder-3-x-componentContainer .vtex-button .vtex-button__label) {
+  color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  :global(.vtex-flex-layout-0-x-flexCol--quickCategories .vtex-quickorder-3-x-componentContainer .vtex-button) {
+    right: unset;
+    transform: translate(-50%, 0);
+    left: 50%;
+    width: 90%;
+  }
+  :global(.vtex-quickorder-3-x-textAreaBlock .vtex-quickorder-3-x-textContainer) {
+    justify-content: center;
+  }
+  :global(.vtex-quickorder-3-x-componentContainer .vtex-textarea .vtex-textarea__input) {
+    min-height: 205px;
+  }
+}

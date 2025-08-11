@@ -1,0 +1,111 @@
+{
+    "store.custom#contact-us":{
+        "children":[
+            "flex-layout.row#form"
+        ]
+    },
+    "flex-layout.row#form": {
+        "props": {
+            "blockClass": "form-contacto"
+        },
+        "children": [
+            "flex-layout.col#form"
+        ]
+    },
+    "flex-layout.col#form": {
+        "props": {
+            "blockClass": "formulario_contacto"
+        },
+        "children": [
+            "form#contacto"
+        ]
+    },
+    "form#contacto": {
+        "props": {
+            "entity": "CT",
+            "schema": "contacto",
+            "blockClass": "form-contacto"
+        },
+        "children": [
+            "rich-text#form-title",
+            "form-input.text#email",
+            "form-input.dropdown#contact",
+            "form-input.dropdown#area",
+            "form-input.text#cellphone",
+            "form-input.textarea#comments",
+            "form-submit"
+        ],
+        "blocks": ["form-success"]
+    },
+    "form-success": {
+        "children": [
+            "rich-text#successSubmit"
+        ]
+    },
+    "rich-text#form-title":{
+        "props":{
+        "text": "## Contáctanos \n Para nosotros es muy importante estar a tu lado y resolver todas las dudas que tengas acerca de tu compra en ABOLU. Por esto, déjanos tus comentarios y pronto estaremos en contacto contigo. \n #### Envíanos tus comentarios",
+        "blockClass": "title_form"
+        }
+    },
+    "rich-text#successSubmit": {
+        "props": {
+            "blockClass": "success_form",
+            "text": "Succesfully submitted the data!",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "form-input.text#email": {
+        "props": {
+            "blockClass":"input_form",
+            "pointer": "#/properties/email",
+            "placeholder": "Correo electrónico"
+        }
+    },
+    "form-input.dropdown#contact": {
+        "props": {
+            "blockClass":"input_form",
+            "pointer": "#/properties/contact",
+            "label": "¿Con qué área deseas contactarte?",
+            "placeholder": "¿Con qué área deseas contactarte?"
+        }
+    },
+    "form-input.dropdown#area": {
+        "props": {
+            "blockClass":"input_form",
+            "pointer": "#/properties/area",
+            "label": "¿Cómo te gustaría que te contactáramos?",
+            "placeholder": "¿Cómo te gustaría que te contactáramos?"
+        }
+    },
+    "form-input.text#comments": {
+        "props": {
+            "blockClass":"input_form",
+            "pointer": "#/properties/comments",
+            "label": "Do you agree that this is the best form component in the whole wide world?"
+        }
+    },
+    "form-input.textarea#comments": {
+        "props": {
+            "blockClass":"input_form",
+            "pointer": "#/properties/comments",
+            "label": "Tus comentarios",
+            "placeholder":" Dejanos tus comentarios"
+        }
+    },
+    "form-input.text#cellphone": {
+        "props": {
+            "blockClass":"input_form",
+            "pointer": "#/properties/cellphone",
+            "label": "Número de celular",
+            "placeholder": "Número de celular"
+        }
+    },
+    "form-submit": {
+        "props": {
+            "blockClass":"submit_form",
+            "label": "Enviar comentarios"
+        }
+    }
+}

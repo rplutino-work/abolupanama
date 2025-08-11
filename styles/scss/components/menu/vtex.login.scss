@@ -11,6 +11,10 @@
     transition: all 0.5s ease-in-out;
     padding: 0;
 
+    :global(.vtex-mega-menu-2-x-triggerButtonIcon){
+        display: none;
+    }
+
   &::after {
     content: 'DEPARTAMENTOS';
     display: block;

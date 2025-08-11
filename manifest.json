@@ -86,6 +86,7 @@
     "vtex.totalizer-translator": "2.x"
   },
   "peerDependencies": {
+    "vtex.return-app": "3.x",
     "vtex.quickorder": "3.x",
     "vtex.mega-menu": "2.x",
     "vtex.wish-list": "1.x"

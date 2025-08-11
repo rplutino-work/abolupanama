@@ -1,0 +1,40 @@
+/*Quick Order*/
+.flexRow--content-layout {
+  max-width: 1280px;
+  width: 95%;
+  min-height: 287px;
+  margin: 0 auto 2.5rem;
+  border-radius: 6px;
+  box-shadow: 0px 4px 14px 0px rgba(56, 56, 56, 0.14);
+  padding: 2.5rem 5rem 1.87rem 5.25rem;
+  background-color: #fff;
+}
+
+.flexRow--content-layout :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
+
+.flexRowContent--textarea {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRowContent--textarea .stretchChildrenWidth {
+  width: 100% !important;
+}
+
+.flexRow--textarea {
+  margin-top: 2.5rem;
+}
+
+.flexRow--quickCategories {
+  margin-bottom: 11rem;
+  position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+  .flexRow--content-layout {
+    padding: 1.87rem 1.25rem;
+    text-align: center;
+  }
+}

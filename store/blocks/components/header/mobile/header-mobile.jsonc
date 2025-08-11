@@ -181,7 +181,7 @@
   },
   "link#fake_category-6": {
     "props": {
-      "href": "/contact",
+      "href": "/contact-us",
       "label": "Contáctanos",
       "blockClass": "category_links_mobile"
     }

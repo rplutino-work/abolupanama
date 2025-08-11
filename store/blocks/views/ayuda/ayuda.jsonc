@@ -1,0 +1,1843 @@
+{
+    "store.custom#ayuda": {
+      "blocks": [
+        "flex-layout.row#faqs-title",
+        "flex-layout.row#faqs"
+      ]
+    },
+    "flex-layout.row#faqs-title": {
+      "children": [
+        "flex-layout.col#faqs-title"
+      ]
+    },
+    "flex-layout.col#faqs-title": {
+      "children": [
+        "rich-text#faqs-title"
+      ]
+    },
+    "rich-text#faqs-title": {
+      "props": {
+        "text": "Centro de ayuda",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass": "preguntas-frecuentes-title"
+      }
+    },
+    "flex-layout.row#faqs": {
+      "children": [
+        "flex-layout.col#faqs"
+      ]
+    },
+    "flex-layout.col#faqs": {
+      "children": [
+        "responsive-layout.desktop#ayuda",
+        // "responsive-layout.tablet#ayuda",
+        "responsive-layout.phone#ayuda"
+        // "tab-layout#faqs",
+        // "flex-layout.row#preguntas-frecuentes-mobile-test"
+        // "tab-layout#faqs-mobile"
+      ],
+      "props": {
+        "blockClass": "preguntas-desk-mob"
+      }
+    },
+    "responsive-layout.desktop#ayuda": {
+    "children": ["tab-layout#faqs"]
+  },
+  "responsive-layout.tablet#ayuda": {
+    "children": ["flex-layout.row#preguntas-frecuentes-mobile-test"]
+  },
+  "responsive-layout.phone#ayuda": {
+    "children": ["flex-layout.row#preguntas-frecuentes-mobile-test"]
+  },
+    "tab-layout#faqs": {
+      "children": [
+        "tab-list#preguntas",
+        "tab-content#respuestas"
+      ],
+      "props": {
+        "blockClass": "preguntasFrecuentes",
+        "defaultActiveTabId": "preguntaId1"
+      }
+    },
+    "tab-list#preguntas": {
+      "children": [
+        "tab-list.item.children#pregunta1",
+        "tab-list.item.children#pregunta2",
+        "tab-list.item.children#pregunta3",
+        "tab-list.item.children#pregunta4",
+        "tab-list.item.children#pregunta5",
+        "tab-list.item.children#pregunta6",
+        "tab-list.item.children#pregunta7"
+      ],
+      "props": {
+        "blockClass": "container-preguntas"
+      }
+    },
+    "tab-list.item.children#pregunta1": {
+      "children": [
+        // "flex-layout.row#imagen1",
+        "tab-list.item#pregunta1"
+      ],
+      "props": {
+        "tabId": "preguntaId1"
+      }
+    },
+    "tab-list.item#pregunta1": {
+      "props": {
+        "label": "¿Cómo compro en www.abolupanama.com?"
+      }
+    },
+    "flex-layout.row#imagen1": {
+      "props": {
+        "blockClass": "container-imagen"
+      },
+      "children": [
+        "flex-layout.col#imagen1"
+      ]
+    },
+    "flex-layout.col#imagen1": {
+      "props": {
+        "blockClass": "container-imagen"
+      },
+      "children": [
+        "image#preg1"
+      ]
+    },
+    "image#preg1": {
+      "props": {
+        "src": "assets/icons/faq1.svg",
+        "link": "#"
+      }
+    },
+    "tab-list.item.children#pregunta2": {
+      "children": [
+        // "flex-layout.row#imagen2",
+        "tab-list.item#pregunta2"
+      ],
+      "props": {
+        "tabId": "preguntaId2"
+      }
+    },
+    "tab-list.item#pregunta2": {
+      "props": {
+        "label": "¿Cómo utilizo un cupón de código de descuento?"
+      }
+    },
+    "flex-layout.row#imagen2": {
+      "props": {
+        "blockClass": "container-imagen"
+      },
+      "children": [
+        "flex-layout.col#imagen2"
+      ]
+    },
+    "flex-layout.col#imagen2": {
+      "props": {
+        "blockClass": "container-imagen"
+      },
+      "children": [
+        "image#preg2"
+      ]
+    },
+    "image#preg2": {
+      "props": {
+        "src": "assets/icons/faq2.svg",
+        "link": "#"
+      }
+    },
+    "tab-list.item.children#pregunta3": {
+      "children": [
+        // "flex-layout.row#imagen3",
+        "tab-list.item#pregunta3"
+      ],
+      "props": {
+        "tabId": "preguntaId3"
+      }
+    },
+    "tab-list.item#pregunta3": {
+      "props": {
+        "label": "¿Es seguro comprar por www.abolupanama.com?"
+      }
+    },
+    "flex-layout.row#imagen3": {
+      "props": {
+        "blockClass": "container-imagen"
+      },
+      "children": [
+        "flex-layout.col#imagen3"
+      ]
+    },
+    "flex-layout.col#imagen3": {
+      "props": {
+        "blockClass": "container-imagen"
+      },
+      "children": [
+        "image#preg3"
+      ]
+    },
+    "image#preg3": {
+      "props": {
+        "src": "assets/icons/faq3.svg",
+        "link": "#"
+      }
+    },
+    "tab-list.item.children#pregunta4": {
+      "children": [
+        // "flex-layout.row#imagen4",
+        "tab-list.item#pregunta4"
+      ],
+      "props": {
+        "tabId": "preguntaId4"
+      }
+    },
+    "tab-list.item#pregunta4": {
+      "props": {
+        "label": "¿Tengo derecho al retracto?"
+      }
+    },
+    "flex-layout.row#imagen4": {
+      "props": {
+        "blockClass": "container-imagen"
+      },
+      "children": [
+        "flex-layout.col#imagen4"
+      ]
+    },
+    "flex-layout.col#imagen4": {
+      "props": {
+        "blockClass": "container-imagen"
+      },
+      "children": [
+        "image#preg4"
+      ]
+    },
+    "image#preg4": {
+      "props": {
+        "src": "assets/icons/faq4.svg",
+        "link": "#"
+      }
+    },
+    "tab-list.item.children#pregunta5": {
+      "children": [
+        // "flex-layout.row#imagen5",
+        "tab-list.item#pregunta5"
+      ],
+      "props": {
+        "tabId": "preguntaId5"
+      }
+    },
+    "tab-list.item#pregunta5": {
+      "props": {
+        "label": "¿Mis datos están protegidos?"
+      }
+    },
+    "flex-layout.row#imagen5": {
+      "props": {
+        "blockClass": "container-imagen"
+      },
+      "children": [
+        "flex-layout.col#imagen5"
+      ]
+    },
+    "flex-layout.col#imagen5": {
+      "props": {
+        "blockClass": "container-imagen"
+      },
+      "children": [
+        "image#preg5"
+      ]
+    },
+    "image#preg5": {
+      "props": {
+        "src": "assets/icons/faq5.svg",
+        "link": "#"
+      }
+    },
+    "tab-list.item.children#pregunta6": {
+      "children": [
+        // "flex-layout.row#imagen6",
+        "tab-list.item#pregunta6"
+      ],
+      "props": {
+        "tabId": "preguntaId6"
+      }
+    },
+    "tab-list.item#pregunta6": {
+      "props": {
+        "label": "Cambios y devoluciones"
+      }
+    },
+    "flex-layout.row#imagen6": {
+      "props": {
+        "blockClass": "container-imagen"
+      },
+      "children": [
+        "flex-layout.col#imagen6"
+      ]
+    },
+    "flex-layout.col#imagen6": {
+      "props": {
+        "blockClass": "container-imagen"
+      },
+      "children": [
+        "image#preg6"
+      ]
+    },
+    "image#preg6": {
+      "props": {
+        "src": "assets/icons/faq6.svg",
+        "link": "#"
+      }
+    },
+    "tab-list.item.children#pregunta7": {
+      "children": [
+        // "flex-layout.row#imagen6",
+        "tab-list.item#pregunta7"
+      ],
+      "props": {
+        "tabId": "preguntaId7"
+      }
+    },
+    "tab-list.item#pregunta7": {
+      "props": {
+        "label": "Términos y condiciones"
+      }
+    },
+    "tab-content#respuestas": {
+      "children": [
+        "tab-content.item#respuesta1",
+        "tab-content.item#respuesta2",
+        "tab-content.item#respuesta3",
+        "tab-content.item#respuesta4",
+        "tab-content.item#respuesta5",
+        "tab-content.item#respuesta6",
+        "tab-content.item#respuesta7"
+      ]
+    },
+    ////////////////////RESPUESTA 1
+    "tab-content.item#respuesta1": {
+      "children": [
+        "flex-layout.row#consulta-stock-title"
+      ],
+      "props": {
+        "tabId": "preguntaId1"
+      }
+    },
+    "flex-layout.row#consulta-stock-title": {
+      "props": {
+        "blockClass": "consulta-stock-row"
+      },
+      "children": [
+        "flex-layout.col#consulta-stock"
+      ]
+    },
+    "flex-layout.col#consulta-stock": {
+      "props": {
+        "horizontalAlign": "left",
+        "verticalAlign": "center",
+        "preventHorizontalStretch": false,
+        "preventVerticalStretch": false,
+        "preserveLayoutOnMobile": true,
+        // "fullWidth": true,
+        "blockClass": "consulta-stock-col"
+      },
+      "children": [
+        "rich-text#consulta-stock-1"
+      ]
+    },
+    "rich-text#consulta-stock-1": {
+      "props": {
+        "text": "Lo primero que debes hacer es seleccionar la categoría, marca o producto(s) que deseas comprar, al seleccionarlos tienes la opción de seguir seleccionando productos o ir directo al botón de PAGAR AHORA. Una vez elegidos el o los productos te dirigirás al carrito de compra que se encuentra en la parte superior derecha. \n\n Verifica que los productos, tamaño, cantidad, etc, estén correctos, haz clic en FINALIZAR LA COMPRA.\n\nIngresa tu correo electrónico para continuar con el proceso de compra y a continuación completa tus datos personales, de envío y medio de pago.\n\nAl seleccionar el medio de pago, podrás elegir entre Tarjeta de Crédito, PSE (tarjeta débito, cuenta de ahorros o cuenta corriente), Efecty o Baloto. Para estas 2 últimas opciones debes realizar tu pago antes de 48 horas.\n\nUna vez ingreses el medio de pago, verifiques bien los datos y procedas a pagar, recibirás un correo de confirmación aprobada de este. Para finalizar, luego de 4 días hábiles, recibirás tu pedido en la puerta de tu casa y/o oficina.\n\nEn caso de dudas, comentarios o demás, te puedes comunicar a través de nuestro chat en línea, del número 312 817 4011 de lunes a viernes de 8am a 5pm, o a través de nuestro correo electrónico servicioalcliente@abolupanama.com.",
+        "blockClass": "stock-title"
+      }
+    },
+    ////////////////////RESPUESTA 2
+    "tab-content.item#respuesta2": {
+      "children": [
+        "flex-layout.row#cambios-devoluciones-title-2"
+      ],
+      "props": {
+        "tabId": "preguntaId2"
+      }
+    },
+    "flex-layout.row#cambios-devoluciones-title-2": {
+      "props": {
+        "blockClass": "consulta-stock-row"
+      },
+      "children": [
+        "flex-layout.col#cambios-devoluciones"
+      ]
+    },
+    "flex-layout.col#cambios-devoluciones": {
+      "props": {
+        "horizontalAlign": "left",
+        "verticalAlign": "center",
+        "preventHorizontalStretch": false,
+        "preventVerticalStretch": false,
+        "preserveLayoutOnMobile": true,
+        // "fullWidth": true,
+        "blockClass": "consulta-stock-col"
+      },
+      "children": [
+        "rich-text#cambios-devoluciones-1"
+      ]
+    },
+    "rich-text#cambios-devoluciones-1": {
+      "props": {
+        "text": "Al tener un código de descuento, puede ser alfanumérico, a la hora de ingresar tus datos personales y elegir el método de pago, en la parte superior de los medios de pago, puedes presionar debajo de ''Método de pago'' en el botón ''Utilizar un cupón de regalo'' en este espacio puedes poner el código de descuento, verifica que los números, letras o mayúsculas del cupón estén bien escritas y automáticamente se descontará la cantidad establecida en el valor total de la compra.",
+        "blockClass": "stock-title"
+      }
+    },
+    ////////////////////RESPUESTA 3
+    "tab-content.item#respuesta3": {
+      "children": [
+        "flex-layout.row#envio-seguimiento-title"
+      ],
+      "props": {
+        "tabId": "preguntaId3"
+      }
+    },
+    "flex-layout.row#envio-seguimiento-title": {
+      "props": {
+        "blockClass": "consulta-stock-row"
+      },
+      "children": [
+        "flex-layout.col#envio-seguimiento"
+      ]
+    },
+    "flex-layout.col#envio-seguimiento": {
+      "props": {
+        "horizontalAlign": "left",
+        "verticalAlign": "center",
+        "preventHorizontalStretch": false,
+        "preventVerticalStretch": false,
+        "preserveLayoutOnMobile": true,
+        // "fullWidth": true,
+        "blockClass": "consulta-stock-col"
+      },
+      "children": [
+        "rich-text#envio-seguimiento-1"
+        // "flex-layout.col#envio-seguimiento-container1",
+        // "flex-layout.col#envio-seguimiento-container2",
+        // "flex-layout.col#envio-seguimiento-container3",
+        // "flex-layout.col#envio-seguimiento-container4",
+        // "flex-layout.col#envio-seguimiento-container5",
+        // "flex-layout.col#envio-seguimiento-container6",
+        // "flex-layout.col#envio-seguimiento-container7"
+      ]
+    },
+    "rich-text#envio-seguimiento-1": {
+      "props": {
+        "text": "Comprar en www.abolupanama.com es seguro, contamos con la plataforma tecnológica más robusta en el mercado actual de comercio electrónico VTEX, adicional contamos con la pasalera de pagos PAYU LATAM la cual cuenta la certificación PCI DSS para el manejo seguro de la información de las tarjetas de crédito. En las políticas de privacidad, puedes consultar el manejo de tus datos personales dentro de nuestro sitio web.",
+        "blockClass": "stock-title"
+      }
+    },
+    "flex-layout.col#envio-seguimiento-container1": {
+      "children": [
+        "rich-text#envio-seguimiento"
+      ]
+    },
+    "rich-text#envio-seguimiento": {
+      "props": {
+        "text": "**¿Cuál es el costo de envío?** \n El costo depende del código postal del domicilio de entrega y se detalla en el check-out (es decir, antes de finalizar la compra). Los envíos en Argentina son gratis en compras superiores a $8.000! / No acumulable con otras promociones",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#envio-seguimiento-container2": {
+      "children": [
+        "rich-text#envio-seguimiento-2"
+      ]
+    },
+    "rich-text#envio-seguimiento-2": {
+      "props": {
+        "text": "**No recibí mi pedido y ya pasó el plazo de entrega. ¿Qué hago?** \n Esto es inusual. Por favor comunicate con nosotros llamando al 0800-555-9174 ó escribiéndonos a nuestro Whatsapp 1150984287. No olvides tener a mano tu número de pedido.",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#envio-seguimiento-container3": {
+      "children": [
+        "rich-text#cotent-envio-seguimiento-3"
+      ]
+    },
+    "rich-text#cotent-envio-seguimiento-3": {
+      "props": {
+        "text": "**¿Puedo hacer el seguimiento de mi pedido?** \n Te enviaremos un mail con un código (tracking number) y las instrucciones para que puedas hacer el seguimiento de tu pedido. También podés conocer el estado de tu envío desde [AQUÍ](https://www.andreani.com/#!/personas) ingresando con Facebook, Mail o creándote una cuenta",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#envio-seguimiento-container4": {
+      "children": [
+        "rich-text#cotent-envio-seguimiento-4"
+      ]
+    },
+    "rich-text#cotent-envio-seguimiento-4": {
+      "props": {
+        "text": "**¿Qué pasa si no hay nadie cuando traen mi pedido?** \n Si no hay nadie en el domicilio que nos indicaste, el correo regresará a las 48 horas. En caso de no encontrar a nadie, deberás dirigirte al centro de distribución asignado a tu pedido dentro de las 72 horas con tu DNI y el código que te enviamos (tracking number).",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#envio-seguimiento-container5": {
+      "children": [
+        "rich-text#cotent-envio-seguimiento-5"
+      ]
+    },
+    "rich-text#cotent-envio-seguimiento-5": {
+      "props": {
+        "text": "**¿Puede recibir el paquete otra persona?** \n Sí, no es necesario que esté presente quien realizó la compra. Puede recibirlo cualquier adulto.",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#envio-seguimiento-container6": {
+      "children": [
+        "rich-text#cotent-envio-seguimiento-6"
+      ]
+    },
+    "rich-text#cotent-envio-seguimiento-6": {
+      "props": {
+        "text": "**Métodos de Envío** \n CORREO ANDREANI A DOMICILIO \n ENVÍO GRATIS en compras superiores a $8.000! El envío puede demorar entre 2 y 8 días hábiles. Los tiempos de entrega podrían ser mayores debido a la situación actual. Podrás ver el seguimiento de tu pedido [AQUÍ](https://www.andreani.com/#!/personas)  . Si sos de Tierra del Fuego, vamos a pedirte una fotocopia de tu DNI para poder realizar el envío.\n RETIRO SUCURSAL ANDREANI \n ENVÍO GRATIS en compras superiores a $8.000! El envío puede demorar entre 2 y 8 días hábiles. Los tiempos de entrega podrían ser mayores debido a la situación actual. Podrás ver el seguimiento de tu pedido [AQUÍ](https://www.andreani.com/#!/personas)",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#envio-seguimiento-container7": {
+      "children": [
+        "rich-text#cotent-envio-seguimiento-7"
+      ]
+    },
+    "rich-text#cotent-envio-seguimiento-7": {
+      "props": {
+        "text": "ENVÍOS MOTO EXPRESS \n De Lunes a Viernes, comprando hasta las 12:00Hs tu pedido llega en el día! \n **Código Postales adheridos para entregas en el día:** \n 1875 1874 1872 1871 1870 1836 1835 1834 1832 1831 1829 1828 1826 1825 1824 1822 1773 1766 1754 1752 1712 1708 1706 1704 1702 1688 1686 1684 1682 1678 1676 1674 1672 1657 1655 1653 1651 1650 1643 1642 1641 1640 1638 1636 1609 1607 1606 1605 1603 1602 1458 1440 1439 1437 1431 1430 1429 1428 1427 1426 1425 1424 1421 1419 1417 1416 1414 1413 1408 1407 1406 1405 1299 1298 1297 1296 1295 1294 1293 1292 1291 1290 1289 1288 1287 1286 1285 1284 1283 1282 1281 1280 1279 1278 1277 1276 1275 1274 1273 1272 1271 1270 1269 1268 1267 1266 1265 1264 1263 1262 1261 1260 1259 1258 1257 1256 1255 1254 1253 1252 1251 1250 1249 1248 1247 1246 1245 1244 1243 1242 1241 1240 1239 1238 1237 1236 1235 1234 1233 1232 1231 1230 1229 1228 1227 1226 1225 1224 1223 1222 1221 1220 1219 1218 1217 1216 1215 1214 1213 1212 1211 1210 1209 1208 1207 1206 1205 1204 1203 1202 1201 1200 1199 1198 1197 1196 1195 1194 1193 1192 1191 1190 1189 1188 1187 1186 1185 1184 1183 1182 1181 1180 1179 1178 1177 1176 1175 1174 1173 1172 1171 1170 1169 1168 1167 1166 1165 1164 1163 1162 1161 1160 1159 1158 1157 1156 1155 1154 1153 1152 1151 1150 1149 1148 1147 1146 1145 1144 1143 1142 1141 1140 1139 1138 1137 1136 1135 1134 1133 1132 1131 1130 1129 1128 1127 1126 1125 1124 1123 1122 1121 1120 1119 1118 1117 1116 1115 1114 1113 1112 1111 1110 1109 1108 1107 1106 1105 1104 1103 1102 1101 1100 1099 1098 1097 1096 1095 1094 1093 1092 1091 1090 1089 1088 1087 1086 1085 1084 1083 1082 1081 1080 1079 1078 1077 1076 1075 1074 1073 1072 1071 1070 1069 1068 1067 1066 1065 1064 1063 1062 1061 1060 1059 1058 1057 1056 1055 1054 1053 1052 1051 1050 1049 1048 1047 1046 1045 1044 1043 1042 1041 1040 1039 1038 1037 1036 1035 1034 1033 1032 1031 1030 1029 1028 1027 1026 1025 1024 1023 1022 1021 1020 1019 1018 1017 1016 1015 1014 1013 1012 1011 1010 1009 1008 1007 1006 1005 1004 1003 1002 1001 \n **Código Postales adheridos para entregas al día siguiente:**\n 1601 1610 1611 1612 1613 1614 1615 1617 1618 1619 1620 1621 1622 1623 1625 1627 1629 1631 1633 1635 1644 1646 1648 1649 1659 1661 1663 1664 1665 1667 1669 1670 1713 1714 1716 1718 1722 1723 1742 1744 1746 1748 1755 1757 1759 1761 1763 1765 1768 1770 1771 1772 1774 1776 1778 1802 1804 1806 1838 1842 1846 1847 1849 1852 1854 1856 1858 1862 1864 1876 1878 1879 1881 1882 1884 1885 1886 1888 1889 1890 1891 1893 1894 1895 1896 1897 1900 1901 1903 1905 1906 1907 1909 1923 1925 1927 1929 1931 1000 1300 1301 1302 1303 1304 1305 1306 1307 1308 1309 1310 1311 1312 1313 1314 1315 1316 1317 1318 1319 1320 1321 1322 1323 1324 1325 1326 1327 1328 1329 1330 1331 1332 1333 1334 1335 1336 1337 1338 1339 1340 1341 1342 1343 1344 1345 1346 1347 1348 1349 1350 1351 1352 1353 1354 1355 1356 1357 1358 1359 1360 1361 1362 1363 1364 1365 1366 1367 1368 1369 1370 1371 1372 1373 1374 1375 1376 1377 1378 1379 1380 1381 1382 1383 1384 1385 1386 1387 1388 1389 1390 1391 1392 1393 1394 1395 1396 1397 1398 1399 1400 1401 1402 1403 1404 1409 1410 1411 1412 1415 1418 1420 1422 1423 1432 1433 1434 1435 1436 1438 1441 1442 1443 1444 1445 1446 1447 1448 1449 1450 1451 1452 1453 1454 1455 1456 1457 1459 1460 1461 1462 1463 1464 1465 1466 1467 1468 1469 1470 1471 1472 1473 1474 1475 1476 1477 1478 1479 1480 1481 1482 1483 1484 1485 1486 1487 1488 1489 1490 1491 1492 1493 1494 1495 1496 1497 1498 1499\n RETIRO EN PUNTOS PICKIT\n Ahora podés retirar tu pedido por cualquier de los puntos PICKIT de todo el país.\n Te avisaremos por email cuando tu pedido se encuentre disponible en el punto de retiro pickit que elijas, el envío puede demorar entre 2 y 8 días hábiles. Es fundamental que al momento del retiro presentes el DNI del comprador, el mail de confirmación que el pedido se encuentra en punto de retiro y el código de seguridad que llegará por mail. Aclaración: Tu pedido estará disponible por 10 días para que sea retirado. De no ser así, regresará a nuestros depósitos y deberás coordinar una nueva entrega. Solo podrá retirar el titular de la compra.\n RETIRO EN SUCURSAL 47STREET\n Los pedidos tardan en llegar a la sucursal elegida de 47 Street entre 2 y 5 días hábiles. Los locales de Mar del Plata y Rosario pueden demorar hasta 10 días hábiles Una vez que llegue al local, nos comunicaremos con vos por teléfono, mail ó Whatsapp para avisarte que ya podés ir a retirar tu compra. Recordá que deberás acercarte al local con tu DNI y el número de pedido.\n Importante: No trabajamos con el stock del local. Los pedidos se envían desde nuestro depósito central a la sucursal elegida para que una vez allí, puedas retirarla ¡sin costo!",
+        "blockClass": "content-stock"
+      }
+    },
+    ////////////////////RESPUESTA 4
+    "tab-content.item#respuesta4": {
+      "children": [
+        "flex-layout.row#formas-pago-title"
+      ],
+      "props": {
+        "tabId": "preguntaId4"
+      }
+    },
+    "flex-layout.row#formas-pago-title": {
+      "props": {
+        "blockClass": "consulta-stock-row"
+      },
+      "children": [
+        "flex-layout.col#formas-pago"
+      ]
+    },
+    "flex-layout.col#formas-pago": {
+      "props": {
+        "horizontalAlign": "left",
+        "verticalAlign": "center",
+        "preventHorizontalStretch": false,
+        "preventVerticalStretch": false,
+        "preserveLayoutOnMobile": true,
+        // "fullWidth": true,
+        "blockClass": "consulta-stock-col"
+      },
+      "children": [
+        "rich-text#formas-pago-1"
+        // "flex-layout.col#formas-pago-container1",
+        // "flex-layout.col#formas-pago-container2",
+        // "flex-layout.col#formas-pago-container3",
+        // "flex-layout.col#formas-pago-container4",
+        // "flex-layout.col#formas-pago-container5"
+      ]
+    },
+    "rich-text#formas-pago-1": {
+      "props": {
+        "text": "ABOLU dará efectiva aplicación a las normas de protección al consumidor vigentes y aplicables, usted podrá ejercer el derecho de retracto del producto comprado dentro de los (5) cinco días hábiles posteriores al recibo del bien, siempre y cuando lo permita su naturaleza y el estado del bien y su empaque sea el mismo en el que lo recibió. En ningún caso abolupanama.com hará reversiones parciales del valor de un producto. La devolución o el cambio de productos comprados por usted en las páginas WEB de ABOLU debe gestionarse dentro de los siguientes ocho (8) días calendario a la fecha de la entrega del producto, llamando a la línea 312 817 4011.",
+        "blockClass": "stock-title"
+      }
+    },
+    "flex-layout.col#formas-pago-container1": {
+      "children": [
+        "rich-text#formas-pago"
+      ]
+    },
+    "rich-text#formas-pago": {
+      "props": {
+        "text": "**¿Cómo puedo pagar?** \n Podés pagar con los siguientes métodos de pago:\n **•Tarjeta de crédito.** \n **•Tarjeta de débito en un pago**\n **¿Cómo se hace para pagar con tarjeta de crédito?**\n Agregá los productos que te interesen a tu carrito. Antes de finalizar la compra vas a poder elegir el medio de pago que prefieras (por ejemplo, tarjeta de crédito). Acordate de tener la tarjeta en la mano ya que deberás completar los números de la misma.",
+        "blockClass": "content-stock"
+      }
+    },
+    "rich-text#content-formas-pago-2": {
+      "props": {
+        "text": "En el caso que no haya stock en la página de un artículo que estés buscando, contáctate con nuestro Centro de Atención al Cliente. De esta forma podremos verificar la disponibilidad del producto sea por talle o color y darte una respuesta concreta a tu pedido.",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#formas-pago-container2": {
+      "children": [
+        "rich-text#formas-pago-2"
+      ]
+    },
+    "rich-text#formas-pago-2": {
+      "props": {
+        "text": "**¿Qué costo de financiación tienen las tarjetas?** \n Podrás averiguarlo antes de finalizar la compra, al momento de elegir la cantidad de cuotas.",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#formas-pago-container3": {
+      "children": [
+        "rich-text#cotent-formas-pago-3"
+      ]
+    },
+    "rich-text#cotent-formas-pago-3": {
+      "props": {
+        "text": "**¿Hay alguna promoción con tarjeta de crédito?** \n Podrás ver las promociones de cuotas en Promociones Bancarias",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#formas-pago-container4": {
+      "children": [
+        "rich-text#cotent-formas-pago-4"
+      ]
+    },
+    "rich-text#cotent-formas-pago-4": {
+      "props": {
+        "text": "**¿Cuándo se me debita el importe por mi compra?** \n Si elegiste pagar con tarjeta de crédito, verás el importe descontado en el resumen correspondiente al próximo cierre de tarjeta. Si lo hiciste con tarjeta de débito, el importe se debitará automáticamente de tu cuenta bancaria.",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#formas-pago-container5": {
+      "children": [
+        "rich-text#cotent-formas-pago-5"
+      ]
+    },
+    "rich-text#cotent-formas-pago-5": {
+      "props": {
+        "text": "**¿Estoy en el exterior ¿Cómo puedo abonar mi compra?** \n Si estás en el exterior, podrás abonar tu compra con tarjeta de crédito mediante MercadoPago. Los precios los verás en Pesos Argentinos pero luego tu tarjeta se encargará de hacer la conversión necesaria al momento de acreditar el pago.",
+        "blockClass": "content-stock"
+      }
+    },
+    ////////////////////RESPUESTA 5
+    "tab-content.item#respuesta5": {
+      "children": [
+        "flex-layout.row#promociones-bancarias-title"
+      ],
+      "props": {
+        "tabId": "preguntaId5"
+      }
+    },
+    "flex-layout.row#promociones-bancarias-title": {
+      "props": {
+        "blockClass": "consulta-stock-row"
+      },
+      "children": [
+        "flex-layout.col#promociones-bancarias"
+      ]
+    },
+    "flex-layout.col#promociones-bancarias": {
+      "props": {
+        "horizontalAlign": "left",
+        "verticalAlign": "center",
+        "preventHorizontalStretch": false,
+        "preventVerticalStretch": false,
+        "preserveLayoutOnMobile": true,
+        // "fullWidth": true,
+        "blockClass": "consulta-stock-col"
+      },
+      "children": [
+        "rich-text#promociones-bancarias-1"
+        // "rich-text#content-promociones-bancarias-2",
+        // "rich-text#content-promociones-bancarias-3"
+      ]
+    },
+    "rich-text#promociones-bancarias-1": {
+      "props": {
+        "text": "PRIVACIDAD.De acuerdo a la ley de protección de datos personales 1581 de 2012 de Habeas Data, es importante que tengas conocimiento de lo siguiente: Al aceptar los términos y condiciones legales, indicas que conoces y autorizas de manera previa, expresa e informada a ABOLU, para que tus datos personales puedan ser almacenados y usados con el fin de lograr una eficiente comunicación durante el presente trámite o actividad y autorizas en los mismos términos, que dicha información pueda ser tratada conforme a lo dispuesto en la Ley 1581 de 2011 y sus Decretos Reglamentarios, con el fin de recibir información acerca de sus productos, servicios, ofertas, promociones, alianzas, estudios, concursos, contenidos. Así mismo has sido informado acerca de la políticapara la protección de datos personales disponible en este sitio, en la cual se incluyen los procedimientos de consulta y reclamación que me permiten hacer efectivos tus derechos al acceso, conocimiento, consulta, rectificación, actualización, y supresión de los datos. ABOLU declara que protege losdatos suministrados por sus clientes en virtud de lo dispuesto en la normatividad regulatoria del derecho al HABEAS DATA e informa a los clientes interesados en hacer parte de la campaña/programa/evento a través del diligenciamiento del presente formulario, que le asisten los siguientes derechos: 1. Conocer, actualizar y rectificar sus datos personales 2. Verificar la autorización otorgada 3. Ser informado acerca del uso que se le ha dado a sus datos personales. 4. Presentar ante la Superintendencia de Industria y Comercio las quejas que considere 5. Revocar la autorización y solicitar la eliminación de algún dato cuando considere que no se le han respetado sus derechos 6. Acceder en forma gratuita a los datos personales que voluntariamente y a través de éste formato decide compartir ABOLU",
+        "blockClass": "stock-title"
+      }
+    },
+    "rich-text#content-promociones-bancarias-2": {
+      "props": {
+        "text": "**AHORA 3 y 6 CUOTAS SIN INTERÉS Con Visa y MasterCard / Sólo Tarjetas Bancarias**",
+        "blockClass": "content-stock"
+      }
+    },
+    "rich-text#content-promociones-bancarias-3": {
+      "props": {
+        "text": "**AHORA 3 y 6 CUOTAS SIN INTERÉS con todas las American Express**",
+        "blockClass": "content-stock"
+      }
+    },
+    ////////////////////RESPUESTA 6
+    "tab-content.item#respuesta6": {
+      "children": [
+        "flex-layout.row#consultas-generales-title"
+      ],
+      "props": {
+        "tabId": "preguntaId6"
+      }
+    },
+    "flex-layout.row#consultas-generales-title": {
+      "props": {
+        "blockClass": "consulta-stock-row"
+      },
+      "children": [
+        "flex-layout.col#consultas-generales"
+      ]
+    },
+    "flex-layout.col#consultas-generales": {
+      "props": {
+        "horizontalAlign": "left",
+        "verticalAlign": "center",
+        "preventHorizontalStretch": false,
+        "preventVerticalStretch": false,
+        "preserveLayoutOnMobile": true,
+        // "fullWidth": true,
+        "blockClass": "consulta-stock-col"
+      },
+      "children": [
+        "rich-text#consultas-generales-1"
+        // "flex-layout.col#consultas-generales-container1",
+        // "flex-layout.col#consultas-generales-container2",
+        // "flex-layout.col#consultas-generales-container3",
+        // "flex-layout.col#consultas-generales-container4",
+        // "flex-layout.col#consultas-generales-container5",
+        // "flex-layout.col#consultas-generales-container6",
+        // "flex-layout.col#consultas-generales-container7",
+        // "flex-layout.col#consultas-generales-container8",
+        // "flex-layout.col#consultas-generales-container9",
+        // "flex-layout.col#consultas-generales-container10",
+        // "flex-layout.col#consultas-generales-container11",
+        // "flex-layout.col#consultas-generales-container12",
+        // "flex-layout.col#consultas-generales-container13",
+        // "flex-layout.col#consultas-generales-container14"
+      ]
+    },
+    "rich-text#consultas-generales-1": {
+      "props": {
+        "text": "Todas las transacciones realizadas en ABOLU están sujetas a un proceso de validación de inventario, medio de pago y datos personales. Las órdenes que no aprueben este proceso de validación serán rechazadas por el sistema. El resultado de la validación será informado al cliente vía correo electrónico y en caso de haberse debitado dinero se realizará la devolución al mismo medio de pago.\n\nLa entrega de los pedidos se realiza dentro de ciudades, regiones y/ó zonas consideradas como seguras para la operación del transporte, a criterio del transportista.\n\n Para las entregas con pago contraentrega, se le informa a los clientes que solo podrán ser pagadas en efectivo, es importante entregar al transportista el monto exacto por el cual se realizó la compra. Recuerde que para las órdenes de pago contraentrega cualquier reclamación o sugerencia relacionada con el transporte del producto, la entrega o el pago del mismo, debe ser comunicada directamente a ABOLU Si al momento de abrir el empaque usted observa alguna anomalía o defecto, debe comunicarse con las líneas de servicio al cliente ( 507) 233 75 25 o al correo servicioalcliente@abolu.net \n\n Solo es posible programar la entrega en un rango horario para aquellos productos que se envíen al cliente desde el centro de distribución de ABOLU \n\n El producto podrá ser recibido e inspeccionado por cualquier persona mayor de edad que habite o esté presente en el lugar de entrega, para lo cual bastará la firma en el documento de transporte, a menos que el cliente manifieste expresamente al momento de la compra, que el producto debe ser entregado únicamente al comprador o a un tercero autorizado, esta se deberá indicar en la casilla de observaciones del formulario de despacho.\n\n En caso de no estar nadie presente en el sitio de entrega para recibir el producto despachado, o no estar presente la persona autorizada, el pedido será devuelto al lugar de despacho. ABOLU reprogramará la entrega del mismo y/o el cliente deberá comunicarse con el Call Center y reprogramar la entrega del producto. Si el producto no es recibido después de dos visitas realizadas por parte de la transportadora, ABOLU procederá con la devolución de los productos. En este caso, si el cliente desea que le reenvíen el pedido, es obligación del cliente contactarse con Servicio al cliente para programar el reenvío del pedido, lo cual incurre en un costo que deberá asumir el cliente.\n\n El cliente y el transportista deben revisar que el producto entregado se encuentre en buenas condiciones. Si no se registra algún reclamo por parte del cliente en el documento de transporte correspondiente, se entenderá que el recibo del producto fue satisfactorio.\n\n En caso de que no se realice la inspección del producto en el momento de la entrega, el cliente tiene 24 horas después de recibido para notificar a ABOLU de cualquier inconveniente con el producto. Después de ese tiempo no se aceptan reclamaciones.\n\n El costo de envío no se cobrará al cliente, si el producto recibido por el cliente no corresponde al publicado y/ó si el producto está dañado al momento de la entrega.",
+        "blockClass": "stock-title"
+      }
+    },
+
+    "tab-content.item#respuesta7": {
+      "children": [
+        "flex-layout.row#consultas-generales-title-7"
+      ],
+      "props": {
+        "tabId": "preguntaId7"
+      }
+    },
+    "flex-layout.row#consultas-generales-title-7": {
+      "props": {
+        "blockClass": "consulta-stock-row"
+      },
+      "children": [
+        "flex-layout.col#consultas-generales-7"
+      ]
+    },
+    "flex-layout.col#consultas-generales-7": {
+      "props": {
+        "horizontalAlign": "left",
+        "verticalAlign": "center",
+        "preventHorizontalStretch": false,
+        "preventVerticalStretch": false,
+        "preserveLayoutOnMobile": true,
+        // "fullWidth": true,
+        "blockClass": "consulta-stock-col"
+      },
+      "children": [
+        "rich-text#t&c"
+      ]
+    },
+    "rich-text#t&c":{
+        "props":{
+            "text": "#### Origen de ingresos #### \n\n EL CLIENTE al consentir en cualquiera de los contratos que se perfeccionan al realizar transacciones en Abolupanama.com, declara bajo la gravedad de juramento, que sus ingresos provienen de actividades lícitas, que no se encuentra con registro negativo en listados de prevención de lavado de activos nacionales o internacionales, que no se encuentra dentro de una de las dos categorías de lavado de activos (conversión o movimiento) y que en consecuencia, se obliga a responder frente a ABOLU por todos los perjuicios que se llegaren a causar como consecuencia de esta afirmación. En igual sentido responderá ante terceros. Declara igualmente, que sus conductas se ajustan a la ley y a la ética y, en consecuencia se obliga a implementar las medidas tendientes a evitar que sus operaciones puedan ser utilizadas con o sin su consentimiento y conocimiento como instrumentos para el ocultamiento, manejo, inversión o aprovechamiento en cualquier forma de dinero u otros bienes provenientes de actividades delictivas, o para dar apariencia de legalidad a éstas actividades. En el mismo sentido, se compromete a actuar dentro del marco legal vigente en Colombia, dando cumplimiento a todos los procedimientos, trámites y obligaciones contemplados en la Ley y demás normas pertinentes y que cualquier evidencia de que estos principios no se cumplen o puedan estar en entredicho será causal suficiente para resolver, a criterio de la Parte cumplida, el Contrato que resulte de su aceptación.\n\n #### Términos y condiciones #### \n\n Estos son los TÉRMINOS Y CONDICIONES, del sitio web Abolupanama.com.co, identificado en estos términos como ABOLU Los términos y condiciones regulan el acceso y el uso de sitio web de ABOLU, identificada con el NIT 811041214-7, con domicilio principal en la ciudad de Medellín. Son de obligatorio cumplimiento esto términos para quien utilice los sitios web de ABOLU; ABOLU se reserva el derecho de actualizar o modificar los términos y condiciones en cualquier momento sin previo aviso, por tanto, le recomendamos que revise los TÉRMINOS Y CONDICIONES siempre que utilice el sitio web de ABOLU El acceso a los sitios ABOLU y la utilización de sus contenidos y servicios implica la aceptación plena y sin reservas a los términos y condiciones publicados en su momento. Si usted no acepta los términos y condiciones , no acceda a los sitios WEB de ABOLU Derechos de propiedad intelectual. Todo el contenido multimedia, que se ve y se oye, en las páginas WEB de ABOLU S.A., incluyendo sin limitación, imágenes, ilustraciones, gráficos, clips de audio, videoclips y texto están sujetos a derechos de propiedad industrial y/o derechos de autor y/u otros derechos de propiedad intelectual de ABOLU Objeto. Los términos y condiciones regulan el uso de los sitios WEB de ABOLU, en la República de Colombia, comprendiendo el acceso, navegación y utilización de los servicios responsabilidad exclusiva de los usuarios en los términos previstos en los presentes términos y condiciones. La utilización de los sitios WEB de ABOLU no constituirá por sí misma ningún tipo de relación contractual entre la EMPRESA y usted.\n\n #### Capacidad de ejercicio #### \n\n El acceso, navegación y utilización de los sitios WEB de la EMPRESA están reservados a las personas mayores de 18 años y queda totalmente prohibida la inclusión de niños y adolescentes. Mediante la aceptación de los Términos y condiciones, usted declara que es mayor de 18 años y se responsabiliza enteramente de esa declaración.\n\n #### Limitación de garantías y responsabilidades #### \n\n Usted acepta que el uso que de los sitios WEB de ABOLU será realizado por su cuenta y riesgo. La EMPRESA no se hará responsable de cualquier contenido creado, publicado y/o puesto a disposición por los usuarios, excepto en aquellos en los que se la Ley lo determine expresamente. NOSOTROS nos reservamos el derecho a interrumpir los sitios WEB de ABOLU por reparaciones técnicas o mantenimientos.\n\n #### HÁBEAS DATA o protección de datos personales #### \n\n NOSOTROS recolectaremos sus datos personales, previa autorización expresa. Los datos personales recolectados son utilizados por ABOLU para las finalidades establecidas en la política de tratamiento de datos personales de ABOLU, NOSOTROS solo utilizaremos esta información para las finalidades señaladas; por lo tanto, ABOLU solo realizará el tratamiento que usted nos ha autorizado. El manejo de sus datos personales, solo lo podrá realizar ABOLU en sus áreas determinadas y eventualmente NOSOTROS podremos contratar a terceros para el tratamiento de sus datos personales, quienes estarán obligados a proteger sus datos personales de acuerdo con el ordenamiento jurídico colombiano y la presente política de protección de datos personales. La EMPRESA puede realizar modificaciones a su política de tratamiento de datos personales.\n\n  #### Peticiones, quejas y/o reclamos PQR'S #### \n\n Usted en cualquier momento, si los considera, puede presentar peticiones, quejas y/o reclamos PQR´s frente a los contenidos presentados por ABOLU en sus sitios WEB, dirigiéndose al correo electrónico servicioalcliente@abolu.net\n\n #### Ley aplicable #### \n\n Las diferencias entre ABOLU y el cliente, relacionadas con la interpretación, cumplimiento y validez de los términos y condiciones se regirán por las normas vigentes y aplicables en el ordenamiento jurídico colombiano. Información sobre los productos. Las descripciones de los productos exhibidos en sitios WEB de ABOLU se hará por parte de ABOLU Conforme las normas vigentes y aplicables en el ordenamiento jurídico colombiano.\n\n #### Corrección de errores e inexactitudes #### \n\n La información de los sitios WEB de ABOLU puede contener errores tipográficos o inexactitudes y puede no estar completa o actualizada. Por lo tanto, nos reservamos el derecho de corregir cualquier error, inexactitud u omisión y de cambiar y actualizar la información en cualquier momento sin previo aviso. Tenga en cuenta que tales errores, inexactitudes u omisiones pueden estar relacionadas con la descripción del producto, los precios y la disponibilidad.\n\n #### Precios #### \n\n Los precios de los productos exhibidos en las páginas WEB de ABOLU se harán conforme las normas vigentes y aplicables en el ordenamiento jurídico colombiano; los precios y promociones de las páginas WEB de ABOLU pueden ser diferentes de los de los establecimientos de comercio de ABOLU\n\n #### Derecho de retracto, decvoluciones y cambios #### \n\n ABOLU dará efectiva aplicación a las normas de protección al consumidor vigentes y aplicables, usted podrá ejercer el derecho de retracto del producto comprado dentro de los (5) cinco días hábiles posteriores al recibo del bien, siempre y cuando lo permita su naturaleza y el estado del bien y su empaque sea el mismo en el que lo recibió. En ningún caso Abolupanama.com hará reversiones parciales del valor de un producto. La devolución o el cambio de productos comprados por usted en las páginas WEB de ABOLU debe gestionarse dentro de los siguientes ocho (8) días calendario a la fecha de la entrega del producto, llamando a la línea ( 507) 233-7525\n\n #### Cookies #### \n\n NOSOTROS utilizamos cookies en los sitios WEB de ABOLU. Las cookies son fragmentos de información enviada por los sitios WEB de ABOLU y almacenados en su navegador, esto con el propósito de darle una mejor su experiencia de navegación en nuestros sitios WEB y mejorar nuestros servicios. ABOLU\n\n #### Domicilios #### \n\n Los domicilios no tendrán costo alguno. Servicio las 24 Horas. El servicio de domicilio se prestará en las zonas definidas por ABOLU. Disponibilidad de inventario sujeto a centro de distribución.\n\n #### Politicas de privacidad #### \n\n De acuerdo a la ley de protección de datos personales 1581 de 2012 de Habeas Data, es importante que tengas conocimiento de lo siguiente: Al aceptar los términos y condiciones legales, indicas que conoces y autorizas de manera previa, expresa e informada a ABOLU, para que tus datos personales puedan ser almacenados y usados con el fin de lograr una eficiente comunicación durante el presente trámite o actividad y autorizas en los mismos términos, que dicha información pueda ser tratada conforme a lo dispuesto en la Ley 1581 de 2011 y sus Decretos Reglamentarios, con el fin de recibir información acerca de sus productos, servicios, ofertas, promociones, alianzas, estudios, concursos, contenidos. Así mismo has sido informado acerca de la política para la protección de datos personales disponible en este sitio, en la cual se incluyen los procedimientos de consulta y reclamación que me permiten hacer efectivos tus derechos al acceso, conocimiento, consulta, rectificación, actualización, y supresión de los datos. ABOLU declara que protege los datos suministrados por sus clientes en virtud de lo dispuesto en la normatividad regulatoria del derecho al HABEAS DATA e informa a los clientes interesados en hacer parte de la campaña/programa/evento a través del diligenciamiento del presente formulario, que le asisten los siguientes derechos: 1. Conocer, actualizar y rectificar sus datos personales 2. Verificar la autorización otorgada 3. Ser informado acerca del uso que se le ha dado a sus datos personales. 4. Presentar ante la Superintendencia de Industria y Comercio las quejas que considere 5. Revocar la autorización y solicitar la eliminación de algún dato cuando considere que no se le han respetado sus derechos 6. Acceder en forma gratuita a los datos personales que voluntariamente y a través de éste formato decide compartir ABOLU\n\n ## Politica de tratamiento de la información ## \n\n  #### A quién se dirige #### \n\n La POLÍTICA DE TRATAMIENTO DE LA INFORMACIÓN PERSONAL de ABOLU S.A., está dirigida a todas las personas que consideren estar registradas y que desean conocer, actualizar y rectificar la información que de ellos se tiene.\n\n #### Marco legal #### \n\n Con el fin de garantizar el tratamiento y proteger la información personal de terceros que tiene ABOLU, la Ley 1581 de 2102 en su artículo 25, crea el Registro Nacional de Bases de Datos -RNBD-Esta ley ha sido reglamentada con el Decreto 1377 de 2013, con el Decreto 886 de 2014 y con el Decreto 1074 de 2015 y demás normatividad subsiguiente.\n\n #### Información de la empresa #### \n\n Razón Social: ABOLU Domicilio: Calle 2da. Llano Bonito, Juan Díaz Panamá, Rep. de Panamá Ciudad de domicilio: Panamá, Panamá, Email: servicioalcliente@abolu.net \n\n #### Definiciones #### \n\n Se toma como referencia la Ley 1581 de 2012 o Aviso de Privacidad: Comunicación verbal o escrita generada por el Responsable del tratamiento de datos personales, dirigida al Titular de dichos datos, mediante la cual se le informa acerca de la existencia de las políticas de tratamiento de datos que le serán aplicables, la forma de acceder a las mismas y las finalidades del tratamiento que se pretende dar a los datos personales. o Autorización: Consentimiento previo, expreso e informado del titular de los datos personales para llevar a cabo el tratamiento de dichos datos. o Bases de Datos: Conjunto organizado de datos personales que sea objeto de Tratamiento. o Dato Personal: Cualquier información vinculada o que pueda asociarse a una o a varias personas naturales determinadas o determinables. Debe entonces entenderse el “dato personal” como una información relacionada con una persona natural (persona individualmente considerada). o Dato Público: Es el dato que no sea semiprivado, privado o sensible. Son considerados datos públicos, entre otros, los datos relativos al estado civil de las personas, a su profesión u oficio y a su calidad de comerciante o de servidor público. Por su naturaleza, los datos públicos pueden estar contenidos, entre otros, en registros públicos, documentos públicos, gacetas y boletines oficiales, y sentencias judiciales debidamente ejecutoriadas que no estén sometidas a reserva. o Dato Sensible: Corresponde a aquel dato que afecta la intimidad del Titular o cuyo uso indebido puede generar su discriminación, tales como aquellos que revelen el origen racial o étnico, la orientación política, las convicciones religiosas o filosóficas, la pertenencia a sindicatos, organizaciones sociales, de derechos humanos o que promueva intereses de cualquier partido político o que garanticen los derechos y garantías de partidos políticos de oposición así como los datos relativos a la salud, a la vida sexual y los datos biométricos. o Encargado del tratamiento: Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, realice el tratamiento de datos personales por cuenta del responsable del tratamiento. o Responsable del Tratamiento: Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, decida sobre la base de datos y/o el Tratamiento de los datos. o Titular: Persona natural cuyos datos personales sean objeto de tratamiento. o Transferencia: La transferencia de datos tiene lugar cuando el responsable y/o encargado del tratamiento de datos personales, ubicado en Colombia, envía la información o los datos personales a un receptor, que a su vez es responsable del tratamiento y se encuentra dentro o fuera del país. o Transmisión: Tratamiento de datos personales que implica la comunicación de los mismos dentro o fuera del territorio de la República de Colombia cuando tenga por objeto la realización de un tratamiento por el encargado por cuenta del responsable. o Tratamiento: Cualquier operación o conjunto de operaciones sobre datos personales, tales como la recolección, almacenamiento, uso, circulación o supresión. \n\n #### Derecho de los titulares #### \n\n a) Conocer, actualizar y rectificar sus datos personales frente a los Responsables del Tratamiento o Encargados del Tratamiento. Este derecho se podrá ejercer, entre otros frente a datos parciales, inexactos, incompletos, fraccionados, que induzcan a error, o aquellos cuyo Tratamiento esté expresamente prohibido o no haya sido autorizado; b) Solicitar prueba de la autorización otorgada al Responsable del Tratamiento salvo cuando expresamente se exceptúe como requisito para el Tratamiento, de conformidad con lo previsto en el artículo 10 de la presente ley; c) Ser informado por el Responsable del Tratamiento o el Encargado del Tratamiento, previa solicitud, respecto del uso que le ha dado a sus datos personales; d) Presentar ante la Superintendencia de Industria y Comercio quejas por infracciones a lo dispuesto en la presente ley y las demás normas que la modifiquen, adicionen o complementen; e) Revocar la autorización y/o solicitar la supresión del dato cuando en el Tratamiento no se respeten los principios, derechos y garantías constitucionales y legales. La revocatoria y/o supresión procederá cuando la Superintendencia de Industria y Comercio haya determinado que en el Tratamiento el Responsable o Encargado han incurrido en conductas contrarias a esta ley y a la Constitución; f) Acceder en forma gratuita a sus datos personales que hayan sido objeto de Tratamiento. Se podrá hacer uso y tratamiento de los datos catalogados como sensibles cuando: o El Titular haya dado su autorización explícita a dicho tratamiento, salvo en los casos que, por ley, no sea requerido el otorgamiento de dicha autorización. o El tratamiento sea necesario para salvaguardar el interés vital del Titular y este se encuentre física o jurídicamente incapacitado. En estos eventos, los representantes legales deberán otorgar su autorización. o El tratamiento se refiera a datos que sean necesarios para el reconocimiento, ejercicio o defensa de un derecho en un proceso judicial. o El tratamiento tenga una finalidad histórica, estadística o científica, o dentro del marco de procesos de mejoramiento, siempre y cuando se adopten las medidas conducentes a la supresión de identidad de los titulares. Datos Personales de Niños, Niñas y Adolescentes Los menores de edad son Titulares de sus datos personales y por lo tanto portadores de los derechos correspondientes. De acuerdo a lo establecido en la Constitución Política y en concordancia con el Código de la Infancia y la Adolescencia, los derechos de los menores deben ser interpretados y aplicados de manera prevalente y por lo tanto, deben ser observados con especial cuidado. Conforme lo señalado en la Sentencia C-748 de 2011 de la Corte Constitucional, las opiniones de los menores deben ser tenidas en cuenta al momento de realizar algún tratamiento de sus datos. \n\n #### Deberes de ABOLU #### \n\n Se toma como referencia la Ley 1581 de 2012 • Garantizar al Titular, en todo tiempo, el pleno y efectivo ejercicio del derecho de hábeas data. • Solicitar y conservar la respectiva autorización otorgada por el Titular. • Informar al Titular sobre la finalidad de la recolección y los derechos que le asisten por virtud de la autorización otorgada. • Conservar la información bajo las condiciones de seguridad necesarias para impedir su adulteración, pérdida, consulta, uso o acceso no autorizado o fraudulento. • Garantizar que la información que se suministre al Encargado del Tratamiento sea veraz, completa, exacta, actualizada, comprobable y comprensible. • Actualizar la información, comunicando de forma oportuna al Encargado del Tratamiento, todas las novedades respecto de los datos que previamente le haya suministrado y adoptar las demás medidas necesarias para que la información suministrada a este se mantenga actualizada. • Rectificar la información cuando sea incorrecta y comunicar lo pertinente al Encargado del Tratamiento. • Suministrar al Encargado del Tratamiento, según el caso, únicamente datos cuyo Tratamiento esté previamente autorizado. • Exigir al Encargado del Tratamiento en todo momento, el respeto a las condiciones de seguridad y privacidad de la información del Titular. • Tramitar las consultas y reclamos formulados. • Informar al Encargado del Tratamiento cuando determinada información se encuentra en discusión por parte del Titular, una vez se haya presentado la reclamación y no haya finalizado el trámite respectivo. • Informar a solicitud del Titular sobre el uso dado a sus datos. • Informar a la autoridad de protección de datos cuando se presenten violaciones a los códigos de seguridad y existan riesgos en la administración de la información de los Titulares. • Cumplir las instrucciones y requerimientos que imparta la Superintendencia de Industria y Comercio. \n\n #### Tratamiento #### \n\n El tratamiento de los datos personales de empleados, contratistas, clientes, proveedores o de cualquier persona con la cual la empresa tuviera establecida una relación, se realizará bajo las normas aplicables a la materia, los datos serán recolectados y tratados en específico para los siguientes fines: • Desarrollar el objeto social de la empresa. • Realizar envío de información relacionada con la empresa y su portafolio de servicios. • Cumplir con las normas aplicables a proveedores y contratistas, especialmente con el Código de Comercio y el Estatuto Tributario. • Cumplir con las disposiciones del Código Sustantivo del Trabajo y la Ley 100 de 1993 y demás normas que regulan el Sistema General de Seguridad Social. • Mantener contacto permanente con clientes y proveedores. • Cumplir con los compromisos contractuales. \n\n #### Autorización y consentimiento #### \n\n ABOLU SA requiere del consentimiento previo y expreso del titular de los datos personales para el tratamiento de estos, exceptuando los casos expresamente autorizados por la ley: a) Información requerida por una entidad pública o administrativa en ejercicio de sus funciones legales o por orden judicial; b) Datos de naturaleza pública; c) Casos de urgencia médica o sanitaria; d) Tratamiento de información autorizado por la ley para fines históricos, estadísticos o científicos; e) Datos relacionados con el Registro Civil de las Personas. Manifestación de la autorización. La autorización deberá de ser otorgada por el titular, por un apoderado o representante de este debidamente acreditado, o por sus causahabientes, debidamente acreditados. Medios para otorgar la autorización. ABOLU SA obtendrá la autorización necesaria a través de diversos medios que pueden ser físicos, electrónicos, mensajes de datos, internet, sitio web, medios que permitan la obtención de una autorización inequívoca y plena realizada por el titular. La autorización siempre será solicitada de manera previa al tratamiento. \n\n #### Reclamos - trámites #### \n\n El Titular o sus causahabientes que consideren que la información contenida en una base de datos debe ser objeto de corrección, actualización o supresión, o cuando adviertan el presunto incumplimiento de cualquiera de los deberes contenidos en la normativa sobre Protección de Datos Personales, podrán presentar un reclamo ante el responsable del tratamiento. Si el reclamo estuviese incompleto, el Titular lo puede completar dentro de los cinco (5) días hábiles siguientes a la recepción del reclamo para que se subsanen las fallas. Transcurridos dos (2) meses desde la fecha del requerimiento sin que el solicitante presente la información requerida, se entenderá que ha desistido del reclamo. En caso que la persona que reciba el reclamo no sea competente para resolverlo, dará traslado a quien corresponda en un término máximo de dos (2) días hábiles e informará de la situación al interesado. Una vez recibido el reclamo completo, el término máximo para atenderlo será de quince (15) días hábiles contados a partir del día siguiente a la fecha de su recibo. Cuando no fuere posible atender el reclamo dentro de dicho término, se informará al interesado los motivos de la demora y la fecha en que se atenderá su reclamo, la cual en ningún caso podrá superar los ocho (8) días hábiles siguientes al vencimiento del primer término. Rectificación y Actualización de Datos ABOLU SA tiene la obligación de rectificar y actualizar, a solicitud del Titular, la información de éste que resulte ser incompleta o inexacta de conformidad con el procedimiento y lo términos antes señalados. Para el efecto se tendrá en cuenta lo siguiente: o En las solicitudes de rectificación y actualización de datos personales, el titular debe indicar las correcciones a realizar y aportar la documentación que avale su petición. o La Empresa tiene plena libertad de habilitar mecanismos que le faciliten el ejercicio de este derecho, siempre y cuando beneficien al Titular de los datos. En consecuencia, se podrán habilitar medios electrónicos u otros. o La Empresa podrá establecer formularios, sistemas y otros métodos, que se pondrán a disposición de los interesados a través de los diferentes canales de consultas mencionados arriba. Supresión de Datos El Titular de datos personales tiene el derecho, en todo momento, a solicitar a ABOLU S.A la supresión (eliminación) de sus datos personales cuando: o Considere que los mismos no están siendo tratados conforme a los principios, deberes y obligaciones previstas en la normativa vigente. o Hayan dejado de ser necesarios o pertinentes para la finalidad para la cual fueron recabados. o Se haya superado el periodo necesario para el cumplimiento de los fines para los que fueron recabados. La supresión implica la eliminación total o parcial de la información personal de acuerdo a lo solicitado por el Titular en los registros, archivos, bases de datos o tratamientos realizados por la Empresa. El derecho de supresión no es un derecho absoluto y el responsable del tratamiento de datos personales puede negar el ejercicio del mismo cuando: o El Titular de los datos tenga un deber legal o contractual de permanecer en la base de datos. o La eliminación de datos obstaculice actuaciones judiciales o administrativas vinculadas a obligaciones fiscales, la investigación y persecución de delitos o la actualización de sanciones administrativas. o Los datos sean necesarios para proteger los intereses jurídicamente tutelados del Titular para realizar una acción en función del interés público o para cumplir con una obligación legalmente adquirida por el Titular. Revocatoria de la Autorización Todo Titular de datos personales puede revocar, en cualquier momento, el consentimiento al tratamiento de estos siempre y cuando no lo impida una disposición legal o contractual. Para ello se ponen a disposición los canales de consulta arriba anunciados, la revocación del consentimiento puede darse: o Sobre la totalidad de finalidades consentidas, esto es, que ABOLU SA debe dejar de tratar por completo los datos del Titular. o Sobre ciertas finalidades consentidas como por ejemplo para fines publicitarios o de estudios de mercado. En este caso, la Empresa deberá dejar de tratar parcialmente los datos del Titular. Se mantienen entonces otros fines del tratamiento que el responsable, de conformidad con la autorización otorgada, puede llevar a cabo y con los que el Titular está de acuerdo. Contratos. En los contratos laborales, ABOLU S.A incluirá cláusulas con el fin de autorizar de manera previa y general el tratamiento de datos personales relacionados con la ejecución del contrato, lo que incluye la autorización de recolectar, modificar o corregir, en momentos futuros, datos personales del titular. También incluirá la autorización de que algunos de los datos personales, en caso dado, puedan ser entregados a terceros con los cuales ABOLU tenga contratos de prestación de servicios, para la realización de tareas tercerizadas. En estas cláusulas se hará mención a esta Política. En los contratos de prestación de servicios externos, cuando el contratista requiera de datos personales, la Empresa le suministrará dichos datos siempre y cuando exista una autorización previa y expresa del titular para esta transferencia. Dado que en estos casos los terceros son encargados del tratamiento de datos, sus contratos incluirán cláusulas que precisan los fines y los tratamientos autorizados por ABOLU SA y delimitan de manera precisa el uso que dicho terceros le pueden dar a los datos.\n\n #### Almacenamiento de datos personales #### \n\n ABOLU se compromete a proteger la información contenida en las bases de datos, mediante el uso de contraseñas para acceder tanto a los servidores, como a los motores de bases de datos, así como el acceso a las diferentes aplicaciones. La información personal contenida por ABOLU no será publicada mediante páginas de internet o en sitios de acceso público. Los Titulares de los datos personales o sus causahabientes, podrán consultar sus datos personales que reposan en la base de datos. En consecuencia, la Empresa garantizará el derecho de consulta, suministrando a los Titulares de datos personales, toda la información contenida en el registro individual o que esté vinculada con la identificación del Titular. Con respecto a la atención de solicitudes de consulta de datos personales, la Empresa garantiza: o Habilitar medios de comunicación electrónica u otros que considere pertinentes. o Establecer formularios, sistemas y otros métodos. o Utilizar los servicios de atención al cliente o de reclamaciones que se encuentren en operación. Independientemente del mecanismo que se implemente para la atención de solicitudes de consulta, estas serán atendidas en un término máximo de diez (10) días hábiles contados a partir de la fecha de su recibo. En el evento en el que una solicitud de consulta no pueda ser atendida dentro del término antes señalado, se informará al interesado antes del vencimiento del plazo las razones por las cuales no se ha dado respuesta a su consulta, la cual, en ningún caso podrá superar los cinco (5) días hábiles siguientes al vencimiento del primer término. Las consultas que se efectúen respecto a datos personales podrán ser remitidas a través de los siguientes medios: o De forma física, a la direcciónCalle 2da. Llano Bonito, Juan Díaz Panamá, Rep. de Panamá. o A través del correo electrónico: servicioalcliente@abolu.net \n\n #### Vigencia y modificaciones a la política de tratamiento de la información #### \n\n La política de Tratamiento de la Información adoptada por ABOLU S.A. comienza a regir a partir de la presentación de la misma ante la Superintendencia de Industria y Comercio. \n\n",
+            "blockClass": "stock-title"
+        }
+    },
+    "flex-layout.col#consultas-generales-container1": {
+      "children": [
+        "rich-text#consultas-generales"
+      ]
+    },
+    "rich-text#consultas-generales": {
+      "props": {
+        "text": "**¿Cómo hago para comprar?** \n Simplemente seguí estas indicaciones:\n •Navegá por las categorías y hacé click sobre el producto que te interese.\n •Hacé click en el botón “¡Lo quiero!” (procurá haber elegido talle y color, de otro modo no podrás agregarlo).\n •Tu producto fue agregado. Si querés agregar más productos, podés seguir navegando y repetir el proceso. Cuando termines, accedé a tu carrito haciendo click en botón del margen superior derecho del sitio.\n •Allí aparecerá el resumen de tu compra (producto, cantidad, talle, color, etc). Verificá que el pedido sea correcto y hacé click en el botón indicado para realizar el pedido.\n •En este punto, tendrás que indicar tu correo electrónico. Si ya estás registrado, deberás completar la contraseña de tu cuenta. En caso contrario, deberás llenar los campos que figurarán debajo (Nombre, apellido, DNI, dirección, etc). Una vez completo el formulario, estarás creando tu usuario.\n •Luego de haber cargado todos los datos necesarios para el envío/retiro, hacé click en el botón indicado para continuar. \n •Serás redirigido a la sección “Pago” en la cual podrás elegir con qué método abonar tu pedido. Una vez que lo selecciones hacé click en “Pagar ahora”.\n •¡Ya falta poco! Si hiciste todo bien, en este punto ya estarás situado en la plataforma de pago que hayas elegido. Cargá los datos de tu tarjeta y elegí la financiación que le querés aplicar a tu compra \n •Si confirmaste el pago por tarjeta es muy probable que el pago se apruebe automáticamente, en todo caso te mantendremos al tanto del estado de tu pedido por mail.\n •¡Gracias por tu compra! Ante cualquier consulta, no dudes en contactarte con nuestro Centro de Atención al Cliente.",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#consultas-generales-container2": {
+      "children": [
+        "rich-text#consultas-generales-2"
+      ]
+    },
+    "rich-text#consultas-generales-2": {
+      "props": {
+        "text": "**¿Puedo retirar mi compra en un local?** \n Si, podés retirar en cualquiera de nuestros locales que aparecen en el método de envío! ",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#consultas-generales-container3": {
+      "children": [
+        "rich-text#cotent-consultas-generales-3"
+      ]
+    },
+    "rich-text#cotent-consultas-generales-3": {
+      "props": {
+        "text": "**¿El precio en el e-shop es el mismo que en los locales?** \n No necesariamente. Los locales físicos y el e-shop tienen distintos paquetes de promociones y los precios pueden o no coincidir.",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#consultas-generales-container4": {
+      "children": [
+        "rich-text#cotent-consultas-generales-4"
+      ]
+    },
+    "rich-text#cotent-consultas-generales-4": {
+      "props": {
+        "text": "**¿Los precios tienen el iva incluido?** \n Si, todos los precios publicados tienen el IVA incluido.",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#consultas-generales-container5": {
+      "children": [
+        "rich-text#cotent-consultas-generales-5"
+      ]
+    },
+    "rich-text#cotent-consultas-generales-5": {
+      "props": {
+        "text": "**¿Cuándo se confirma mi compra?** \n Si pagás con tarjeta de crédito o débito, vas a recibir el mail de confirmación dentro de las 24 horas. ",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#consultas-generales-container6": {
+      "children": [
+        "rich-text#cotent-consultas-generales-6"
+      ]
+    },
+    "rich-text#cotent-consultas-generales-6": {
+      "props": {
+        "text": "**¿Cómo cancelo mi compra?** \n Para cancelar tu compra comunicarte con nosotros a por Whatsapp al +54 9 11 5098 4287 . No olvides tener a mano tu número de pedido.",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#consultas-generales-container7": {
+      "children": [
+        "rich-text#cotent-consultas-generales-7"
+      ]
+    },
+    "rich-text#cotent-consultas-generales-7": {
+      "props": {
+        "text": "**¿Cómo me registro?** \n Muy sencillo: ingresá aquí (te envía al link para crear nueva cuenta), elegí la contraseña y completá tus datos. ¡Listo!",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#consultas-generales-container8": {
+      "children": [
+        "rich-text#cotent-consultas-generales-8"
+      ]
+    },
+    "rich-text#cotent-consultas-generales-8": {
+      "props": {
+        "text": "**Me registré y no recibí el mail de confirmación, ¿qué hago?** \n Asegurate de haber utilizado el navegador Google Chrome. También verificá que el correo no se encuentre en la carpeta “SPAM” o “Correo No Deseado”. Si no es el caso, escribinos por Whatsapp al +54 9 11 5098 4287 para que podamos verificar lo ocurrido.",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#consultas-generales-container9": {
+      "children": [
+        "rich-text#cotent-consultas-generales-9"
+      ]
+    },
+    "rich-text#cotent-consultas-generales-9": {
+      "props": {
+        "text": "**Me registré pero no puedo ingresar.** \n Cuando te registraste te enviamos un email de confirmación a la dirección que nos indicaste. Si seguís con algún problema por favor escribinos por Whatsapp al +54 9 11 5098 4287 para que podamos ayudarte.",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#consultas-generales-container10": {
+      "children": [
+        "rich-text#cotent-consultas-generales-10"
+      ]
+    },
+    "rich-text#cotent-consultas-generales-10": {
+      "props": {
+        "text": "**¿Puedo comprar varios productos a la vez?** \n Sí, podés comprar tantos artículos como desees y pagar el costo de envío por todos los productos (y no por cada uno).",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#consultas-generales-container11": {
+      "children": [
+        "rich-text#cotent-consultas-generales-11"
+      ]
+    },
+    "rich-text#cotent-consultas-generales-11": {
+      "props": {
+        "text": "**¿Es seguro comprar en este sitio?** \n Sí. Trabajamos con la plataformas de pago online líder de América Latina y garantiza la seguridad en todas las operaciones que se generen a través de su sistema. Más información, [aquí](https://www.mercadopago.com.ar/ayuda/dinero-seguridad-compras_283).",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#consultas-generales-container12": {
+      "children": [
+        "rich-text#cotent-consultas-generales-12"
+      ]
+    },
+    "rich-text#cotent-consultas-generales-12": {
+      "props": {
+        "text": "**¿Qué son los códigos promocionales?** \n Son claves alfanuméricas promocionales que al validarse generan un descuento. Si tenés un código promocional, introducilo antes de proceder a finalizar la compra en el recuadro indicado en el check-out. El descuento se aplicará sobre el importe que corresponda.",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#consultas-generales-container13": {
+      "children": [
+        "rich-text#cotent-consultas-generales-13"
+      ]
+    },
+    "rich-text#cotent-consultas-generales-13": {
+      "props": {
+        "text": "**¿Hay algún límite de compra?** \n No. El único límite de compra que tenemos es el stock de nuestro e-Shop. Si deseás hacer una compra mayorista comunicate con nosotros: 4858-4700/4747.",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#consultas-generales-container14": {
+      "children": [
+        "rich-text#cotent-consultas-generales-14"
+      ]
+    },
+    "rich-text#cotent-consultas-generales-14": {
+      "props": {
+        "text": "**¿Entregan factura “A”?** \n Por el momento no podemos emitir ese tipo de factura.",
+        "blockClass": "content-stock"
+      }
+    },
+    "rich-text#consulta-stock-1-mobile": {
+      "props": {
+        "text": "#### CONSULTA DE STOCK ####",
+        "blockClass": "stock-title"
+      }
+    },
+    "flex-layout.col#consulta-stock-container1-mobile": {
+      "children": [
+        "rich-text#cotent-stock-1-mobile"
+      ]
+    },
+    "rich-text#cotent-stock-1-mobile": {
+      "props": {
+        "text": "**¿Hay stock de todos los productos?** \n Sí, todos los productos que publicamos están en stock. En caso de agotarse algún talle o color, esa característica se bloqueará.",
+        "blockClass": "content-stock"
+      }
+    },
+    "rich-text#content-2-mobile": {
+      "props": {
+        "text": "En el caso que no haya stock en la página de un artículo que estés buscando, contáctate con nuestro Centro de Atención al Cliente. De esta forma podremos verificar la disponibilidad del producto sea por talle o color y darte una respuesta concreta a tu pedido.",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#consulta-stock-container2-mobile": {
+      "children": [
+        "rich-text#cotent-stock-2-mobile"
+      ]
+    },
+    "rich-text#cotent-stock-2-mobile": {
+      "props": {
+        "text": "**Compré y me dijeron que no tienen stock, ¿qué hago?** \n Esto es inusual, pero nuestro Centro de Atención al Cliente va a contactarse con vos para brindarte una solución. Si querés, podés comunicarte con nosotros llamando al 0800-555-9174 ó escribiéndonos al whatsapp. No olvides tener a mano tu número de pedido.",
+        "blockClass": "content-stock"
+      }
+    },
+    
+    "rich-text#cambios-devoluciones-1-mobile": {
+      "props": {
+        "text": "#### CAMBIOS Y DEVOLUCIONES ####",
+        "blockClass": "stock-title"
+      }
+    },
+    "rich-text#cambios-devoluciones-text-2-mobile": {
+      "props": {
+        "text": "Realizar cambios y devoluciones es muy sencillo. Podés acercarte a alguno de nuestros locales oficiales (no franquicias)  con el producto en perfecto estado y la factura recibida. Tené en cuenta que en los locales sólo se cambia por la misma prenda o el valor abonado. Si no podes acercarte a nuestros locales podes hacer el cambio ONLINE siguiendo los pasos que explicamos mas adelante.",
+        "blockClass": "content-stock"
+      }
+    },
+    "rich-text#cambios-devoluciones-text-3-mobile": {
+      "props": {
+        "text": "Compras correspondientes al Interior del país: SOLO CAMBIO ONLINE En caso que no puedas acercarte a alguno de los locales mencionados arriba  ó residas en el interior de la República Argentina, podemos hacer el cambio por correo directamente en tu domicilio. Para gestionarlo contactate con nosotros dentro de los 30 días corridos posteriores a la recepción del pedido por whatsapp al +54 9 11 5098-4287.",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#cambios-devoluciones-container1-mobile": {
+      "children": [
+        "rich-text#cambios-devoluciones-mobile"
+      ]
+    },
+    "rich-text#cambios-devoluciones-mobile": {
+      "props": {
+        "text": "**PASO A PASO:** \n •Escribinos por Whatsappal +54 9 11 5098 4287 \n •En el mensaje envianos tu número de pedido, el artículo que deseas cambiar y por cuál. En caso de ser necesario adjuntar fotos. \n •Una vez aprobado el cambio, dentro de los siguientes 10 días hábiles Correo Andreani pasará a retirar el producto por tu domicilio y en el mismo momento entregará la nueva unidad.",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#cambios-devoluciones-container2-mobile": {
+      "children": [
+        "rich-text#cambios-devoluciones-2-mobile"
+      ]
+    },
+    "rich-text#cambios-devoluciones-2-mobile": {
+      "props": {
+        "text": "**Otras consideraciones:** \n El tiempo estimado para la realización de un cambio por producto fallado o mal enviado puede comprender hasta 30 días. Debe tenerse en cuenta que, al igual que las entregas, las devoluciones pueden demorar hasta 10 días hábiles.\n *Los cambios se tomarán al valor abonado por cada producto. \n **Devolución de dinero:** Para los casos en los que ocurriera algún imprevisto podemos hacer una devolución del dinero que se realizará siempre por el mismo medio en que se abonó (MercadoPago) Las mismas son excepcionales, pero siempre que corresponda devolveremos tu dinero. Este proceso demora 72 hs hábiles aproximadamente. \nEl costo logístico del cambio y devoluciones estará a cargo del cliente y el valor dependerá de la zona en la que resida.",
+        "blockClass": "content-stock"
+      }
+    },
+    "rich-text#envio-seguimiento-1-mobile": {
+      "props": {
+        "text": "#### ENVÍO Y SEGUIMIENTO ####",
+        "blockClass": "stock-title"
+      }
+    },
+    "flex-layout.col#envio-seguimiento-container1-mobile": {
+      "children": [
+        "rich-text#envio-seguimiento"
+      ]
+    },
+    "rich-text#envio-seguimiento-mobile": {
+      "props": {
+        "text": "**¿Cuál es el costo de envío?** \n El costo depende del código postal del domicilio de entrega y se detalla en el check-out (es decir, antes de finalizar la compra). Los envíos en Argentina son gratis en compras superiores a $8.000! / No acumulable con otras promociones",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#envio-seguimiento-container2-mobile": {
+      "children": [
+        "rich-text#envio-seguimiento-2-mobile"
+      ]
+    },
+    "rich-text#envio-seguimiento-2-mobile": {
+      "props": {
+        "text": "**No recibí mi pedido y ya pasó el plazo de entrega. ¿Qué hago?** \n Esto es inusual. Por favor comunicate con nosotros llamando al 0800-555-9174 ó escribiéndonos a nuestro Whatsapp 1150984287. No olvides tener a mano tu número de pedido.",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#envio-seguimiento-container3-mobile": {
+      "children": [
+        "rich-text#cotent-envio-seguimiento-3-mobile"
+      ]
+    },
+    "rich-text#cotent-envio-seguimiento-3-mobile": {
+      "props": {
+        "text": "**¿Puedo hacer el seguimiento de mi pedido?** \n Te enviaremos un mail con un código (tracking number) y las instrucciones para que puedas hacer el seguimiento de tu pedido. También podés conocer el estado de tu envío desde [AQUÍ](https://www.andreani.com/#!/personas) ingresando con Facebook, Mail o creándote una cuenta",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#envio-seguimiento-container4-mobile": {
+      "children": [
+        "rich-text#cotent-envio-seguimiento-4-mobile"
+      ]
+    },
+    "rich-text#cotent-envio-seguimiento-4-mobile": {
+      "props": {
+        "text": "**¿Qué pasa si no hay nadie cuando traen mi pedido?** \n Si no hay nadie en el domicilio que nos indicaste, el correo regresará a las 48 horas. En caso de no encontrar a nadie, deberás dirigirte al centro de distribución asignado a tu pedido dentro de las 72 horas con tu DNI y el código que te enviamos (tracking number).",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#envio-seguimiento-container5-mobile": {
+      "children": [
+        "rich-text#cotent-envio-seguimiento-5-mobile"
+      ]
+    },
+    "rich-text#cotent-envio-seguimiento-5-mobile": {
+      "props": {
+        "text": "**¿Puede recibir el paquete otra persona?** \n Sí, no es necesario que esté presente quien realizó la compra. Puede recibirlo cualquier adulto.",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#envio-seguimiento-container6-mobile": {
+      "children": [
+        "rich-text#cotent-envio-seguimiento-6-mobile"
+      ]
+    },
+    "rich-text#cotent-envio-seguimiento-6-mobile": {
+      "props": {
+        "text": "**Métodos de Envío** \n CORREO ANDREANI A DOMICILIO \n ENVÍO GRATIS en compras superiores a $8.000! El envío puede demorar entre 2 y 8 días hábiles. Los tiempos de entrega podrían ser mayores debido a la situación actual. Podrás ver el seguimiento de tu pedido [AQUÍ](https://www.andreani.com/#!/personas)  . Si sos de Tierra del Fuego, vamos a pedirte una fotocopia de tu DNI para poder realizar el envío.\n RETIRO SUCURSAL ANDREANI \n ENVÍO GRATIS en compras superiores a $8.000! El envío puede demorar entre 2 y 8 días hábiles. Los tiempos de entrega podrían ser mayores debido a la situación actual. Podrás ver el seguimiento de tu pedido [AQUÍ](https://www.andreani.com/#!/personas)",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#envio-seguimiento-container7-mobile": {
+      "children": [
+        "rich-text#cotent-envio-seguimiento-7-mobile"
+      ]
+    },
+    "rich-text#cotent-envio-seguimiento-7-mobile": {
+      "props": {
+        "text": "ENVÍOS MOTO EXPRESS \n De Lunes a Viernes, comprando hasta las 12:00Hs tu pedido llega en el día! \n **Código Postales adheridos para entregas en el día:** \n 1875 1874 1872 1871 1870 1836 1835 1834 1832 1831 1829 1828 1826 1825 1824 1822 1773 1766 1754 1752 1712 1708 1706 1704 1702 1688 1686 1684 1682 1678 1676 1674 1672 1657 1655 1653 1651 1650 1643 1642 1641 1640 1638 1636 1609 1607 1606 1605 1603 1602 1458 1440 1439 1437 1431 1430 1429 1428 1427 1426 1425 1424 1421 1419 1417 1416 1414 1413 1408 1407 1406 1405 1299 1298 1297 1296 1295 1294 1293 1292 1291 1290 1289 1288 1287 1286 1285 1284 1283 1282 1281 1280 1279 1278 1277 1276 1275 1274 1273 1272 1271 1270 1269 1268 1267 1266 1265 1264 1263 1262 1261 1260 1259 1258 1257 1256 1255 1254 1253 1252 1251 1250 1249 1248 1247 1246 1245 1244 1243 1242 1241 1240 1239 1238 1237 1236 1235 1234 1233 1232 1231 1230 1229 1228 1227 1226 1225 1224 1223 1222 1221 1220 1219 1218 1217 1216 1215 1214 1213 1212 1211 1210 1209 1208 1207 1206 1205 1204 1203 1202 1201 1200 1199 1198 1197 1196 1195 1194 1193 1192 1191 1190 1189 1188 1187 1186 1185 1184 1183 1182 1181 1180 1179 1178 1177 1176 1175 1174 1173 1172 1171 1170 1169 1168 1167 1166 1165 1164 1163 1162 1161 1160 1159 1158 1157 1156 1155 1154 1153 1152 1151 1150 1149 1148 1147 1146 1145 1144 1143 1142 1141 1140 1139 1138 1137 1136 1135 1134 1133 1132 1131 1130 1129 1128 1127 1126 1125 1124 1123 1122 1121 1120 1119 1118 1117 1116 1115 1114 1113 1112 1111 1110 1109 1108 1107 1106 1105 1104 1103 1102 1101 1100 1099 1098 1097 1096 1095 1094 1093 1092 1091 1090 1089 1088 1087 1086 1085 1084 1083 1082 1081 1080 1079 1078 1077 1076 1075 1074 1073 1072 1071 1070 1069 1068 1067 1066 1065 1064 1063 1062 1061 1060 1059 1058 1057 1056 1055 1054 1053 1052 1051 1050 1049 1048 1047 1046 1045 1044 1043 1042 1041 1040 1039 1038 1037 1036 1035 1034 1033 1032 1031 1030 1029 1028 1027 1026 1025 1024 1023 1022 1021 1020 1019 1018 1017 1016 1015 1014 1013 1012 1011 1010 1009 1008 1007 1006 1005 1004 1003 1002 1001 \n **Código Postales adheridos para entregas al día siguiente:**\n 1601 1610 1611 1612 1613 1614 1615 1617 1618 1619 1620 1621 1622 1623 1625 1627 1629 1631 1633 1635 1644 1646 1648 1649 1659 1661 1663 1664 1665 1667 1669 1670 1713 1714 1716 1718 1722 1723 1742 1744 1746 1748 1755 1757 1759 1761 1763 1765 1768 1770 1771 1772 1774 1776 1778 1802 1804 1806 1838 1842 1846 1847 1849 1852 1854 1856 1858 1862 1864 1876 1878 1879 1881 1882 1884 1885 1886 1888 1889 1890 1891 1893 1894 1895 1896 1897 1900 1901 1903 1905 1906 1907 1909 1923 1925 1927 1929 1931 1000 1300 1301 1302 1303 1304 1305 1306 1307 1308 1309 1310 1311 1312 1313 1314 1315 1316 1317 1318 1319 1320 1321 1322 1323 1324 1325 1326 1327 1328 1329 1330 1331 1332 1333 1334 1335 1336 1337 1338 1339 1340 1341 1342 1343 1344 1345 1346 1347 1348 1349 1350 1351 1352 1353 1354 1355 1356 1357 1358 1359 1360 1361 1362 1363 1364 1365 1366 1367 1368 1369 1370 1371 1372 1373 1374 1375 1376 1377 1378 1379 1380 1381 1382 1383 1384 1385 1386 1387 1388 1389 1390 1391 1392 1393 1394 1395 1396 1397 1398 1399 1400 1401 1402 1403 1404 1409 1410 1411 1412 1415 1418 1420 1422 1423 1432 1433 1434 1435 1436 1438 1441 1442 1443 1444 1445 1446 1447 1448 1449 1450 1451 1452 1453 1454 1455 1456 1457 1459 1460 1461 1462 1463 1464 1465 1466 1467 1468 1469 1470 1471 1472 1473 1474 1475 1476 1477 1478 1479 1480 1481 1482 1483 1484 1485 1486 1487 1488 1489 1490 1491 1492 1493 1494 1495 1496 1497 1498 1499\n RETIRO EN PUNTOS PICKIT\n Ahora podés retirar tu pedido por cualquier de los puntos PICKIT de todo el país.\n Te avisaremos por email cuando tu pedido se encuentre disponible en el punto de retiro pickit que elijas, el envío puede demorar entre 2 y 8 días hábiles. Es fundamental que al momento del retiro presentes el DNI del comprador, el mail de confirmación que el pedido se encuentra en punto de retiro y el código de seguridad que llegará por mail. Aclaración: Tu pedido estará disponible por 10 días para que sea retirado. De no ser así, regresará a nuestros depósitos y deberás coordinar una nueva entrega. Solo podrá retirar el titular de la compra.\n RETIRO EN SUCURSAL 47STREET\n Los pedidos tardan en llegar a la sucursal elegida de 47 Street entre 2 y 5 días hábiles. Los locales de Mar del Plata y Rosario pueden demorar hasta 10 días hábiles Una vez que llegue al local, nos comunicaremos con vos por teléfono, mail ó Whatsapp para avisarte que ya podés ir a retirar tu compra. Recordá que deberás acercarte al local con tu DNI y el número de pedido.\n Importante: No trabajamos con el stock del local. Los pedidos se envían desde nuestro depósito central a la sucursal elegida para que una vez allí, puedas retirarla ¡sin costo!",
+        "blockClass": "content-stock"
+      }
+    },
+    "rich-text#formas-pago-1-mobile": {
+      "props": {
+        "text": "#### FORMAS DE PAGO ####",
+        "blockClass": "stock-title"
+      }
+    },
+    "flex-layout.col#formas-pago-container1-mobile": {
+      "children": [
+        "rich-text#formas-pago"
+      ]
+    },
+    "rich-text#formas-pago-mobile": {
+      "props": {
+        "text": "**¿Cómo puedo pagar?** \n Podés pagar con los siguientes métodos de pago:\n **•Tarjeta de crédito.** \n **•Tarjeta de débito en un pago**\n **¿Cómo se hace para pagar con tarjeta de crédito?**\n Agregá los productos que te interesen a tu carrito. Antes de finalizar la compra vas a poder elegir el medio de pago que prefieras (por ejemplo, tarjeta de crédito). Acordate de tener la tarjeta en la mano ya que deberás completar los números de la misma.",
+        "blockClass": "content-stock"
+      }
+    },
+    "rich-text#content-formas-pago-2-mobile": {
+      "props": {
+        "text": "En el caso que no haya stock en la página de un artículo que estés buscando, contáctate con nuestro Centro de Atención al Cliente. De esta forma podremos verificar la disponibilidad del producto sea por talle o color y darte una respuesta concreta a tu pedido.",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#formas-pago-container2-mobile": {
+      "children": [
+        "rich-text#formas-pago-2-mobile"
+      ]
+    },
+    "rich-text#formas-pago-2-mobile": {
+      "props": {
+        "text": "**¿Qué costo de financiación tienen las tarjetas?** \n Podrás averiguarlo antes de finalizar la compra, al momento de elegir la cantidad de cuotas.",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#formas-pago-container3-mobile": {
+      "children": [
+        "rich-text#cotent-formas-pago-3-mobile"
+      ]
+    },
+    "rich-text#cotent-formas-pago-3-mobile": {
+      "props": {
+        "text": "**¿Hay alguna promoción con tarjeta de crédito?** \n Podrás ver las promociones de cuotas en Promociones Bancarias",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#formas-pago-container4-mobile": {
+      "children": [
+        "rich-text#cotent-formas-pago-4-mobile"
+      ]
+    },
+    "rich-text#cotent-formas-pago-4-mobile": {
+      "props": {
+        "text": "**¿Cuándo se me debita el importe por mi compra?** \n Si elegiste pagar con tarjeta de crédito, verás el importe descontado en el resumen correspondiente al próximo cierre de tarjeta. Si lo hiciste con tarjeta de débito, el importe se debitará automáticamente de tu cuenta bancaria.",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#formas-pago-container5-mobile": {
+      "children": [
+        "rich-text#cotent-formas-pago-5-mobile"
+      ]
+    },
+    "rich-text#cotent-formas-pago-5-mobile": {
+      "props": {
+        "text": "**¿Estoy en el exterior ¿Cómo puedo abonar mi compra?** \n Si estás en el exterior, podrás abonar tu compra con tarjeta de crédito mediante MercadoPago. Los precios los verás en Pesos Argentinos pero luego tu tarjeta se encargará de hacer la conversión necesaria al momento de acreditar el pago.",
+        "blockClass": "content-stock"
+      }
+    },
+    "rich-text#promociones-bancarias-1-mobile": {
+      "props": {
+        "text": "#### PROMOCIONES BANCARIAS ####",
+        "blockClass": "stock-title"
+      }
+    },
+    "rich-text#content-promociones-bancarias-2-mobile": {
+      "props": {
+        "text": "**AHORA 3 y 6 CUOTAS SIN INTERÉS Con Visa y MasterCard / Sólo Tarjetas Bancarias**",
+        "blockClass": "content-stock"
+      }
+    },
+    "rich-text#content-promociones-bancarias-3-mobile": {
+      "props": {
+        "text": "**AHORA 3 y 6 CUOTAS SIN INTERÉS con todas las American Express**",
+        "blockClass": "content-stock"
+      }
+    },
+    "rich-text#consultas-generales-1-mobile": {
+      "props": {
+        "text": "#### CONSULTAS GENERALES ####",
+        "blockClass": "stock-title"
+      }
+    },
+    "flex-layout.col#consultas-generales-container1-mobile": {
+      "children": [
+        "rich-text#consultas-generales-mobile"
+      ]
+    },
+    "rich-text#consultas-generales-mobile": {
+      "props": {
+        "text": "**¿Cómo hago para comprar?** \n Simplemente seguí estas indicaciones:\n •Navegá por las categorías y hacé click sobre el producto que te interese.\n •Hacé click en el botón “¡Lo quiero!” (procurá haber elegido talle y color, de otro modo no podrás agregarlo).\n •Tu producto fue agregado. Si querés agregar más productos, podés seguir navegando y repetir el proceso. Cuando termines, accedé a tu carrito haciendo click en botón del margen superior derecho del sitio.\n •Allí aparecerá el resumen de tu compra (producto, cantidad, talle, color, etc). Verificá que el pedido sea correcto y hacé click en el botón indicado para realizar el pedido.\n •En este punto, tendrás que indicar tu correo electrónico. Si ya estás registrado, deberás completar la contraseña de tu cuenta. En caso contrario, deberás llenar los campos que figurarán debajo (Nombre, apellido, DNI, dirección, etc). Una vez completo el formulario, estarás creando tu usuario.\n •Luego de haber cargado todos los datos necesarios para el envío/retiro, hacé click en el botón indicado para continuar. \n •Serás redirigido a la sección “Pago” en la cual podrás elegir con qué método abonar tu pedido. Una vez que lo selecciones hacé click en “Pagar ahora”.\n •¡Ya falta poco! Si hiciste todo bien, en este punto ya estarás situado en la plataforma de pago que hayas elegido. Cargá los datos de tu tarjeta y elegí la financiación que le querés aplicar a tu compra \n •Si confirmaste el pago por tarjeta es muy probable que el pago se apruebe automáticamente, en todo caso te mantendremos al tanto del estado de tu pedido por mail.\n •¡Gracias por tu compra! Ante cualquier consulta, no dudes en contactarte con nuestro Centro de Atención al Cliente.",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#consultas-generales-container2-mobile": {
+      "children": [
+        "rich-text#consultas-generales-2-mobile"
+      ]
+    },
+    "rich-text#consultas-generales-2-mobile": {
+      "props": {
+        "text": "**¿Puedo retirar mi compra en un local?** \n Si, podés retirar en cualquiera de nuestros locales que aparecen en el método de envío! ",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#consultas-generales-container3-mobile": {
+      "children": [
+        "rich-text#cotent-consultas-generales-3-mobile"
+      ]
+    },
+    "rich-text#cotent-consultas-generales-3-mobile": {
+      "props": {
+        "text": "**¿El precio en el e-shop es el mismo que en los locales?** \n No necesariamente. Los locales físicos y el e-shop tienen distintos paquetes de promociones y los precios pueden o no coincidir.",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#consultas-generales-container4-mobile": {
+      "children": [
+        "rich-text#cotent-consultas-generales-4-mobile"
+      ]
+    },
+    "rich-text#cotent-consultas-generales-4-mobile": {
+      "props": {
+        "text": "**¿Los precios tienen el iva incluido?** \n Si, todos los precios publicados tienen el IVA incluido.",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#consultas-generales-container5-mobile": {
+      "children": [
+        "rich-text#cotent-consultas-generales-5-mobile"
+      ]
+    },
+    "rich-text#cotent-consultas-generales-5-mobile": {
+      "props": {
+        "text": "**¿Cuándo se confirma mi compra?** \n Si pagás con tarjeta de crédito o débito, vas a recibir el mail de confirmación dentro de las 24 horas. ",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#consultas-generales-container6-mobile": {
+      "children": [
+        "rich-text#cotent-consultas-generales-6-mobile"
+      ]
+    },
+    "rich-text#cotent-consultas-generales-6-mobile": {
+      "props": {
+        "text": "**¿Cómo cancelo mi compra?** \n Para cancelar tu compra comunicarte con nosotros a por Whatsapp al +54 9 11 5098 4287 . No olvides tener a mano tu número de pedido.",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#consultas-generales-container7-mobile": {
+      "children": [
+        "rich-text#cotent-consultas-generales-7-mobile"
+      ]
+    },
+    "rich-text#cotent-consultas-generales-7-mobile": {
+      "props": {
+        "text": "**¿Cómo me registro?** \n Muy sencillo: ingresá aquí (te envía al link para crear nueva cuenta), elegí la contraseña y completá tus datos. ¡Listo!",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#consultas-generales-container8-mobile": {
+      "children": [
+        "rich-text#cotent-consultas-generales-8-mobile"
+      ]
+    },
+    "rich-text#cotent-consultas-generales-8-mobile": {
+      "props": {
+        "text": "**Me registré y no recibí el mail de confirmación, ¿qué hago?** \n Asegurate de haber utilizado el navegador Google Chrome. También verificá que el correo no se encuentre en la carpeta “SPAM” o “Correo No Deseado”. Si no es el caso, escribinos por Whatsapp al +54 9 11 5098 4287 para que podamos verificar lo ocurrido.",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#consultas-generales-container9-mobile": {
+      "children": [
+        "rich-text#cotent-consultas-generales-9-mobile"
+      ]
+    },
+    "rich-text#cotent-consultas-generales-9-mobile": {
+      "props": {
+        "text": "**Me registré pero no puedo ingresar.** \n Cuando te registraste te enviamos un email de confirmación a la dirección que nos indicaste. Si seguís con algún problema por favor escribinos por Whatsapp al +54 9 11 5098 4287 para que podamos ayudarte.",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#consultas-generales-container10-mobile": {
+      "children": [
+        "rich-text#cotent-consultas-generales-10-mobile"
+      ]
+    },
+    "rich-text#cotent-consultas-generales-10-mobile": {
+      "props": {
+        "text": "**¿Puedo comprar varios productos a la vez?** \n Sí, podés comprar tantos artículos como desees y pagar el costo de envío por todos los productos (y no por cada uno).",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#consultas-generales-container11-mobile": {
+      "children": [
+        "rich-text#cotent-consultas-generales-11-mobile"
+      ]
+    },
+    "rich-text#cotent-consultas-generales-11-mobile": {
+      "props": {
+        "text": "**¿Es seguro comprar en este sitio?** \n Sí. Trabajamos con la plataformas de pago online líder de América Latina y garantiza la seguridad en todas las operaciones que se generen a través de su sistema. Más información, [aquí](https://www.mercadopago.com.ar/ayuda/dinero-seguridad-compras_283).",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#consultas-generales-container12-mobile": {
+      "children": [
+        "rich-text#cotent-consultas-generales-12-mobile"
+      ]
+    },
+    "rich-text#cotent-consultas-generales-12-mobile": {
+      "props": {
+        "text": "**¿Qué son los códigos promocionales?** \n Son claves alfanuméricas promocionales que al validarse generan un descuento. Si tenés un código promocional, introducilo antes de proceder a finalizar la compra en el recuadro indicado en el check-out. El descuento se aplicará sobre el importe que corresponda.",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#consultas-generales-container13-mobile": {
+      "children": [
+        "rich-text#cotent-consultas-generales-13-mobile"
+      ]
+    },
+    "rich-text#cotent-consultas-generales-13-mobile": {
+      "props": {
+        "text": "**¿Hay algún límite de compra?** \n No. El único límite de compra que tenemos es el stock de nuestro e-Shop. Si deseás hacer una compra mayorista comunicate con nosotros: 4858-4700/4747.",
+        "blockClass": "content-stock"
+      }
+    },
+    "flex-layout.col#consultas-generales-container14-mobile": {
+      "children": [
+        "rich-text#cotent-consultas-generales-14-mobile"
+      ]
+    },
+    "rich-text#cotent-consultas-generales-14-mobile": {
+      "props": {
+        "text": "**¿Entregan factura “A”?** \n Por el momento no podemos emitir ese tipo de factura.",
+        "blockClass": "content-stock"
+      }
+    },
+    /////TEST MOBILE FAQ
+    "flex-layout.row#preguntas-frecuentes-mobile-test": {
+      "props": {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "preventHorizontalStretch": false,
+        "preventVerticalStretch": false,
+        "preserveLayoutOnMobile": true,
+        "fullWidth": true,
+        "blockClass": "preguntas-frecuentes"
+      },
+      "children": [
+        "flex-layout.col#preguntas-frecuentes-mobile-test"
+      ]
+    },
+    "flex-layout.col#preguntas-frecuentes-mobile-test": {
+      "props": {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "preventHorizontalStretch": false,
+        "preventVerticalStretch": false,
+        "preserveLayoutOnMobile": true,
+        "fullWidth": true,
+        "blockClass": "preguntas-frecuentes"
+      },
+      "children": [
+        "disclosure-layout#preguntas-frecuentes-1",
+        "disclosure-layout#preguntas-frecuentes-2",
+        "disclosure-layout#preguntas-frecuentes-3",
+        "disclosure-layout#preguntas-frecuentes-4",
+        "disclosure-layout#preguntas-frecuentes-5",
+        "disclosure-layout#preguntas-frecuentes-6",
+        "disclosure-layout#preguntas-frecuentes-7"
+      ]
+    },
+    "disclosure-layout#preguntas-frecuentes-1": {
+      "children": [
+        "disclosure-trigger#preguntas-frecuentes-1",
+        "disclosure-content#preguntas-frecuentes-1"
+      ],
+      "props": {
+        "blockClass": "preguntas-frecuentes"
+      }
+    },
+    "disclosure-trigger#preguntas-frecuentes-1": {
+      "children": [
+        "flex-layout.row#img1-mobile",
+        "disclosure-state-indicator#footer"
+      ],
+      "props": {
+        "animated": true
+      }
+    },
+    "rich-text#preguntas-frecuentes-1-title": {
+      "props": {
+        "text": "¿Cómo compro en www.abolupanama.com?",
+        "blockClass": "preguntas-frecuentes-question"
+      }
+    },
+    "disclosure-state-indicator#footer": {
+      "props": {
+        "Show": "rich-text#plus-icon",
+        "Hide": "rich-text#minus-icon"
+      }
+    },
+    "disclosure-content#preguntas-frecuentes-1": {
+      "children": [
+        "flex-layout.row#preguntas-frecuentes-1"
+      ],
+      "props": {
+        "blockClass": "preguntas-frecuentes"
+      }
+    },
+    "flex-layout.row#preguntas-frecuentes-1": {
+      "children": [
+        "rich-text#consulta-stock-1"
+        //   "rich-text#preguntas-frecuentes-1-paragraph"
+        // "flex-layout.col#consulta-stock-container1-mobile",
+        // "rich-text#content-2-mobile",
+        // "flex-layout.col#consulta-stock-container2-mobile"
+      ]
+    },
+    "rich-text#preguntas-frecuentes-1-paragraph": {
+      "props": {
+        "text": "La alfombra podrás recibirla a tu domicilio a través del Correo Andreani. Nuestros envíos son gratis para todo el país. El tiempo de entrega es de 10 días hábiles. Los pedidos realizados sábados y Domingos o feriados, serán procesados el primer día hábil siguiente, una vez autorizada el pago.",
+        "blockClass": "preguntas-frecuentes-paragraph"
+      }
+    },
+    "flex-layout.row#img1-mobile": {
+      "props": {
+        "blockClass": "container-imagen"
+      },
+      "children": [
+        "flex-layout.col#img1-mobile"
+      ]
+    },
+    "flex-layout.col#img1-mobile": {
+      "props": {
+        "blockClass": "container-imagen"
+      },
+      "children": [
+        "rich-text#preguntas-frecuentes-1-title"
+        // "image#quest-1-mobile"
+      ]
+    },
+    "image#quest-1-mobile": {
+      "props": {
+        "src": "assets/icons/faq1.svg",
+        "link": "#"
+      }
+    },
+    "rich-text#plus-icon": {
+      "props": {
+        "text": "+",
+        "blockClass": "trigger-icon--foter"
+      }
+    },
+    "rich-text#minus-icon": {
+      "props": {
+        "text": "x",
+        "blockClass": "trigger-icon--foter"
+      }
+    },
+    ///// PREGUNTA 2
+    "disclosure-layout#preguntas-frecuentes-2": {
+      "children": [
+        "disclosure-trigger#preguntas-frecuentes-2",
+        "disclosure-content#preguntas-frecuentes-2"
+      ],
+      "props": {
+        "blockClass": "preguntas-frecuentes"
+      }
+    },
+    "disclosure-trigger#preguntas-frecuentes-2": {
+      "children": [
+        "flex-layout.row#img2-mobile",
+        "disclosure-state-indicator#footer"
+      ],
+      "props": {
+        "animated": true
+      }
+    },
+    "rich-text#preguntas-frecuentes-2-title": {
+      "props": {
+        "text": "Tengo un cupón de código de descuento, ¿Cómo lo utilizo?",
+        "blockClass": "preguntas-frecuentes-question"
+      }
+    },
+    "disclosure-content#preguntas-frecuentes-2": {
+      "children": [
+        "flex-layout.row#preguntas-frecuentes-2"
+      ],
+      "props": {
+        "blockClass": "preguntas-frecuentes"
+      }
+    },
+    "flex-layout.row#preguntas-frecuentes-2": {
+      "children": [
+        //   "rich-text#preguntas-frecuentes-2-paragraph"
+        // "rich-text#cambios-devoluciones-1"
+        // "rich-text#preguntas-frecuentes-2-paragraph"
+        "rich-text#cambios-devoluciones-1"
+      ]
+    },
+    "rich-text#preguntas-frecuentes-2-paragraph": {
+      "props": {
+        "text": "La alfombra podrás recibirla a tu domicilio a través del Correo Andreani. Nuestros envíos son gratis para todo el país. El tiempo de entrega es de 10 días hábiles. Los pedidos realizados sábados y Domingos o feriados, serán procesados el primer día hábil siguiente, una vez autorizada el pago.",
+        "blockClass": "preguntas-frecuentes-paragraph"
+      }
+    },
+    "flex-layout.row#img2-mobile": {
+      "props": {
+        "blockClass": "container-imagen"
+      },
+      "children": [
+        "flex-layout.col#img2-mobile"
+      ]
+    },
+    "flex-layout.col#img2-mobile": {
+      "props": {
+        "blockClass": "container-imagen"
+      },
+      "children": [
+        "rich-text#preguntas-frecuentes-2-title"
+        // "image#quest-2-mobile"
+      ]
+    },
+    "image#quest-2-mobile": {
+      "props": {
+        "src": "assets/icons/faq2.svg",
+        "link": "#"
+      }
+    },
+    //PREGUNTA 3
+    "disclosure-layout#preguntas-frecuentes-3": {
+      "children": [
+        "disclosure-trigger#preguntas-frecuentes-3",
+        "disclosure-content#preguntas-frecuentes-3"
+      ],
+      "props": {
+        "blockClass": "preguntas-frecuentes"
+      }
+    },
+    "disclosure-trigger#preguntas-frecuentes-3": {
+      "children": [
+        "flex-layout.row#img3-mobile",
+        "disclosure-state-indicator#footer"
+      ],
+      "props": {
+        "animated": true
+      }
+    },
+    "rich-text#preguntas-frecuentes-3-title": {
+      "props": {
+        "text": "¿Es seguro comprar por www.abolupanama.com?",
+        "blockClass": "preguntas-frecuentes-question"
+      }
+    },
+    "disclosure-content#preguntas-frecuentes-3": {
+      "children": [
+        "flex-layout.row#preguntas-frecuentes-3"
+      ],
+      "props": {
+        "blockClass": "preguntas-frecuentes"
+      }
+    },
+    "flex-layout.row#preguntas-frecuentes-3": {
+      "children": [
+        "rich-text#envio-seguimiento-1"
+        //   "rich-text#preguntas-frecuentes-2-paragraph"
+        // "flex-layout.col#envio-seguimiento-container1",
+        // "flex-layout.col#envio-seguimiento-container2",
+        // "flex-layout.col#envio-seguimiento-container3",
+        // "flex-layout.col#envio-seguimiento-container4",
+        // "flex-layout.col#envio-seguimiento-container5",
+        // "flex-layout.col#envio-seguimiento-container6",
+        // "flex-layout.col#envio-seguimiento-container7"
+      ]
+    },
+    "rich-text#preguntas-frecuentes-3-paragraph": {
+      "props": {
+        "text": "La alfombra podrás recibirla a tu domicilio a través del Correo Andreani. Nuestros envíos son gratis para todo el país. El tiempo de entrega es de 10 días hábiles. Los pedidos realizados sábados y Domingos o feriados, serán procesados el primer día hábil siguiente, una vez autorizada el pago.",
+        "blockClass": "preguntas-frecuentes-paragraph"
+      }
+    },
+    "flex-layout.row#img3-mobile": {
+      "props": {
+        "blockClass": "container-imagen"
+      },
+      "children": [
+        "flex-layout.col#img3-mobile"
+      ]
+    },
+    "flex-layout.col#img3-mobile": {
+      "props": {
+        "blockClass": "container-imagen"
+      },
+      "children": [
+        "rich-text#preguntas-frecuentes-3-title"
+        
+      ]
+    },
+    "image#quest-3-mobile": {
+      "props": {
+        "src": "assets/icons/faq3.svg",
+        "link": "#"
+      }
+    },
+    "disclosure-layout#preguntas-frecuentes-4": {
+      "children": [
+        "disclosure-trigger#preguntas-frecuentes-4",
+        "disclosure-content#preguntas-frecuentes-4"
+      ],
+      "props": {
+        "blockClass": "preguntas-frecuentes"
+      }
+    },
+    "disclosure-trigger#preguntas-frecuentes-4": {
+      "children": [
+        "flex-layout.row#img4-mobile",
+        "disclosure-state-indicator#footer"
+      ],
+      "props": {
+        "animated": true
+      }
+    },
+    "rich-text#preguntas-frecuentes-4-title": {
+      "props": {
+        "text": "¿Tengo derecho al retracto?",
+        "blockClass": "preguntas-frecuentes-question"
+      }
+    },
+    "disclosure-content#preguntas-frecuentes-4": {
+      "children": [
+        "flex-layout.row#preguntas-frecuentes-4"
+      ],
+      "props": {
+        "blockClass": "preguntas-frecuentes"
+      }
+    },
+    "flex-layout.row#preguntas-frecuentes-4": {
+      "children": [
+        "rich-text#formas-pago-1"
+        //   "rich-text#preguntas-frecuentes-2-paragraph"
+        // "flex-layout.col#formas-pago-container1",
+        // "flex-layout.col#formas-pago-container2",
+        // "flex-layout.col#formas-pago-container3",
+        // "flex-layout.col#formas-pago-container4",
+        // "flex-layout.col#formas-pago-container5"
+      ]
+    },
+    "rich-text#preguntas-frecuentes-4-paragraph": {
+      "props": {
+        "text": "La alfombra podrás recibirla a tu domicilio a través del Correo Andreani. Nuestros envíos son gratis para todo el país. El tiempo de entrega es de 10 días hábiles. Los pedidos realizados sábados y Domingos o feriados, serán procesados el primer día hábil siguiente, una vez autorizada el pago.",
+        "blockClass": "preguntas-frecuentes-paragraph"
+      }
+    },
+    "flex-layout.row#img4-mobile": {
+      "props": {
+        "blockClass": "container-imagen"
+      },
+      "children": [
+        "flex-layout.col#img4-mobile"
+      ]
+    },
+    "flex-layout.col#img4-mobile": {
+      "props": {
+        "blockClass": "container-imagen"
+      },
+      "children": [
+        "rich-text#preguntas-frecuentes-4-title"
+        // "image#quest-4-mobile"
+      ]
+    },
+    "image#quest-4-mobile": {
+      "props": {
+        "src": "assets/icons/faq4.svg",
+        "link": "#"
+      }
+    },
+    //PREGUNTA 5
+    "disclosure-layout#preguntas-frecuentes-5": {
+      "children": [
+        "disclosure-trigger#preguntas-frecuentes-5",
+        "disclosure-content#preguntas-frecuentes-5"
+      ],
+      "props": {
+        "blockClass": "preguntas-frecuentes"
+      }
+    },
+    "disclosure-trigger#preguntas-frecuentes-5": {
+      "children": [
+        "flex-layout.row#img5-mobile",
+        "disclosure-state-indicator#footer"
+      ],
+      "props": {
+        "animated": true
+      }
+    },
+    "rich-text#preguntas-frecuentes-5-title": {
+      "props": {
+        "text": "¿Mis datos están protegidos?",
+        "blockClass": "preguntas-frecuentes-question"
+      }
+    },
+    "disclosure-content#preguntas-frecuentes-5": {
+      "children": [
+        "flex-layout.row#preguntas-frecuentes-5"
+      ],
+      "props": {
+        "blockClass": "preguntas-frecuentes"
+      }
+    },
+    "flex-layout.row#preguntas-frecuentes-5": {
+      "children": [
+        "rich-text#promociones-bancarias-1"
+        //   "rich-text#preguntas-frecuentes-2-paragraph"
+        // "rich-text#content-promociones-bancarias-2",
+        // "rich-text#content-promociones-bancarias-3"
+      ]
+    },
+    "rich-text#preguntas-frecuentes-5-paragraph": {
+      "props": {
+        "text": "La alfombra podrás recibirla a tu domicilio a través del Correo Andreani. Nuestros envíos son gratis para todo el país. El tiempo de entrega es de 10 días hábiles. Los pedidos realizados sábados y Domingos o feriados, serán procesados el primer día hábil siguiente, una vez autorizada el pago.",
+        "blockClass": "preguntas-frecuentes-paragraph"
+      }
+    },
+    "flex-layout.row#img5-mobile": {
+      "props": {
+        "blockClass": "container-imagen"
+      },
+      "children": [
+        "flex-layout.col#img5-mobile"
+      ]
+    },
+    "flex-layout.col#img5-mobile": {
+      "props": {
+        "blockClass": "container-imagen"
+      },
+      "children": [
+        "rich-text#preguntas-frecuentes-5-title"
+        // "image#quest-5-mobile"
+      ]
+    },
+    "image#quest-5-mobile": {
+      "props": {
+        "src": "assets/icons/faq5.svg",
+        "link": "#"
+      }
+    },
+    "disclosure-layout#preguntas-frecuentes-6": {
+      "children": [
+        "disclosure-trigger#preguntas-frecuentes-6",
+        "disclosure-content#preguntas-frecuentes-6"
+      ],
+      "props": {
+        "blockClass": "preguntas-frecuentes"
+      }
+    },
+    "disclosure-layout#preguntas-frecuentes-7": {
+      "children": [
+        "disclosure-trigger#preguntas-frecuentes-7",
+        "disclosure-content#preguntas-frecuentes-7"
+      ],
+      "props": {
+        "blockClass": "preguntas-frecuentes"
+      }
+    },
+    "disclosure-trigger#preguntas-frecuentes-7": {
+      "children": [
+        "flex-layout.row#img7-mobile",
+        "disclosure-state-indicator#footer"
+      ],
+      "props": {
+        "animated": true
+      }
+    },
+    "flex-layout.row#img7-mobile": {
+      "props": {
+        "blockClass": "container-imagen"
+      },
+      "children": [
+        "flex-layout.col#img7-mobile"
+      ]
+    },
+    "disclosure-trigger#preguntas-frecuentes-6": {
+      "children": [
+        "flex-layout.row#img6-mobile",
+        "disclosure-state-indicator#footer"
+      ],
+      "props": {
+        "animated": true
+      }
+    },
+    "rich-text#preguntas-frecuentes-6-title": {
+      "props": {
+        "text": "Cambios y devoluciones",
+        "blockClass": "preguntas-frecuentes-question"
+      }
+    },
+    "rich-text#preguntas-frecuentes-7-title": {
+      "props": {
+        "text": "Términos y condiciones",
+        "blockClass": "preguntas-frecuentes-question"
+      }
+    },
+    "disclosure-content#preguntas-frecuentes-6": {
+      "children": [
+        "flex-layout.row#preguntas-frecuentes-6"
+      ],
+      "props": {
+        "blockClass": "preguntas-frecuentes"
+      }
+    },
+    "flex-layout.row#preguntas-frecuentes-6": {
+      "children": [
+        "rich-text#consultas-generales-1"
+      ]
+    },
+    "disclosure-content#preguntas-frecuentes-7": {
+      "children": [
+        "flex-layout.row#preguntas-frecuentes-7"
+      ],
+      "props": {
+        "blockClass": "preguntas-frecuentes"
+      }
+    },
+    "flex-layout.row#preguntas-frecuentes-7": {
+      "children": [
+        "rich-text#t&c"
+      ]
+    },
+    "rich-text#preguntas-frecuentes-6-paragraph": {
+      "props": {
+        "text": "La alfombra podrás recibirla a tu domicilio a través del Correo Andreani. Nuestros envíos son gratis para todo el país. El tiempo de entrega es de 10 días hábiles. Los pedidos realizados sábados y Domingos o feriados, serán procesados el primer día hábil siguiente, una vez autorizada el pago.",
+        "blockClass": "preguntas-frecuentes-paragraph"
+      }
+    },
+    "flex-layout.row#img6-mobile": {
+      "props": {
+        "blockClass": "container-imagen"
+      },
+      "children": [
+        "flex-layout.col#img6-mobile"
+      ]
+    },
+    "flex-layout.col#img6-mobile": {
+      "props": {
+        "blockClass": "container-imagen"
+      },
+      "children": [
+        "rich-text#preguntas-frecuentes-6-title"
+        // "image#quest-6-mobile"
+      ]
+    },
+    "flex-layout.col#img7-mobile": {
+        "props": {
+          "blockClass": "container-imagen"
+        },
+        "children": [
+          "rich-text#preguntas-frecuentes-7-title"
+        //   "image#quest-6-mobile"
+        ]
+      },
+    "image#quest-6-mobile": {
+      "props": {
+        "src": "assets/icons/faq6.svg",
+        "link": "#"
+      }
+    }
+  }
+  

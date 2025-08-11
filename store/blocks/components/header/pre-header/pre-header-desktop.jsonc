@@ -36,7 +36,7 @@
   },
   "rich-text#pre-header-text":{
     "props":{
-      "text": "[Reposición](/replace)",
+      "text": "[Reposición](/account#/orders)",
       "blockClass": "pre-header-text"
     }
   },
@@ -64,12 +64,12 @@
     },
     "children": [
       // "image#pre-header-icon",
-      "rich-text#pre-header-text"
+      "rich-text#pre-header-text-2"
     ]
   },
   "rich-text#pre-header-text-2":{
     "props":{
-      "text": "[Compra por código](/buy-by-code) ",
+      "text": "[Compra rápida](/quickorder) ",
       "blockClass": "pre-header-text"
     }
   },
@@ -144,7 +144,7 @@
   },
   "rich-text#pre-header-text-5":{
     "props":{
-      "text": "[Devoluciones](/returns)",
+      "text": "[Devoluciones](/account#/my-returns)",
       "blockClass": "pre-header-text"
     }
   },

@@ -12,6 +12,11 @@
           "blockClass": "product-card-container"
         }
     },
+    "add-to-list-btn": {
+      "props": {
+        "toastURL": "/wishlist"
+      }
+    },
     "flex-layout.row#product-image-desktop": {
     "props": {
       "blockClass": "image-cuc-container"

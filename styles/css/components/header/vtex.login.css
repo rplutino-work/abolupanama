@@ -55,7 +55,11 @@
   display: block;
   background-size: cover;
 }
-:global(.vtex-flex-layout-0-x-flexCol--icons-header) :global(.vtex-minicart-2-x-minicartContainer--minicartCustom) :global(.vtex-minicart-2-x-openIconContainer--minicartCustom) :global(.vtex-button) :global(.vtex-button__label) :global(.vtex-minicart-2-x-minicartIconContainer--minicartCustom),
-:global(.vtex-flex-layout-0-x-flexRowContent--bottom-header-mobile-content) :global(.vtex-minicart-2-x-minicartContainer--minicartCustom) :global(.vtex-minicart-2-x-openIconContainer--minicartCustom) :global(.vtex-button) :global(.vtex-button__label) :global(.vtex-minicart-2-x-minicartIconContainer--minicartCustom) {
+:global(.vtex-flex-layout-0-x-flexCol--icons-header) :global(.vtex-minicart-2-x-minicartContainer--minicartCustom) :global(.vtex-minicart-2-x-openIconContainer--minicartCustom) :global(.vtex-button) :global(.vtex-button__label) :global(.vtex-minicart-2-x-minicartIconContainer--minicartCustom) :global(.vtex-store-icons-0-x-cartIcon),
+:global(.vtex-flex-layout-0-x-flexRowContent--bottom-header-mobile-content) :global(.vtex-minicart-2-x-minicartContainer--minicartCustom) :global(.vtex-minicart-2-x-openIconContainer--minicartCustom) :global(.vtex-button) :global(.vtex-button__label) :global(.vtex-minicart-2-x-minicartIconContainer--minicartCustom) :global(.vtex-store-icons-0-x-cartIcon) {
   display: none;
+}
+:global(.vtex-flex-layout-0-x-flexCol--icons-header) :global(.vtex-minicart-2-x-minicartContainer--minicartCustom) :global(.vtex-minicart-2-x-openIconContainer--minicartCustom) :global(.vtex-button) :global(.vtex-button__label) :global(.vtex-minicart-2-x-minicartIconContainer--minicartCustom) :global(.vtex-minicart-2-x-minicartQuantityBadge--minicartCustom),
+:global(.vtex-flex-layout-0-x-flexRowContent--bottom-header-mobile-content) :global(.vtex-minicart-2-x-minicartContainer--minicartCustom) :global(.vtex-minicart-2-x-openIconContainer--minicartCustom) :global(.vtex-button) :global(.vtex-button__label) :global(.vtex-minicart-2-x-minicartIconContainer--minicartCustom) :global(.vtex-minicart-2-x-minicartQuantityBadge--minicartCustom) {
+  background-color: #000c7a;
 }
