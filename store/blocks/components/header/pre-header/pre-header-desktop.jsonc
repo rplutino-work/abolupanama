@@ -169,7 +169,7 @@
   },
   "rich-text#pre-header-text-6":{
     "props":{
-      "text": "[Contáctanos](/contact)",
+      "text": "[Contáctanos](/contact-us)",
       "blockClass": "pre-header-text"
     }
   }
