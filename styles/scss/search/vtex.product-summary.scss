@@ -13,6 +13,9 @@
   padding: 0.5em;
 }
   .element--product-card-container {
+    @include respond(phone) {
+      padding: 0.5rem;
+    }
     position: relative;
     justify-content: space-between;
       :global(.vtex-wish-list-1-x-wishlistIconContainer) {
@@ -43,6 +46,12 @@
         }
       }
       //imagen 
+      .imageStackContainer {
+        width: 100%;
+        .imageNormal {
+          object-fit: cover !important;
+        }
+      }
       .image--hover {
         z-index: 1;
       }
@@ -71,17 +80,20 @@
               letter-spacing: .25px;
               text-align: left;
           }
+          @include respond(phone) {
+            min-height: 70px !important;
+          }
       }
       //marca y sku
       :global(.vtex-flex-layout-0-x-flexRowContent--product-brand-and-sku) {
         justify-content: flex-start;
         align-items: center;
         display: flex;
-        :global(.vtex-product-identifier-0-x-product-identifier--productReference) {
+        :global(.vtex-product-identifier-0-x-product-identifier--skuReferenceId) {
           display: flex;
           align-items: center;
           font-weight: 400;
-          font-size: 10px;
+          font-size: 12px;
           line-height: 18px;
           letter-spacing: 0.25px;
           color: #3f3f40;
@@ -110,12 +122,26 @@
         }
         :global(.vtex-store-components-3-x-productBrandContainer) {
           display: flex;
-          font-size: 10px;
+          font-size: 12px;
           color: #000c7a;
           font-weight: 800;
         }
       }
       //precios
+      :global(.vtex-flex-layout-0-x-flexRow--product-prices) {
+        :global(.vtex-store-components-3-x-container) {
+          @include respond(phone) {
+            padding: 0 !important;
+          }
+        } 
+      }
+      :global(.vtex-flex-layout-0-x-flexRow--add-to-cart-button) {
+        :global(.vtex-store-components-3-x-container) {
+          @include respond(phone) {
+            padding: 0 !important;
+          }
+        }
+      }
       :global(.vtex-flex-layout-0-x-flexRowContent--product-prices) {
         padding: 1rem 0;
         justify-content: flex-start;

@@ -16,6 +16,11 @@
   position: relative;
   justify-content: space-between;
 }
+@media only screen and (max-width: 1023px) {
+  .element--product-card-container {
+    padding: 0.5rem;
+  }
+}
 .element--product-card-container :global(.vtex-wish-list-1-x-wishlistIconContainer) {
   position: absolute;
   top: 0;
@@ -42,6 +47,12 @@
   color: #fff;
   padding: 5px;
   border-radius: 2px;
+}
+.element--product-card-container .imageStackContainer {
+  width: 100%;
+}
+.element--product-card-container .imageStackContainer .imageNormal {
+  object-fit: cover !important;
 }
 .element--product-card-container .image--hover {
   z-index: 1;
@@ -71,26 +82,31 @@
   letter-spacing: 0.25px;
   text-align: left;
 }
+@media only screen and (max-width: 1023px) {
+  .element--product-card-container .nameContainer {
+    min-height: 70px !important;
+  }
+}
 .element--product-card-container :global(.vtex-flex-layout-0-x-flexRowContent--product-brand-and-sku) {
   justify-content: flex-start;
   align-items: center;
   display: flex;
 }
-.element--product-card-container :global(.vtex-flex-layout-0-x-flexRowContent--product-brand-and-sku) :global(.vtex-product-identifier-0-x-product-identifier--productReference) {
+.element--product-card-container :global(.vtex-flex-layout-0-x-flexRowContent--product-brand-and-sku) :global(.vtex-product-identifier-0-x-product-identifier--skuReferenceId) {
   display: flex;
   align-items: center;
   font-weight: 400;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 18px;
   letter-spacing: 0.25px;
   color: #3f3f40;
 }
-.element--product-card-container :global(.vtex-flex-layout-0-x-flexRowContent--product-brand-and-sku) :global(.vtex-product-identifier-0-x-product-identifier--productReference)::after {
+.element--product-card-container :global(.vtex-flex-layout-0-x-flexRowContent--product-brand-and-sku) :global(.vtex-product-identifier-0-x-product-identifier--skuReferenceId)::after {
   content: ")";
   display: block;
   width: 1px;
 }
-.element--product-card-container :global(.vtex-flex-layout-0-x-flexRowContent--product-brand-and-sku) :global(.vtex-product-identifier-0-x-product-identifier--productReference)::before {
+.element--product-card-container :global(.vtex-flex-layout-0-x-flexRowContent--product-brand-and-sku) :global(.vtex-product-identifier-0-x-product-identifier--skuReferenceId)::before {
   content: "(";
   display: block;
   padding-left: 3px;
@@ -109,9 +125,19 @@
 }
 .element--product-card-container :global(.vtex-flex-layout-0-x-flexRowContent--product-brand-and-sku) :global(.vtex-store-components-3-x-productBrandContainer) {
   display: flex;
-  font-size: 10px;
+  font-size: 12px;
   color: #000c7a;
   font-weight: 800;
+}
+@media only screen and (max-width: 1023px) {
+  .element--product-card-container :global(.vtex-flex-layout-0-x-flexRow--product-prices) :global(.vtex-store-components-3-x-container) {
+    padding: 0 !important;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .element--product-card-container :global(.vtex-flex-layout-0-x-flexRow--add-to-cart-button) :global(.vtex-store-components-3-x-container) {
+    padding: 0 !important;
+  }
 }
 .element--product-card-container :global(.vtex-flex-layout-0-x-flexRowContent--product-prices) {
   padding: 1rem 0;

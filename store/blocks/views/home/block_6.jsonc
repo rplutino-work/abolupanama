@@ -27,7 +27,8 @@
   "list-context.product-list#block-6": {
     "props": {
       "hideUnavailableItems": false,
-      "maxItems": 70
+      "maxItems": 70,
+      "collection": "167"
     },
     "blocks": [
       "product-summary.shelf#product-full"
@@ -39,11 +40,10 @@
   "slider-layout#block-6": {
     "props": {
       "fullWidth": true,
-      "centerModeSlidesGap": 20,
       "itemsPerPage": {
         "desktop": 4,
         "tablet": 3,
-        "phone": 2
+        "phone": 1
       },
       "slideTransition": {
         "speed": 500,

@@ -3,10 +3,11 @@
 }
 @media (max-width: 1023px) {
   .relatedProducts--productos-relacionados {
-    padding: 0px 20px;
+    padding: 0px 20px 40px;
   }
 }
 .relatedProducts--productos-relacionados .title--productos-relacionados {
   font-size: 28px;
   color: #000;
+  justify-content: flex-start;
 }

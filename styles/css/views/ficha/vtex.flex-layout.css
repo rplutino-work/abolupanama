@@ -54,7 +54,7 @@
 .flexRowContent--product-main .flexColChild--product-details :global(.vtex-flex-layout-0-x-flexRowContent--product-brand-and-sku) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
   padding: 0 !important;
 }
-.flexRowContent--product-main .flexColChild--product-details :global(.vtex-flex-layout-0-x-flexRowContent--product-brand-and-sku) :global(.vtex-product-identifier-0-x-product-identifier--productReference) {
+.flexRowContent--product-main .flexColChild--product-details :global(.vtex-flex-layout-0-x-flexRowContent--product-brand-and-sku) :global(.vtex-product-identifier-0-x-product-identifier--skuReferenceId) {
   display: flex;
   align-items: center;
   font-weight: 400;
@@ -63,12 +63,12 @@
   letter-spacing: 0.25px;
   color: #3f3f40;
 }
-.flexRowContent--product-main .flexColChild--product-details :global(.vtex-flex-layout-0-x-flexRowContent--product-brand-and-sku) :global(.vtex-product-identifier-0-x-product-identifier--productReference)::after {
+.flexRowContent--product-main .flexColChild--product-details :global(.vtex-flex-layout-0-x-flexRowContent--product-brand-and-sku) :global(.vtex-product-identifier-0-x-product-identifier--skuReferenceId)::after {
   content: ")";
   display: block;
   width: 1px;
 }
-.flexRowContent--product-main .flexColChild--product-details :global(.vtex-flex-layout-0-x-flexRowContent--product-brand-and-sku) :global(.vtex-product-identifier-0-x-product-identifier--productReference)::before {
+.flexRowContent--product-main .flexColChild--product-details :global(.vtex-flex-layout-0-x-flexRowContent--product-brand-and-sku) :global(.vtex-product-identifier-0-x-product-identifier--skuReferenceId)::before {
   content: "(";
   display: block;
   padding-left: 3px;

@@ -1,6 +1,9 @@
 .flexRowContent--home-block-4 {
   flex-direction: column;
   padding: 0 2rem;
+  @media (max-width: 768px) {
+    padding: 0rem;
+  }
 }
 :global(.vtex-rich-text-0-x-container--home-block-4) {
   width: 100%;
@@ -13,6 +16,9 @@
 .flexRowContent--home-block-6 {
   flex-direction: column;
   padding: 0 2rem;
+  @media (max-width: 768px) {
+    padding: 0rem;
+  }
 }
 :global(.vtex-rich-text-0-x-container--home-block-6) {
   width: 100%;

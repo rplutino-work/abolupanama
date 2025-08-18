@@ -82,6 +82,11 @@
     },
     "children": ["flex-layout.row#brand", "product-identifier.product"]
   },
+  "product-identifier.product": {
+    "props": {
+      "idField": "skuReferenceId"
+    }
+  },
   "flex-layout.row#brand": {
     "props" :{
       "blockClass": "product-brand-and-sku-brand",

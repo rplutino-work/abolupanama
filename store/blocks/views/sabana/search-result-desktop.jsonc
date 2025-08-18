@@ -11,6 +11,7 @@
       "defaultGalleryLayout": "4x4-desktop",
       "props": {
         "preventRouteChange": true,
+        "orderByField": "OrderByReleaseDateDESC",
         "hiddenFacets": {
           "specificationFilters": {
             "hiddenFilters": [
