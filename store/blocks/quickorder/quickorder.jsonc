@@ -18,7 +18,7 @@
   },
   "rich-text#title-textarea": {
     "props": {
-      "text": "Quick Order",
+      "text": "Compra rápida",
       "blockClass": [
         "title-block",
         "title-textarea"
@@ -36,8 +36,8 @@
   "quickorder-textarea": {
     "props": {
       "componentOnly": false,
-      "text": "Copy/Paste Skus, ",
-      "description": "([Sku's Code],[Quantity])"
+      "text": "Copiar/Pegar Skus, ",
+      "description": "([código sku's],[cantidad])"
     }
   },
   "flex-layout.row#upload": {

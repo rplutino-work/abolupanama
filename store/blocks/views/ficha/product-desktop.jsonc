@@ -8,11 +8,12 @@
     "children": [
       "vtex.store-components:product-name",
       // "flex-layout.row#product-identifier-brand",
-      "flex-layout.row#product-brand-and-sku",
-      "flex-layout.row#product-price",
-      "sku-selector#color",
-      "product-quantity#product-quantity",
-      "flex-layout.col#buy-button"
+      // "flex-layout.row#product-brand-and-sku",
+      // "flex-layout.row#product-price",
+      // "sku-selector#color",
+      // "product-quantity#product-quantity",
+      // "flex-layout.col#buy-button"
+      "check-permission#permiso_ficha"
     //   "check-permission#product-price",
     //   "check-permission#buy-button",
     ]
@@ -118,7 +119,7 @@
       "addToCartFeedback": "customEvent"
     }
   },
-  "check-permission#product-price": {
+  "check-permission#permiso_ficha": {
     "props": {
       "roles": [
         "store-admin",
@@ -131,12 +132,17 @@
       ]
     },
     "blocks": [
-      "allowed-content#user_register",
+      "allowed-content#permiso_ficha",
       "disallowed-content#user_register"
     ]
   },
-  "allowed-content#user_register": {
+  "allowed-content#permiso_ficha": {
     "children": [
+      // "flex-layout.row#product-price",
+      // "sku-selector#color",
+      // "product-quantity#product-quantity",
+      // "flex-layout.col#buy-button",
+      "flex-layout.row#product-brand-and-sku",
       "flex-layout.row#product-price",
       "sku-selector#color",
       "product-quantity#product-quantity",

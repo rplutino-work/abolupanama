@@ -5,7 +5,9 @@
       "flex-layout.row#product-main",
       "flex-layout.row#tab-layout-product",
       "responsive-layout.desktop#ultimos-vistos",
-      "responsive-layout.mobile#ultimos-vistos"
+      "responsive-layout.mobile#ultimos-vistos",
+      "responsive-layout.desktop#second_carrusel",
+      "responsive-layout.mobile#second_carrusel"
     ]
   },
   "responsive-layout.desktop#ultimos-vistos": {
@@ -18,6 +20,19 @@
     "title": "Ultimos vistos Desktop",
     "children": [
       "shelf.relatedProducts#ultimos-vistos-mobile"
+    ]
+  },
+  "responsive-layout.desktop#second_carrusel": {
+    "title": "Quienes vieron tambien compraron Desktop",
+    "children": [
+      // "shelf.relatedProducts#productos-relacionados-desktop"
+      "shelf.relatedProducts#quienes-vieron-desktop"
+    ]
+  },
+  "responsive-layout.mobile#second_carrusel": {
+    "title": "Quienes vieron tambien compraron Mobile",
+    "children": [
+      "shelf.relatedProducts#quienes_vieron_mobile"
     ]
   },
   "responsive-layout.desktop#productos-relacionados": {
@@ -40,6 +55,22 @@
       "hideOutOfStockItems": false,
       "productList": {
         "titleText": "Otras personas compraron con este producto:",
+        "itemsPerPage": 4,
+        "minItemsPerPage": 4,
+        "arrows": true,
+        "scroll": "BY_PAGE"
+      }
+    },
+    "blocks": ["product-summary.shelf#product-full"]
+  },
+  "shelf.relatedProducts#quienes-vieron-desktop": {
+    "props": {
+      "blockClass": "productos-relacionados",
+      // "recommendation": "similars",
+      "recommendation": "view",
+      "hideOutOfStockItems": false,
+      "productList": {
+        "titleText": "Quienes vieron también compraron:",
         "itemsPerPage": 4,
         "minItemsPerPage": 4,
         "arrows": true,
@@ -88,6 +119,22 @@
       "hideOutOfStockItems": false,
       "productList": {
         "titleText": "Quienes vieron también compraron",
+        "itemsPerPage": 2,
+        "minItemsPerPage": 2,
+        "arrows": true,
+        "scroll": "BY_PAGE"
+      }
+    },
+    "blocks": ["product-summary.shelf#product-full"]
+  },
+  "shelf.relatedProducts#quienes_vieron_mobile": {
+    "props": {
+      "blockClass": "productos-relacionados",
+      // "recommendation": "similars",
+      "recommendation": "view",
+      "hideOutOfStockItems": false,
+      "productList": {
+        "titleText": "Quienes vieron también compraron:",
         "itemsPerPage": 2,
         "minItemsPerPage": 2,
         "arrows": true,

@@ -47,6 +47,11 @@
   max-height: 100vh !important;
   background-color: rgba(0, 0, 0, 0.5);
 }
+@media (min-width: 1024px) {
+  :global(.vtex-mega-menu-2-x-menuContainerNav) {
+    top: 100%;
+  }
+}
 :global(.vtex-mega-menu-2-x-menuContainerNav) :global(.vtex-mega-menu-2-x-menuContainer) {
   font-size: 14px;
   line-height: 18px;

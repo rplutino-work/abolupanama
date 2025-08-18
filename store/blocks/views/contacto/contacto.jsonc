@@ -6,7 +6,8 @@
     },
     "flex-layout.row#form": {
         "props": {
-            "blockClass": "form-contacto"
+            "blockClass": "form-contacto",
+            "fullWidth": true
         },
         "children": [
             "responsive-layout.phone#contact-us-image",
