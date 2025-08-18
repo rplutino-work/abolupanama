@@ -6,13 +6,14 @@
       "preventHorizontalStretch": false,
       "preventVerticalStretch": false,
       "fullWidth": true,
+      "colSizing": "auto",
       "blockClass": [
         "home-block-4"
       ]
     },
     "children": [
-      "rich-text#home-block-4"
-      // "list-context.product-list#block-4"
+      "rich-text#home-block-4",
+      "list-context.product-list#block-4"
     ]
   },
   "rich-text#home-block-4": {
@@ -29,7 +30,7 @@
       "maxItems": 70
     },
     "blocks": [
-      "product-summary.shelf"
+      "product-summary.shelf#product-full"
     ],
     "children": [
       "slider-layout#block-4"

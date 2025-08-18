@@ -1,0 +1,47 @@
+{
+  "store.custom#mercadeo": {
+    "children": ["flex-layout.row#mercadeo"]
+  },
+  "flex-layout.row#mercadeo": {
+    "children": ["flex-layout.row#mercadeo-textarea", "flex-layout.row#mercadeo-banners-wrap"],
+    "props": {
+      "blockClass": "quickOrderContainer",
+      "paddingBottom": 9
+    }
+  },
+  "flex-layout.row#mercadeo-textarea": {
+    "children": [
+      "rich-text#mercadeo-textarea"
+      // "flex-layout.row#quickorder-textarea"
+    ],
+    "props": {
+      "blockClass": ["textarea", "content-layout"]
+    }
+  },
+  "rich-text#mercadeo-textarea": {
+    "props": {
+      "text": "Soluciones de mercadeo para tu negocio",
+      "blockClass": [
+        "title-block",
+        "title-textarea"
+      ]
+    }
+  },
+  "flex-layout.row#mercadeo-banners-wrap": {
+    "children": [
+      "flex-layout.row#mercadeo-banners-1"
+    ],
+    "props": {
+      "blockClass": ["textarea", "content-layout"]
+    }
+  },
+  "flex-layout.row#mercadeo-banners-1": {
+    "children": [
+      "rich-text#mercadeo-textarea"
+      // "flex-layout.row#quickorder-textarea"
+    ],
+    "props": {
+      "blockClass": ["textarea", "content-layout"]
+    }
+  }
+}

@@ -11,6 +11,8 @@
     background-color: #fff;
     .flexRowContent--pre-header {
         gap: 10px;
+        padding-left: 25%;
+        justify-content: space-around;
         .stretchChildrenWidth{
             width: auto !important;
             .flexRowContent--pre-header-content{

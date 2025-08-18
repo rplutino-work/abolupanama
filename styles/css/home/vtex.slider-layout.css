@@ -191,6 +191,11 @@
   }
   .infoCardImage--home-slider-2 {
     height: 100%;
+    transition: transform 0.3s ease;
+  }
+  .infoCardImage--home-slider-2:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
   }
   /* Bullets más pequeños en mobile */
   .sliderLayoutContainer--home-slider-2 .paginationDot {
@@ -198,6 +203,14 @@
     height: 6px;
   }
 }
+.infoCardContainer--home-slider-2:hover .infoCardImageContainer--home-slider-2 {
+  transition: transform 0.3s ease;
+  transform: scale(1.15);
+}
+.infoCardContainer--home-slider-2 .infoCardImageContainer--home-slider-2 {
+  transition: transform 0.3s ease;
+}
+
 /* Estilos para el contenedor del slider 3 */
 .sliderLayoutContainer--home-slider-3 .sliderTrackContainer {
   height: 100%;
@@ -408,11 +421,18 @@
 }
 
 .infoCardContainer--home-slider-7 {
-  background-color: rgb(230, 230, 230);
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   justify-content: space-around;
+}
+
+.infoCardImageContainer--home-slider-7 {
+  transition: transform 0.3s ease;
+}
+.infoCardImageContainer--home-slider-7:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
 }
 
 .infoCardCallActionContainer--home-slider-7 {

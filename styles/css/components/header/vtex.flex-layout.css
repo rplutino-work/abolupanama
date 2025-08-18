@@ -9,6 +9,8 @@
 }
 :global(.vtex-sticky-layout-0-x-container--sticky-header-desktop) .flexRowContent--pre-header {
   gap: 10px;
+  padding-left: 25%;
+  justify-content: space-around;
 }
 :global(.vtex-sticky-layout-0-x-container--sticky-header-desktop) .flexRowContent--pre-header .stretchChildrenWidth {
   width: auto !important;

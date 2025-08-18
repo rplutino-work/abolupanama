@@ -29,47 +29,47 @@
           "height": "fit-content",
           "infoCards": [
              {
-                "id": "info-card-example-7",
-                "htmlId": "pow-1",
+                "id": "info-card-example-7-1",
+                "htmlId": "info-card-example-7-1",
                 "isFullModeStyle": false,
-                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/manguera-jardineria.png",
-                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/manguera-jardineria.png",
+                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/brands-01.png",
+                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/brands-01.png",
                 "blockClass": ["home-slider-7"],
                 "headline": "Jardineria"
             },
             {
-                "id": "info-card-example-7",
-                "htmlId": "pow-7",
+                "id": "info-card-example-7-2",
+                "htmlId": "info-card-example-7-2",
                 "isFullModeStyle": false,
-                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/mascotas.png",
-                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/mascotas.png",
+                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/brands-02.png",
+                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/brands-02.png",
                 "blockClass": ["home-slider-7"],
                 "headline": "Jardineria"
             },
             {
-                "id": "info-card-example-3",
-                "htmlId": "pow-3",
+                "id": "info-card-example-7-3",
+                "htmlId": "info-card-example-7-3",
                 "isFullModeStyle": false,
-                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/plomeria.png",
-                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/plomeria.png",
+                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/brands-03.png",
+                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/brands-03.png",
                 "blockClass": ["home-slider-7"],
                 "headline": "Jardineria"
             },
             {
-                "id": "info-card-example-4",
-                "htmlId": "pow-4",
+                "id": "info-card-example-7-4",
+                "htmlId": "info-card-example-7-4",
                 "isFullModeStyle": false,
-                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/seguridad.png",
-                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/seguridad.png",
+                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/brands-04.png",
+                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/brands-04.png",
                 "blockClass": ["home-slider-7"],
                 "headline": "Jardineria"
             },
             {
-                "id": "info-card-example-5",
-                "htmlId": "pow-5",
+                "id": "info-card-example-7-5",
+                "htmlId": "info-card-example-7-5",
                 "isFullModeStyle": false,
-                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/adhesivos.png",
-                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/adhesivos.png",
+                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/brands-05.png",
+                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/brands-05.png",
                 "blockClass": ["home-slider-7"],
                 "headline": "Jardineria"
 
