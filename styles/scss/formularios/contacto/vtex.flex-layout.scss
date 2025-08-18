@@ -1,6 +1,40 @@
+.flexRow--form-contacto{
+    :global(.vtex-store-components-3-x-container){
+        padding: 0;
+    }
+    .flexRowContent--form-contacto{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        .stretchChildrenWidth{
+            width: 100% !important;
+            :global(.vtex-store-components-3-x-imageElement--contact-us-image){
+                @media(max-width:1023px){
+                    height: 800px;
+                }
+            }
+        }
+    }
+}
+
+
 .flexCol--formulario_contacto{
     max-width: 500px;
-    margin: 30px 0;
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    z-index: 2;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    height: auto;
+    transform: translateY(-50%);
+    @media(max-width:1023px){
+        width: 90% !important;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+    }
 
     :global(.vtex-rich-text-0-x-headingLevel2--title_form){
         color: #000c7a;

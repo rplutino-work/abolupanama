@@ -63,4 +63,6 @@
 :global(.vtex-flex-layout-0-x-flexCol--icons-header) :global(.vtex-minicart-2-x-minicartContainer--minicartCustom) :global(.vtex-minicart-2-x-openIconContainer--minicartCustom) :global(.vtex-button) :global(.vtex-button__label) :global(.vtex-minicart-2-x-minicartIconContainer--minicartCustom) :global(.vtex-minicart-2-x-minicartQuantityBadge--minicartCustom),
 :global(.vtex-flex-layout-0-x-flexRowContent--bottom-header-mobile-content) :global(.vtex-minicart-2-x-minicartContainer--minicartCustom) :global(.vtex-minicart-2-x-openIconContainer--minicartCustom) :global(.vtex-button) :global(.vtex-button__label) :global(.vtex-minicart-2-x-minicartIconContainer--minicartCustom) :global(.vtex-minicart-2-x-minicartQuantityBadge--minicartCustom) {
   background-color: #000c7a;
+  right: unset;
+  left: -14px;
 }

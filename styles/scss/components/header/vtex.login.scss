@@ -52,6 +52,8 @@
                         }
                         :global(.vtex-minicart-2-x-minicartQuantityBadge--minicartCustom){
                             background-color: #000c7a;
+                            right: unset;
+                            left: -14px;
                         }
                     }
                 }
