@@ -80,7 +80,7 @@
       "blockClass": ["category-line"],
       "itemProps": {
         "type": "internal",
-        "href": "",
+        "href": "/marcas",
         "noFollow": false,
         "tagTitle": "Marcas",
         "text": "Marcas"
@@ -107,7 +107,7 @@
       "blockClass": ["category-line","category-line-color"],
       "itemProps": {
         "type": "internal",
-        "href": "/ofertas",
+        "href": "/ofertas?order=OrderByBestDiscountDESC",
         "noFollow": false,
         "tagTitle": "Ofertas",
         "text": "Ofertas"
@@ -126,7 +126,7 @@
       "blockClass": ["category-line"],
       "itemProps": {
         "type": "internal",
-        "href": "/lo-nuevo",
+        "href": "/productos?order=OrderByReleaseDateDESC",
         "noFollow": false,
         "tagTitle": "Lo nuevo",
         "text": "Lo nuevo"

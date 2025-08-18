@@ -30,6 +30,11 @@
   color: #fff;
   padding: 5px;
   border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 20px;
 }
 @media (max-width: 1023px) {
   .flexRowContent--product-main .flexCol--product-image :global(.vtex-product-price-1-x-savings--discount) {

@@ -25,16 +25,32 @@
 }
 
 :global(.vtex-product-price-1-x-sellingPrice--summary--hasListPrice) :global(.vtex-product-price-1-x-currencyFraction--summary) {
-  color: black !important;
+  color: red !important;
 }
 :global(.vtex-product-price-1-x-sellingPrice--summary--hasListPrice) :global(.vtex-product-price-1-x-currencyInteger--summary) {
-  color: black !important;
+  color: red !important;
 }
 :global(.vtex-product-price-1-x-sellingPrice--summary--hasListPrice) :global(.vtex-product-price-1-x-currencyCode--summary) {
-  color: black !important;
+  color: red !important;
 }
 :global(.vtex-product-price-1-x-sellingPrice--summary--hasListPrice) :global(.vtex-product-price-1-x-currencyGroup--summary) {
-  color: black !important;
+  color: red !important;
+}
+
+:global(.vtex-product-price-1-x-sellingPrice--hasListPrice) :global(.vtex-product-price-1-x-currencyFraction) {
+  color: red !important;
+}
+:global(.vtex-product-price-1-x-sellingPrice--hasListPrice) :global(.vtex-product-price-1-x-currencyInteger) {
+  color: red !important;
+}
+:global(.vtex-product-price-1-x-sellingPrice--hasListPrice) :global(.vtex-product-price-1-x-currencyCode) {
+  color: red !important;
+}
+:global(.vtex-product-price-1-x-sellingPrice--hasListPrice) :global(.vtex-product-price-1-x-currencyDecimal) {
+  color: red !important;
+}
+:global(.vtex-product-price-1-x-sellingPrice--hasListPrice) :global(.vtex-product-price-1-x-currencyGroup) {
+  color: red !important;
 }
 
 :global(.vtex-product-price-1-x-currencyContainer--summary) :global(.vtex-product-price-1-x-currencyInteger--summary) {

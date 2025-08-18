@@ -22,7 +22,7 @@
              {
                 "id": "info-card-example-5",
                 "htmlId": "pow-1",
-                "isFullModeStyle": true,
+                "isFullModeStyle": false,
                 "imageUrl": "https://pedidos.abolu.com/arquivos/LIFETIME-desktopp.jpg",
                 "mobileImageUrl": "https://pedidos.abolu.com/arquivos/LIFETIME-desktopp.jpg",
                 "blockClass": ["home-slider-5"]

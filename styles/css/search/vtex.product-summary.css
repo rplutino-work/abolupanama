@@ -14,7 +14,7 @@
 
 .element--product-card-container {
   position: relative;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 @media only screen and (max-width: 1023px) {
   .element--product-card-container {
@@ -47,6 +47,11 @@
   color: #fff;
   padding: 5px;
   border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 20px;
 }
 .element--product-card-container .imageStackContainer {
   width: 100%;
@@ -84,7 +89,7 @@
 }
 @media only screen and (max-width: 1023px) {
   .element--product-card-container .nameContainer {
-    min-height: 70px !important;
+    min-height: 100px !important;
   }
 }
 .element--product-card-container :global(.vtex-flex-layout-0-x-flexRowContent--product-brand-and-sku) {

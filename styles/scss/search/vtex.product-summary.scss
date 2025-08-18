@@ -17,7 +17,7 @@
       padding: 0.5rem;
     }
     position: relative;
-    justify-content: space-between;
+    justify-content: flex-start;
       :global(.vtex-wish-list-1-x-wishlistIconContainer) {
         position: absolute;
         top: 0;
@@ -43,6 +43,11 @@
           color: #fff;
           padding: 5px;
           border-radius: 2px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 40px;
+          height: 20px;
         }
       }
       //imagen 
@@ -81,7 +86,7 @@
               text-align: left;
           }
           @include respond(phone) {
-            min-height: 70px !important;
+            min-height: 100px !important;
           }
       }
       //marca y sku

@@ -1,0 +1,40 @@
+{
+  "store.custom#brands": {
+    "children": ["flex-layout.row#brands"]
+  },
+  "flex-layout.row#brands": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false,
+      "colSizing": "auto",
+      "fullWidth": true,
+      "blockClass": [
+        "home-block-7"
+      ]
+    },
+    "children": ["list-context.info-card-list#home-slider-7"]
+  },
+  "rich-text#home-block-7": {
+    "props": {
+      "text": "**Marcas**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "home-block-7"
+    }
+  },
+  "slider-layout#marcas": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 7,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "blockClass": "marcas"
+    }
+  }
+}

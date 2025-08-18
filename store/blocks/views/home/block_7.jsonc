@@ -23,7 +23,7 @@
   },
   "list-context.info-card-list#home-slider-7": {
         "children": [
-            "slider-layout#home-slider-7"
+            "slider-layout#marcas"
         ],
         "props": {
           "height": "fit-content",
@@ -72,6 +72,26 @@
                 "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/brands-05.png",
                 "blockClass": ["home-slider-7"],
                 "headline": "Jardineria"
+
+            },
+            {
+              "id": "info-card-example-7-6",
+              "htmlId": "info-card-example-7-6",
+              "isFullModeStyle": false,
+              "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/brands-05.png",
+              "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/brands-05.png",
+              "blockClass": ["home-slider-7"],
+              "headline": "Jardineria"
+
+            },
+            {
+              "id": "info-card-example-7-7",
+              "htmlId": "info-card-example-7-7",
+              "isFullModeStyle": false,
+              "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/brands-05.png",
+              "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/brands-05.png",
+              "blockClass": ["home-slider-7"],
+              "headline": "Jardineria"
 
             }
           ]

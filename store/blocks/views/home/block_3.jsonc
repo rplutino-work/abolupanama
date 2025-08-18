@@ -22,7 +22,7 @@
              {
                 "id": "info-card-example-3",
                 "htmlId": "pow-1",
-                "isFullModeStyle": true,
+                "isFullModeStyle": false,
                 "imageUrl": "https://pedidos.abolu.com/arquivos/POWER%20TOOLS%20PC.jpg",
                 "mobileImageUrl": "https://pedidos.abolu.com/arquivos/POWER%20TOOLS%20PC.jpg",
                 "blockClass": ["home-slider-3"]
@@ -30,7 +30,7 @@
             {
                 "id": "info-card-example-2",
                 "htmlId": "pow-2",
-                "isFullModeStyle": true,
+                "isFullModeStyle": false,
                 "imageUrl": "https://pedidos.abolu.com/arquivos/CRAFTSMAN%20PC.jpg",
                 "mobileImageUrl": "https://pedidos.abolu.com/arquivos/CRAFTSMAN%20PC.jpg",
                 "blockClass": ["home-slider-3"]

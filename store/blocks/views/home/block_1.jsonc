@@ -22,7 +22,7 @@
              {
                 "id": "info-card-example-1",
                 "htmlId": "pow-1",
-                "isFullModeStyle": true,
+                "isFullModeStyle": false,
                 "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/BANNERPOWERTOOLSDESK.png",
                 "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/BANNERPOWERTOOLSDESK.png",
                 "blockClass": ["home-slider-1"]
@@ -30,7 +30,7 @@
             {
                 "id": "info-card-example-2",
                 "htmlId": "pow-2",
-                "isFullModeStyle": true,
+                "isFullModeStyle": false,
                 "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/banner%20de%20catalogo%20desk.jpg",
                 "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/banner%20de%20catalogo%20desk.jpg",
                 "blockClass": ["home-slider-1"]
@@ -38,7 +38,7 @@
             {
                 "id": "info-card-example-3",
                 "htmlId": "pow-3",
-                "isFullModeStyle": true,
+                "isFullModeStyle": false,
                 "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/BANNER%20DE%20INTRO.jpg",
                 "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/BANNER%20DE%20INTRO.jpg",
                 "blockClass": ["home-slider-1"]
@@ -46,7 +46,7 @@
             {
                 "id": "info-card-example-4",
                 "htmlId": "pow-4",
-                "isFullModeStyle": true,
+                "isFullModeStyle": false,
                 "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/GENERACIONESpc.jpg",
                 "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/GENERACIONESpc.jpg",
                 "blockClass": ["home-slider-1"]
@@ -54,7 +54,7 @@
             {
                 "id": "info-card-example-5",
                 "htmlId": "pow-5",
-                "isFullModeStyle": true,
+                "isFullModeStyle": false,
                 "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/elsurtidomasamplio-desktop.jpg",
                 "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/elsurtidomasamplio-desktop.jpg",
                 "blockClass": ["home-slider-1"]
