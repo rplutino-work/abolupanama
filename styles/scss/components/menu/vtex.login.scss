@@ -59,6 +59,9 @@
     height: 100vh !important;
     max-height: 100vh !important;
     background-color: $color-overlay;
+    @media(min-width:1024px){
+        top:100%;
+    }
     :global(.vtex-mega-menu-2-x-menuContainer){
         font-size: 14px;
         line-height: 18px;
