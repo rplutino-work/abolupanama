@@ -9,6 +9,8 @@
             "blockClass": "form-contacto"
         },
         "children": [
+            "responsive-layout.phone#contact-us-image",
+            "responsive-layout.desktop#contact-us-image",
             "flex-layout.col#form"
         ]
     },
@@ -20,6 +22,24 @@
             "form#contacto"
         ]
     },
+    "responsive-layout.phone#contact-us-image":{
+        "children": ["image#contact-us-image-phone"]
+    },
+    "responsive-layout.desktop#contact-us-image":{
+        "children": ["image#contact-us-image"]
+    },
+    "image#contact-us-image":{
+        "props": {
+            "src": "/arquivos/banner-contact-abolu.png",
+            "blockClass": "contact-us-image"
+        }
+    },
+    "image#contact-us-image-phone":{
+        "props": {
+            "src": "/arquivos/banner-contact-abolu-mobile.png",
+            "blockClass": "contact-us-image"
+        }
+    },
     "form#contacto": {
         "props": {
             "entity": "CT",
@@ -29,9 +49,9 @@
         "children": [
             "rich-text#form-title",
             "form-input.text#email",
+            "form-input.text#cellphone",
             "form-input.dropdown#contact",
             "form-input.dropdown#area",
-            "form-input.text#cellphone",
             "form-input.textarea#comments",
             "form-submit"
         ],
