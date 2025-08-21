@@ -2,6 +2,19 @@
 
 //// ICONS HEADER ////
 
+@media(min-width:1023px){
+    :global(.vtex-flex-layout-0-x-flexCol--icons-header){
+        position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            left: 50%;
+            width: 1px;
+            height: 100%;
+            background-color: #000;
+        }
+    }
+}
 :global(.vtex-flex-layout-0-x-flexCol--icons-header),
 :global(.vtex-flex-layout-0-x-flexRowContent--bottom-header-mobile-content){
     flex-direction: row;
@@ -13,7 +26,19 @@
     }
     .container{
         :global(.vtex-button){
+            position: relative;
             border: none;
+            @media(max-width:1023px){
+                &::after{
+                    content: '';
+                    position: absolute;
+                    left: 150%;
+                    top: 0;
+                    width: 1px;
+                    height: 100%;
+                    background-color: #000;
+                }
+            }
             &::before{
                 content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none"><path d="M16.6337 13.0822C18.4507 11.893 19.6833 9.86842 19.6833 7.53333C19.6833 3.85049 16.6828 0.85 13 0.85C9.31716 0.85 6.31667 3.85049 6.31667 7.53333C6.31667 9.86842 7.54934 11.893 9.36629 13.0822C4.53604 14.5384 0.982071 18.9826 0.850046 24.3296L0.85 24.3296V24.3333C0.85 24.4508 0.869761 24.5555 0.912928 24.6526C0.955806 24.7491 1.01841 24.8305 1.09393 24.9061C1.16946 24.9816 1.25094 25.0442 1.34741 25.0871C1.44454 25.1302 1.54916 25.15 1.66667 25.15H24.3333C24.4508 25.15 24.5555 25.1302 24.6526 25.0871C24.7491 25.0442 24.8305 24.9816 24.9061 24.9061C25.0694 24.7428 25.15 24.5038 25.15 24.3333H25.15L25.15 24.3296C25.0179 18.9826 21.464 14.5384 16.6337 13.0822ZM7.95 7.53333C7.95 4.74951 10.2162 2.48333 13 2.48333C15.7838 2.48333 18.05 4.74951 18.05 7.53333C18.05 10.3166 15.7848 12.5824 13.0018 12.5833C10.2141 12.5176 7.95 10.2481 7.95 7.53333ZM23.4354 23.5167H2.5646C3.09976 18.2075 7.53334 14.15 13 14.15C18.4667 14.15 22.9002 18.2075 23.4354 23.5167Z" fill="black" stroke="black" stroke-width="0.3"/></svg>');
                 display: block;

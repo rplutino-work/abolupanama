@@ -15,6 +15,31 @@
 .flexRow--content-footer-information .flexRowContent--content-footer-information .flexColChild--content-information {
   height: auto !important;
 }
+.flexRow--content-footer-information .flexRowContent--content-footer-information .flexColChild--content-information :global(.vtex-rich-text-0-x-wrapper--informacion-footer-text) {
+  margin-bottom: 10px;
+}
+@media (max-width: 1023px) {
+  .flexRow--content-footer-information .flexRowContent--content-footer-information .flexColChild--content-information :global(.vtex-rich-text-0-x-wrapper--informacion-footer-text) {
+    margin-bottom: 20px;
+  }
+}
+.flexRow--content-footer-information .flexRowContent--content-footer-information .flexColChild--content-information :global(.vtex-rich-text-0-x-wrapper--informacion-footer-text) :global(.vtex-rich-text-0-x-paragraph--informacion-footer-text) {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #000;
+}
+@media (min-width: 1024px) {
+  .flexRow--content-footer-information .flexRowContent--content-footer-information .flexColChild--content-information :global(.vtex-rich-text-0-x-wrapper--informacion-footer-text) :global(.vtex-rich-text-0-x-paragraph--informacion-footer-text) {
+    text-align: center;
+  }
+}
+.flexRow--content-footer-information .flexRowContent--content-footer-information .flexColChild--content-information :global(.vtex-rich-text-0-x-wrapper--informacion-footer-text) :global(.vtex-rich-text-0-x-paragraph--informacion-footer-text) :global(.vtex-rich-text-0-x-link--informacion-footer-text) {
+  color: #000;
+  text-decoration: none;
+}
+.flexRow--content-footer-information .flexRowContent--content-footer-information .flexColChild--content-information :global(.vtex-rich-text-0-x-wrapper--informacion-footer-text) :global(.vtex-rich-text-0-x-paragraph--informacion-footer-text) :global(.vtex-rich-text-0-x-link--informacion-footer-text):hover {
+  text-decoration: underline;
+}
 @media (max-width: 1023px) {
   .flexRow--content-footer-information .flexRowContent--content-footer-information .flexColChild--content-information .flexRowContent--redes-sociales-footer {
     display: flex;

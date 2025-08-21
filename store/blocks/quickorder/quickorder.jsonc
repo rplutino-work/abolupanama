@@ -59,9 +59,9 @@
   "quickorder-upload": {
     "props": {
       "componentOnly": false,
-      "text": "Upload",
-      "description": "Upload a Spreadsheet with two columns (SKU, Quantity) to bulk order",
-      "downloadText": "Click here to download a spreadsheet model"
+      "text": "Cargar",
+      "description": "Cargue una hoja de cálculo con dos columnas (SKU, Cantidad) para realizar pedidos al por mayor Haga clic aquí para descargar un modelo de hoja de cálculo",
+      "downloadText": "Haga clic aquí para descargar un modelo de hoja de cálculo"
     }
   },
   "flex-layout.row#autocomplete": {
@@ -83,8 +83,8 @@
   "quickorder-autocomplete": {
     "props": {
       "componentOnly": false,
-      "text": "One by One",
-      "description": "Type the product name, select, enter quantity and add to the cart"
+      "text": "Uno por Uno",
+      "description": "Escribe el nombre del producto, selecciónalo, introduce la cantidad y agrégalo al carrito."
     }
   },
   "flex-layout.row#quickCategories": {
@@ -107,8 +107,8 @@
   "quickorder-categories": {
     "props": {
       "componentOnly": false,
-      "text": "Categories",
-      "description": "Add products directly from their categories"
+      "text": "Categorías",
+      "description": "Agrega productos directamente desde sus categorías"
     }
   }
 }

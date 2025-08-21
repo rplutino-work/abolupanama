@@ -98,7 +98,7 @@
   grid-template-columns: 1fr repeat(3, 1fr) !important;
   gap: 24px 2rem !important;
 }
-:global(.vtex-mega-menu-2-x-menuContainerNav) :global(.vtex-mega-menu-2-x-submenuContainer) :global(.vtex-mega-menu-2-x-submenuList) :global(.vtex-mega-menu-2-x-styledLinkContainer) {
+:global(.vtex-mega-menu-2-x-menuContainerNav) :global(.vtex-mega-menu-2-x-submenuContainer) :global(.vtex-mega-menu-2-x-submenuList) :global(.vtex-mega-menu-2-x-submenuItem--isClosed) :global(.vtex-mega-menu-2-x-styledLinkContainer) {
   max-width: 230px !important;
   width: 100%;
   line-height: 1.5;
@@ -107,16 +107,41 @@
   display: flex;
   gap: 8px;
 }
-:global(.vtex-mega-menu-2-x-menuContainerNav) :global(.vtex-mega-menu-2-x-submenuContainer) :global(.vtex-mega-menu-2-x-submenuList) :global(.vtex-mega-menu-2-x-styledLinkContainer) :global(.vtex-mega-menu-2-x-styledLinkText) {
+:global(.vtex-mega-menu-2-x-menuContainerNav) :global(.vtex-mega-menu-2-x-submenuContainer) :global(.vtex-mega-menu-2-x-submenuList) :global(.vtex-mega-menu-2-x-submenuItem--isClosed) :global(.vtex-mega-menu-2-x-styledLinkContainer) :global(.vtex-mega-menu-2-x-styledLinkText) {
+  font-weight: 600;
+  color: #6e6e6e;
+  margin-bottom: 10px;
+  padding: 0 4px;
+  transition: all 0.3s ease;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+:global(.vtex-mega-menu-2-x-menuContainerNav) :global(.vtex-mega-menu-2-x-submenuContainer) :global(.vtex-mega-menu-2-x-submenuList) :global(.vtex-mega-menu-2-x-submenuItem--isClosed) :global(.vtex-mega-menu-2-x-styledLinkContainer) :global(.vtex-mega-menu-2-x-styledLinkText):hover {
+  text-decoration: underline;
+}
+:global(.vtex-mega-menu-2-x-menuContainerNav) :global(.vtex-mega-menu-2-x-submenuContainer) :global(.vtex-mega-menu-2-x-submenuList) :global(.vtex-mega-menu-2-x-submenuItem--isClosed) :global(.vtex-mega-menu-2-x-submenuItem) :global(.vtex-mega-menu-2-x-styledLinkContainer) {
+  max-width: 230px !important;
+  width: 100%;
+  line-height: 1.5;
+  white-space: pre-line;
+  max-height: 100% !important;
+  display: flex;
+  gap: 8px;
+}
+:global(.vtex-mega-menu-2-x-menuContainerNav) :global(.vtex-mega-menu-2-x-submenuContainer) :global(.vtex-mega-menu-2-x-submenuList) :global(.vtex-mega-menu-2-x-submenuItem--isClosed) :global(.vtex-mega-menu-2-x-submenuItem) :global(.vtex-mega-menu-2-x-styledLinkContainer) :global(.vtex-mega-menu-2-x-styledLinkText) {
   font-size: 14px;
+  font-weight: 400;
   color: #6e6e6e;
   margin-bottom: 10px;
   padding: 0 4px;
   transition: all 0.3s ease;
   text-transform: capitalize;
 }
-:global(.vtex-mega-menu-2-x-menuContainerNav) :global(.vtex-mega-menu-2-x-submenuContainer) :global(.vtex-mega-menu-2-x-submenuList) :global(.vtex-mega-menu-2-x-styledLinkContainer) :global(.vtex-mega-menu-2-x-styledLinkText):hover {
+:global(.vtex-mega-menu-2-x-menuContainerNav) :global(.vtex-mega-menu-2-x-submenuContainer) :global(.vtex-mega-menu-2-x-submenuList) :global(.vtex-mega-menu-2-x-submenuItem--isClosed) :global(.vtex-mega-menu-2-x-submenuItem) :global(.vtex-mega-menu-2-x-styledLinkContainer) :global(.vtex-mega-menu-2-x-styledLinkText):hover {
   text-decoration: underline;
+}
+:global(.vtex-mega-menu-2-x-menuContainerNav) :global(.vtex-mega-menu-2-x-submenuContainer) :global(.vtex-mega-menu-2-x-submenuList) :global(.vtex-mega-menu-2-x-seeAllLinkContainer) {
+  display: none;
 }
 :global(.vtex-mega-menu-2-x-menuContainerNav) :global(.vtex-mega-menu-2-x-submenuContainer) :global(.vtex-mega-menu-2-x-submenuList) :global(.vtex-mega-menu-2-x-seeAllLinkContainer) :global(.vtex-mega-menu-2-x-seeAllLink) {
   color: rgb(0, 12, 122);

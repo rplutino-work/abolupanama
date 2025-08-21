@@ -1,5 +1,5 @@
 :global(.render-route-store-quickorder .flex.flex-grow-1) {
-    background-color: #F5F5F5;
+    background-color: #fff;
   }
   
   :global(.vtex-quickorder-3-x-componentContainer) {
@@ -30,7 +30,7 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    color: #000;
+    color: #040d62;
   }
   
   :global(.vtex-quickorder-3-x-textContainer .vtex-quickorder-3-x-textContainerDescription) {
@@ -101,7 +101,7 @@
   }
   
   :global(.vtex-flex-layout-0-x-flexCol--quickCategories .vtex-quickorder-3-x-textContainer .vtex-quickorder-3-x-categoryTitle){
-    color: #000;
+    color: #040d62;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -124,6 +124,11 @@
     background-color: #000c7a;
     border: none;
     border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        transition: all 0.3s ease-in-out;
+        background-color: #0068b5;
+    }
   }
   :global(.vtex-flex-layout-0-x-flexCol--quickCategories .vtex-quickorder-3-x-componentContainer .vtex-button .vtex-button__label) {
     color: #fff;
@@ -139,6 +144,8 @@
     }
     :global(.vtex-quickorder-3-x-textAreaBlock .vtex-quickorder-3-x-textContainer){
       justify-content: center;
+      flex-direction: column !important;
+      align-items: center;
     }
     :global(.vtex-quickorder-3-x-componentContainer .vtex-textarea .vtex-textarea__input){
       min-height: 205px;
