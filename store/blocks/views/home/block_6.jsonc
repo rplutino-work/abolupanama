@@ -12,9 +12,17 @@
       ]
     },
     "children": [
-      "rich-text#home-block-6",
+      // "rich-text#home-block-6",
+      "link#home-block-6",
       "list-context.product-list#block-6"
     ]
+  },
+  "link#home-block-6": {
+    "props": {
+      "href": "/167?map=productClusterIds",
+      "label": "Productos destacados",
+      "blockClass": "home-block-6"
+    }
   },
   "rich-text#home-block-6": {
     "props": {

@@ -24,8 +24,16 @@
                 "htmlId": "pow-1",
                 "isFullModeStyle": false,
                 "imageUrl": "https://pedidos.abolu.com/arquivos/LIFETIME-desktopp.jpg",
-                "mobileImageUrl": "https://pedidos.abolu.com/arquivos/LIFETIME-desktopp.jpg",
+                "mobileImageUrl": "https://pedidos.abolu.com/arquivos/LIFETIME-mobile.jpg",
                 "blockClass": ["home-slider-5"]
+            },
+            {
+              "id": "info-card-example-5",
+              "htmlId": "pow-1",
+              "isFullModeStyle": false,
+              "imageUrl": "https://pedidos.abolu.com/arquivos/LIFETIME-desktopp.jpg",
+              "mobileImageUrl": "https://pedidos.abolu.com/arquivos/LIFETIME-mobile.jpg",
+              "blockClass": ["home-slider-5"]
             }
           ]
         }

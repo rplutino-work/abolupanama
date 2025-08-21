@@ -20,43 +20,43 @@
           "height": "fit-content",
           "infoCards": [
              {
-                "id": "info-card-example-1",
-                "htmlId": "pow-1",
+                "id": "info-card-home-3-1",
+                "htmlId": "info-card-home-3-1",
                 "isFullModeStyle": false,
                 "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/BANNERPOWERTOOLSDESK.png",
-                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/BANNERPOWERTOOLSDESK.png",
+                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/BANNERPOWERTOOLSMOBILE.png",
                 "blockClass": ["home-slider-1"]
             },
             {
-                "id": "info-card-example-2",
-                "htmlId": "pow-2",
+                "id": "info-card-home-3-2",
+                "htmlId": "info-card-home-3-2",
                 "isFullModeStyle": false,
                 "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/banner%20de%20catalogo%20desk.jpg",
-                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/banner%20de%20catalogo%20desk.jpg",
+                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/banner%20de%20catalogomobile.jpg",
                 "blockClass": ["home-slider-1"]
             },
             {
-                "id": "info-card-example-3",
-                "htmlId": "pow-3",
+                "id": "info-card-home-3-3",
+                "htmlId": "info-card-home-3-3",
                 "isFullModeStyle": false,
                 "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/BANNER%20DE%20INTRO.jpg",
-                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/BANNER%20DE%20INTRO.jpg",
+                "mobileImageUrl": "https://pedidos.abolu.com/arquivos/BANNER%20DE%20INTRO%20MOBILE.jpg",
                 "blockClass": ["home-slider-1"]
             },
             {
-                "id": "info-card-example-4",
-                "htmlId": "pow-4",
+                "id": "info-card-home-3-4",
+                "htmlId": "info-card-home-3-4",
                 "isFullModeStyle": false,
                 "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/GENERACIONESpc.jpg",
-                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/GENERACIONESpc.jpg",
+                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/GENERACIONESmobile.jpg",
                 "blockClass": ["home-slider-1"]
             },
             {
-                "id": "info-card-example-5",
-                "htmlId": "pow-5",
+                "id": "info-card-home-3-5",
+                "htmlId": "info-card-home-3-5",
                 "isFullModeStyle": false,
                 "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/elsurtidomasamplio-desktop.jpg",
-                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/elsurtidomasamplio-desktop.jpg",
+                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/elsurtidomasamplio-mobile.jpg",
                 "blockClass": ["home-slider-1"]
 
             }

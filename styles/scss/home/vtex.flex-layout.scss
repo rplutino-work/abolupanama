@@ -12,6 +12,20 @@
   justify-content: flex-start;
   font-size: 1.5rem;
 }
+:global(.vtex-store-link-0-x-link--home-block-4) {
+  color: #3f3f40;
+  font-weight: bold;
+  text-decoration: none;
+  width: 100%;
+  margin-right: 2rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  justify-content: flex-start;
+  font-size: 1.5rem;
+  display: flex;
+  line-height: 1.5;
+}
 
 .flexRowContent--home-block-6 {
   flex-direction: column;
@@ -28,6 +42,21 @@
   font-size: 1.5rem;
 }
 
+:global(.vtex-store-link-0-x-link--home-block-6) {
+  color: #3f3f40;
+  font-weight: bold;
+  text-decoration: none;
+  width: 100%;
+  margin-right: 2rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  justify-content: flex-start;
+  font-size: 1.5rem;
+  display: flex;
+  line-height: 1.5;
+}
+
 .flexRowContent--home-block-7 {
   flex-direction: column;
   padding: 0 2rem;
@@ -38,6 +67,21 @@
   margin-left: 1rem;
   justify-content: flex-start;
   font-size: 1.5rem;
+}
+
+:global(.vtex-store-link-0-x-link--home-block-7) {
+  color: #3f3f40;
+  font-weight: bold;
+  text-decoration: none;
+  width: 100%;
+  margin-right: 2rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  justify-content: flex-start;
+  font-size: 1.5rem;
+  display: flex;
+  line-height: 1.5;
 }
 
 @media (max-width: 768px) {

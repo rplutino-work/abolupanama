@@ -11,7 +11,14 @@
         "home-block-7"
       ]
     },
-    "children": ["rich-text#home-block-7", "list-context.info-card-list#home-slider-7"]
+    "children": ["link#home-block-7", "list-context.info-card-list#home-slider-7"]
+  },
+  "link#home-block-7": {
+    "props": {
+      "href": "/marcas",
+      "label": "Marcas",
+      "blockClass": "home-block-7"
+    }
   },
   "rich-text#home-block-7": {
     "props": {
@@ -23,7 +30,7 @@
   },
   "list-context.info-card-list#home-slider-7": {
         "children": [
-            "slider-layout#marcas"
+            "slider-layout#home-slider-7"
         ],
         "props": {
           "height": "fit-content",

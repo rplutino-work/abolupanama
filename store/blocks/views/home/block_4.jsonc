@@ -12,9 +12,17 @@
       ]
     },
     "children": [
-      "rich-text#home-block-4",
+      // "rich-text#home-block-4",
+      "link#home-block-4",
       "list-context.product-list#block-4"
     ]
+  },
+  "link#home-block-4": {
+    "props": {
+      "href": "/166?map=productClusterIds",
+      "label": "Ofertas del mes",
+      "blockClass": "home-block-4"
+    }
   },
   "rich-text#home-block-4": {
     "props": {
