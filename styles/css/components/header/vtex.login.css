@@ -1,3 +1,16 @@
+@media (min-width: 1023px) {
+  :global(.vtex-flex-layout-0-x-flexCol--icons-header) {
+    position: relative;
+  }
+  :global(.vtex-flex-layout-0-x-flexCol--icons-header)::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 1px;
+    height: 100%;
+    background-color: #000;
+  }
+}
 :global(.vtex-flex-layout-0-x-flexCol--icons-header),
 :global(.vtex-flex-layout-0-x-flexRowContent--bottom-header-mobile-content) {
   flex-direction: row;
@@ -13,7 +26,20 @@
 }
 :global(.vtex-flex-layout-0-x-flexCol--icons-header) .container :global(.vtex-button),
 :global(.vtex-flex-layout-0-x-flexRowContent--bottom-header-mobile-content) .container :global(.vtex-button) {
+  position: relative;
   border: none;
+}
+@media (max-width: 1023px) {
+  :global(.vtex-flex-layout-0-x-flexCol--icons-header) .container :global(.vtex-button)::after,
+  :global(.vtex-flex-layout-0-x-flexRowContent--bottom-header-mobile-content) .container :global(.vtex-button)::after {
+    content: "";
+    position: absolute;
+    left: 150%;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background-color: #000;
+  }
 }
 :global(.vtex-flex-layout-0-x-flexCol--icons-header) .container :global(.vtex-button)::before,
 :global(.vtex-flex-layout-0-x-flexRowContent--bottom-header-mobile-content) .container :global(.vtex-button)::before {

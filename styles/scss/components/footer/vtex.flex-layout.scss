@@ -12,6 +12,27 @@
         gap: 120px;
         .flexColChild--content-information{
             height: auto !important;
+            :global(.vtex-rich-text-0-x-wrapper--informacion-footer-text){
+                margin-bottom: 10px;
+                @media(max-width:1023px){
+                    margin-bottom: 20px;
+                }
+                :global(.vtex-rich-text-0-x-paragraph--informacion-footer-text){
+                    font-size: 14px;
+                    margin: 5px 0;
+                    color: #000;
+                    @media(min-width:1024px){
+                        text-align: center;
+                    }
+                    :global(.vtex-rich-text-0-x-link--informacion-footer-text){
+                        color: #000;
+                        text-decoration: none;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
             .flexRowContent--redes-sociales-footer{
                 @media (max-width:1023px){
                     display: flex;
