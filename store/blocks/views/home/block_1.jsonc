@@ -1,6 +1,7 @@
 {
   "flex-layout.row#block-1": {
     "props": {
+      "title": "Banner Principal - Slider de Promociones",
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": false,
@@ -17,6 +18,7 @@
             "slider-layout#home-slider-1"
         ],
         "props": {
+          "title": "Lista de Banners Promocionales",
           "height": "fit-content",
           "infoCards": [
              {
@@ -65,6 +67,7 @@
       },
   "slider-layout#home-slider-1": {
     "props": {
+      "title": "Slider Principal con Autoplay",
       "itemsPerPage": {
         "desktop": 1,
         "tablet": 1,

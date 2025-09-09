@@ -68,13 +68,13 @@
   /* Asegurar que el info-card use toda la altura disponible */
   .infoCardContainer--home-slider-1 .infoCard {
     height: 100%;
-    min-height: 400px;
+    // min-height: 400px;
   }
   
   /* Hacer que la imagen ocupe todo el espacio disponible */
   .infoCardContainer--home-slider-1 .infoCardImage {
     height: 100%;
-    min-height: 400px;
+    // min-height: 400px;
     object-fit: contain !important; /* Esto estira la imagen manteniendo proporción */
     width: 100%;
   }
@@ -82,7 +82,7 @@
   /* Alternativa: si quieres que se estire sin mantener proporción */
   .infoCardContainer--home-slider-1 .infoCardImage--stretch {
     height: 100%;
-    min-height: 400px;
+    // min-height: 400px;
     object-fit: fill; /* Estira la imagen completamente sin mantener proporción */
     width: 100%;
   }
@@ -464,19 +464,45 @@
 
 
 
-
-/* Estilos para el contenedor del slider 7 */
-
-.sliderTrack--home-slider-7 {
-  transform: initial !important;
-  width: 100% !important;
-  display: flex !important;
-  flex-direction: row !important;
-  flex-wrap: wrap !important;
+.slide--home-slider-7--hidden {
+  display: none !important;
 }
 .slide--home-slider-7 {
-  width: 20% !important;
+  width: 25% !important;
+  @media (max-width: 768px) {
+    width: 50% !important;
+    }
 }
+/* Estilos para el contenedor del slider 7 */
+:global(.vtex-flex-layout-0-x-flexRowContent--home-brands) {
+  .sliderTrack--home-slider-7 {
+    transform: initial !important;
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    justify-content: space-between;
+    @media (max-width: 768px) {
+      justify-content: space-around;
+    }
+  }
+  .slide--home-slider-7--hidden {
+    display: none !important;
+  }
+  .slide--home-slider-7 {
+    width: 20% !important;
+    @media (max-width: 768px) {
+      width: 50% !important;
+      }
+  }
+  .sliderLayoutContainer--home-slider-7 {
+    padding: 2rem 4rem;
+    @media (max-width: 768px) {
+      padding: 2rem 1rem;
+      }
+  }
+}
+
   
 :global(.vtex-flex-layout-0-x-flexRow--home-block-7) {
   padding: 3em 0;
@@ -511,7 +537,10 @@
   width: 75%;
 }
 .sliderLayoutContainer--home-slider-7 {
-  padding: 25px 5rem;
+  padding: 0rem 4rem;
+  @media (max-width: 768px) {
+    padding: 2rem 1rem;
+    }
 }
 
 .sliderLayoutContainer--home-slider-7 .paginationDot {
@@ -563,15 +592,10 @@
     width: 150px;
     height: 150px;
   }
-  .sliderLayoutContainer--home-slider-7 {
-    padding: 0;
-  }
 
   /* Bullets más pequeños en mobile */
   .sliderLayoutContainer--home-slider-7 .paginationDot {
     width: 6px;
     height: 6px;
   }
-
-
 }

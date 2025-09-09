@@ -1,6 +1,7 @@
 {
   "flex-layout.row#block-3": {
     "props": {
+      "title": "Power Tools - Herramientas Eléctricas",
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": false,
@@ -17,6 +18,7 @@
             "slider-layout#home-slider-3"
         ],
         "props": {
+          "title": "Lista de Herramientas Eléctricas",
           "height": "fit-content",
           "infoCards": [
              {
@@ -40,6 +42,7 @@
       },
   "slider-layout#home-slider-3": {
     "props": {
+      "title": "Slider Power Tools con Autoplay",
       "itemsPerPage": {
         "desktop": 1,
         "tablet": 1,

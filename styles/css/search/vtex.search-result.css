@@ -16,6 +16,10 @@
   display: none;
 }
 
+.filter__container--tamano, .filter__container--color {
+  display: none;
+}
+
 :global(.vtex-breadcrumb-1-x-link--breadcrumb--search) {
   text-transform: capitalize;
 }

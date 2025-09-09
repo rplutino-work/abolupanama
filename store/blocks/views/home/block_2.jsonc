@@ -1,6 +1,7 @@
 {
   "flex-layout.row#block-2": {
     "props": {
+      "title": "Departamentos - Categorías de Productos",
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": false,
@@ -25,59 +26,85 @@
             "slider-layout#home-slider-2"
         ],
         "props": {
+          "title": "Lista de Categorías de Productos",
           "height": "fit-content",
           "infoCards": [
              {
-                "id": "info-card-example-2",
-                "htmlId": "pow-1",
-                "isFullModeStyle": false,
-                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/manguera-jardineria.png",
-                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/manguera-jardineria.png",
-                "blockClass": ["home-slider-2"],
-                "headline": "Jardineria"
-            },
-            {
-                "id": "info-card-example-2",
-                "htmlId": "pow-2",
-                "isFullModeStyle": false,
-                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/mascotas.png",
-                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/mascotas.png",
-                "blockClass": ["home-slider-2"],
-                "headline": "Jardineria"
-            },
-            {
-                "id": "info-card-example-3",
-                "htmlId": "pow-3",
-                "isFullModeStyle": false,
-                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/plomeria.png",
-                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/plomeria.png",
-                "blockClass": ["home-slider-2"],
-                "headline": "Jardineria"
-            },
-            {
-                "id": "info-card-example-4",
-                "htmlId": "pow-4",
-                "isFullModeStyle": false,
-                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/seguridad.png",
-                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/seguridad.png",
-                "blockClass": ["home-slider-2"],
-                "headline": "Jardineria"
-            },
-            {
-                "id": "info-card-example-5",
-                "htmlId": "pow-5",
+                "id": "info-card-example-2-1",
+                "htmlId": "info-card-example-2-1",
                 "isFullModeStyle": false,
                 "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/adhesivos.png",
                 "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/adhesivos.png",
+                "imageActionUrl": "/Adhesivos?map=c",
                 "blockClass": ["home-slider-2"],
-                "headline": "Jardineria"
-
+                "headline": "Adhesivos"
+            },
+            {
+                "id": "info-card-example-2-2",
+                "htmlId": "info-card-example-2-2",
+                "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/automotriz.png",
+                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/automotriz.png",
+                "imageActionUrl": "/Automotriz?map=c",
+                "blockClass": ["home-slider-2"],
+                "headline": "Automotriz"
+            },
+            {
+                "id": "info-card-example-2-3",
+                "htmlId": "info-card-example-2-3",
+                "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/cerrajeria.png",
+                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/cerrajeria.png",
+                "imageActionUrl": "/Cerrajeria?map=c",
+                "blockClass": ["home-slider-2"],
+                "headline": "Cerrajería"
+            },
+            {
+                "id": "info-card-example-2-4",
+                "htmlId": "info-card-example-2-4",
+                "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/manguera-jardineria.png",
+                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/manguera-jardineria.png",
+                "imageActionUrl": "/Jardineria?map=c",
+                "blockClass": ["home-slider-2"],
+                "headline": "Jardinería"
+            },
+            {
+                "id": "info-card-example-2-5",
+                "htmlId": "info-card-example-2-5",
+                "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/mascotas.png",
+                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/mascotas.png",
+                "imageActionUrl": "/Mascotas?map=c",
+                "blockClass": ["home-slider-2"],
+                "headline": "Mascotas"
+            },
+            {
+                "id": "info-card-example-2-6",
+                "htmlId": "info-card-example-2-6",
+                "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/plomeria.png",
+                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/plomeria.png",
+                "imageActionUrl": "/Plomeria?map=c",
+                "blockClass": ["home-slider-2"],
+                "headline": "Plomería"
+            },
+            {
+                "id": "info-card-example-2-7",
+                "htmlId": "info-card-example-2-7",
+                "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/seguridad.png",
+                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/seguridad.png",
+                "imageActionUrl": "/Seguridad?map=c",
+                "blockClass": ["home-slider-2"],
+                "headline": "Seguridad"
             }
           ]
         }
       },
   "slider-layout#home-slider-2": {
     "props": {
+      "title": "Slider de Categorías (4 columnas desktop)",
       "itemsPerPage": {
         "desktop": 4,
         "tablet": 2,

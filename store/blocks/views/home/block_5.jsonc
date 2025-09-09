@@ -1,6 +1,7 @@
 {
   "flex-layout.row#block-5": {
     "props": {
+      "title": "Lifetime - Garantía de Por Vida",
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": false,
@@ -17,6 +18,7 @@
             "slider-layout#home-slider-5"
         ],
         "props": {
+          "title": "Lista de Banners Lifetime",
           "height": "fit-content",
           "infoCards": [
              {
@@ -40,6 +42,7 @@
       },
   "slider-layout#home-slider-5": {
     "props": {
+      "title": "Slider Lifetime con Autoplay",
       "itemsPerPage": {
         "desktop": 1,
         "tablet": 1,

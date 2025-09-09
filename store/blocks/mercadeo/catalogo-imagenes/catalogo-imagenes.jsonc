@@ -1,0 +1,118 @@
+{
+  "store.custom#catalogo-imagenes": {
+    "children": [
+      "flex-layout.row#catalogo-imagenes-textarea",
+      "flex-layout.row#catalogo-imagenes"],
+      "props": {
+      "blockClass": ["catalogo-imagenes"]
+    }
+  },
+  "flex-layout.row#catalogo-imagenes-textarea": {
+    "children": [
+      "rich-text#catalogo-imagenes-textarea"
+      // "flex-layout.row#quickorder-textarea"
+    ],
+    "props": {
+      "blockClass": ["mercadeo-textarea"]
+    }
+  },
+  "flex-layout.row#catalogo-imagenes": {
+    "children": [
+      "list-context.info-card-list#catalogo-imagenes-image-banners"],
+    "props": {
+      "blockClass": ["catalogo-imagenes"],
+      "paddingBottom": 9
+    }
+  },
+  "rich-text#catalogo-imagenes-textarea": {
+    "props": {
+      "text": "Conoce nuestros catálogos",
+      "blockClass": [
+        "title-mercadeo"
+      ]
+    }
+  },
+  "list-context.info-card-list#catalogo-imagenes-image-banners": {
+    "children": [
+        "slider-layout#catalogo-imagenes"
+    ],
+    "props": {
+      "height": "fit-content",
+      "infoCards": [
+          {
+            "id": "catalogo-imagenes",
+            "htmlId": "catalogo-imagenes-1",
+            "isFullModeStyle": false,
+            "imageUrl": "/arquivos/catalog-39.png",
+            "mobileImageUrl": "/arquivos/catalog-39.png",
+            "imageActionUrl": "/168?map=productClusterIds",
+            "blockClass": ["catalogo-imagenes"],
+            "headline": "Ver galería"
+        },
+        {
+            "id": "catalogo-imagenes",
+            "htmlId": "catalogo-imagenes-2",
+            "isFullModeStyle": false,
+            "imageUrl": "/arquivos/catalog-40.png",
+            "mobileImageUrl": "/arquivos/catalog-40.png",
+            "imageActionUrl": "/marketing/products",
+            "blockClass": ["catalogo-imagenes"],
+            "headline": "Ver galería"
+        },
+        {
+            "id": "catalogo-imagenes",
+            "htmlId": "catalogo-imagenes-3",
+            "isFullModeStyle": false,
+            "imageUrl": "/arquivos/catalog-41.png",
+            "mobileImageUrl": "/arquivos/catalog-41.png",
+            "imageActionUrl": "/marketing/products",
+            "blockClass": ["catalogo-imagenes"],
+            "headline": "Ver galería"
+        },
+        {
+          "id": "catalogo-imagenes",
+          "htmlId": "catalogo-imagenes-4",
+          "isFullModeStyle": false,
+          "imageUrl": "/arquivos/catalog-42.png",
+          "mobileImageUrl": "/arquivos/catalog-42.png",
+          "imageActionUrl": "/marketing/products",
+          "blockClass": ["catalogo-imagenes"],
+          "headline": "Ver galería"
+        },
+        {
+          "id": "catalogo-imagenes",
+          "htmlId": "catalogo-imagenes-5",
+          "isFullModeStyle": false,
+          "imageUrl": "/arquivos/catalog-43.png",
+          "mobileImageUrl": "/arquivos/catalog-43.png",
+          "imageActionUrl": "/marketing/products",
+          "blockClass": ["catalogo-imagenes"],
+          "headline": "Ver galería"
+        },
+        {
+          "id": "catalogo-imagenes",
+          "htmlId": "catalogo-imagenes-7",
+          "isFullModeStyle": false,
+          "imageUrl": "/arquivos/catgoodyear-61.png",
+          "mobileImageUrl": "/arquivos/catgoodyear-61.png",
+          "imageActionUrl": "/marketing/products",
+          "blockClass": ["catalogo-imagenes"],
+          "headline": "Ver galería"
+        }
+      ]
+    }
+  },
+  "slider-layout#catalogo-imagenes": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 20,
+        "tablet": 20,
+        "phone": 20
+      },
+      "infinite": false,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "blockClass": "mercadeo-slider"
+    }
+  }
+}

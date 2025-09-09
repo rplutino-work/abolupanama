@@ -1,6 +1,7 @@
 {
   "flex-layout.row#block-7": {
     "props": {
+      "title": "Marcas - Logos de Fabricantes",
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": false,
@@ -15,6 +16,7 @@
   },
   "link#home-block-7": {
     "props": {
+      "title": "Enlace a Página de Marcas",
       "href": "/marcas",
       "label": "Marcas",
       "blockClass": "home-block-7"
@@ -33,86 +35,474 @@
             "slider-layout#home-slider-7"
         ],
         "props": {
+          "title": "Lista de Logos de Marcas (50 marcas)",
           "height": "fit-content",
           "infoCards": [
              {
                 "id": "info-card-example-7-1",
                 "htmlId": "info-card-example-7-1",
                 "isFullModeStyle": false,
-                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/brands-01.png",
-                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/brands-01.png",
-                "blockClass": ["home-slider-7"],
-                "headline": "Jardineria"
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156476/brands-01.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156476/brands-01.png",
+                "imageActionUrl": "/BEST VALUE?map=c%2Cb",
+                "blockClass": ["home-slider-7"]
             },
             {
                 "id": "info-card-example-7-2",
                 "htmlId": "info-card-example-7-2",
                 "isFullModeStyle": false,
-                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/brands-02.png",
-                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/brands-02.png",
-                "blockClass": ["home-slider-7"],
-                "headline": "Jardineria"
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156477/brands-28.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156477/brands-28.png",
+                "imageActionUrl": "/NORTON?map=c%2Cb",
+                "blockClass": ["home-slider-7"]
             },
             {
                 "id": "info-card-example-7-3",
                 "htmlId": "info-card-example-7-3",
                 "isFullModeStyle": false,
-                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/brands-03.png",
-                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/brands-03.png",
-                "blockClass": ["home-slider-7"],
-                "headline": "Jardineria"
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156483/brands-33.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156483/brands-33.png",
+                "imageActionUrl": "/CUPRUM?map=c%2Cb",
+                "blockClass": ["home-slider-7"]
             },
             {
                 "id": "info-card-example-7-4",
                 "htmlId": "info-card-example-7-4",
                 "isFullModeStyle": false,
-                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/brands-04.png",
-                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/brands-04.png",
-                "blockClass": ["home-slider-7"],
-                "headline": "Jardineria"
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156484/brands-21.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156484/brands-21.png",
+                "imageActionUrl": "/CLIMAX?map=c%2Cb",
+                "blockClass": ["home-slider-7"]
             },
             {
-                "id": "info-card-example-7-5",
-                "htmlId": "info-card-example-7-5",
-                "isFullModeStyle": false,
-                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/brands-05.png",
-                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/brands-05.png",
-                "blockClass": ["home-slider-7"],
-                "headline": "Jardineria"
-
+              "id": "info-card-example-7-5",
+              "htmlId": "info-card-example-7-5",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156485/brands-22.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156485/brands-22.png",
+                "imageActionUrl": "/GOODYEAR?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
             },
             {
               "id": "info-card-example-7-6",
               "htmlId": "info-card-example-7-6",
               "isFullModeStyle": false,
-              "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/brands-05.png",
-              "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/brands-05.png",
-              "blockClass": ["home-slider-7"],
-              "headline": "Jardineria"
-
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156486/brands-04.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156486/brands-04.png",
+                "imageActionUrl": "/AQUINA?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
             },
             {
               "id": "info-card-example-7-7",
               "htmlId": "info-card-example-7-7",
               "isFullModeStyle": false,
-              "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/brands-05.png",
-              "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/brands-05.png",
-              "blockClass": ["home-slider-7"],
-              "headline": "Jardineria"
-
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156487/brands-30.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156487/brands-30.png",
+                "imageActionUrl": "/BLACK JACK?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-8",
+              "htmlId": "info-card-example-7-8",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156488/brands-27.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156488/brands-27.png",
+                "imageActionUrl": "/3M?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-9",
+              "htmlId": "info-card-example-7-9",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156489/brands-19.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156489/brands-19.png",
+                "imageActionUrl": "/BLACK SWAN?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-10",
+              "htmlId": "info-card-example-7-10",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156491/brands-17.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156491/brands-17.png",
+                "imageActionUrl": "/COFLEX?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-11",
+              "htmlId": "info-card-example-7-11",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156519/brands-46-Rimax-01.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156519/brands-46-Rimax-01.png",
+                "imageActionUrl": "/RIMAX?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-12",
+              "htmlId": "info-card-example-7-12",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156495/brands-31.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156495/brands-31.png",
+                "imageActionUrl": "/DIXIE?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-13",
+              "htmlId": "info-card-example-7-13",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156497/brands-37.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156497/brands-37.png",
+                "imageActionUrl": "/BERZOMATIC?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-14",
+              "htmlId": "info-card-example-7-14",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156515/brands-23.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156515/brands-23.png",
+                "imageActionUrl": "/FACHINETTI?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-15",
+              "htmlId": "info-card-example-7-15",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156506/brands-07.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156506/brands-07.png",
+                "imageActionUrl": "/BLACK & DECKER?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-16",
+              "htmlId": "info-card-example-7-16",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156508/brands-08.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156508/brands-08.png",
+                "imageActionUrl": "/BOSCH?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-17",
+              "htmlId": "info-card-example-7-17",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156511/brands-18.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156511/brands-18.png",
+                "imageActionUrl": "/BRASS CRAFT?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-18",
+              "htmlId": "info-card-example-7-18",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156513/brands-24.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156513/brands-24.png",
+                "imageActionUrl": "/KWIKSET?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-19",
+              "htmlId": "info-card-example-7-19",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156514/brands-36.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156514/brands-36.png",
+                "imageActionUrl": "/LACO?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-20",
+              "htmlId": "info-card-example-7-20",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156525/brands-47-LDValve-01.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156525/brands-47-LDValve-01.png",
+                "imageActionUrl": "/LD VALVE?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-21",
+              "htmlId": "info-card-example-7-21",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156500/brands-25.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156500/brands-25.png",
+                "imageActionUrl": "/LOCTITE?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-22",
+              "htmlId": "info-card-example-7-22",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156520/brands-48-Lotfett-01.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156520/brands-48-Lotfett-01.png",
+                "imageActionUrl": "/LOTFETT?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-23",
+              "htmlId": "info-card-example-7-23",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156501/brands-02.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156501/brands-02.png",
+                "imageActionUrl": "/PROPULSA?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-24",
+              "htmlId": "info-card-example-7-24",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156502/brands-20.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156502/brands-20.png",
+                "imageActionUrl": "/RED DEVIL?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-25",
+              "htmlId": "info-card-example-7-25",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156503/brands-03.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156503/brands-03.png",
+                "imageActionUrl": "/ROCKWELL?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-26",
+              "htmlId": "info-card-example-7-26",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156504/brands-29.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156504/brands-29.png",
+                "imageActionUrl": "/SIKA?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-27",
+              "htmlId": "info-card-example-7-27",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156524/brands-49-WD40-01.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156524/brands-49-WD40-01.png",
+                "imageActionUrl": "/WD-40?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-28",
+              "htmlId": "info-card-example-7-28",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156505/brands-15.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156505/brands-15.png",
+                "imageActionUrl": "/BROAN?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-29",
+              "htmlId": "info-card-example-7-29",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156521/brands-50-CESISA-01.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156521/brands-50-CESISA-01.png",
+                "imageActionUrl": "/CESISA?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-30",
+              "htmlId": "info-card-example-7-30",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156507/brands-06.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156507/brands-06.png",
+                "imageActionUrl": "/DEWALT?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-31",
+              "htmlId": "info-card-example-7-31",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156479/brands-43.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156479/brands-43.png",
+                "imageActionUrl": "/ECA?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-32",
+              "htmlId": "info-card-example-7-32",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156480/brands-42.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156480/brands-42.png",
+                "imageActionUrl": "/EDESA?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-33",
+              "htmlId": "info-card-example-7-33",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156478/brands-44.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156478/brands-44.png",
+                "imageActionUrl": "/ESAB?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-34",
+              "htmlId": "info-card-example-7-34",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156509/brands-13.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156509/brands-13.png",
+                "imageActionUrl": "/FAME?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-35",
+              "htmlId": "info-card-example-7-35",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156510/brands-11.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156510/brands-11.png",
+                "imageActionUrl": "/FLUIDMASTER?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-36",
+              "htmlId": "info-card-example-7-36",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156522/brands-51-INDUMA-01.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156522/brands-51-INDUMA-01.png",
+                "imageActionUrl": "/INDUMA?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-37",
+              "htmlId": "info-card-example-7-37",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156481/brands-41.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156481/brands-41.png",
+                "imageActionUrl": "/KOMELON?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-38",
+              "htmlId": "info-card-example-7-38",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156512/brands-14.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156512/brands-14.png",
+                "imageActionUrl": "/LAVELLE?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-39",
+              "htmlId": "info-card-example-7-39",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156490/brands-16.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156490/brands-16.png",
+                "imageActionUrl": "/PRICE PFISTER?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-40",
+              "htmlId": "info-card-example-7-40",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156482/brands-40.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156482/brands-40.png",
+                "imageActionUrl": "/SANDFLEX?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-41",
+              "htmlId": "info-card-example-7-41",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156492/brands-26.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156492/brands-26.png",
+                "imageActionUrl": "/VERSACHEM?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-42",
+              "htmlId": "info-card-example-7-42",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156493/brands-09.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156493/brands-09.png",
+                "imageActionUrl": "/SKIL?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-43",
+              "htmlId": "info-card-example-7-43",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156494/brands-05.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156494/brands-05.png",
+                "imageActionUrl": "/STANLEY?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-44",
+              "htmlId": "info-card-example-7-44",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156523/brands-45-StanleyTrucks-01.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156523/brands-45-StanleyTrucks-01.png",
+                "imageActionUrl": "/STANLEY CARRETILLAS?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-45",
+              "htmlId": "info-card-example-7-45",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156498/brands-12.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156498/brands-12.png",
+                "imageActionUrl": "/TUPAN?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-46",
+              "htmlId": "info-card-example-7-46",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156517/brands-34.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156517/brands-34.png",
+                "imageActionUrl": "/SCALA?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-47",
+              "htmlId": "info-card-example-7-47",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156518/brands-39.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/156518/brands-39.png",
+                "imageActionUrl": "/PORTER CABLE?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-48",
+              "htmlId": "info-card-example-7-48",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/276477/brands_GE_circG-01.png",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/276477/brands_GE_circG-01.png",
+                "imageActionUrl": "/GENERAL ELECTRIC?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-49",
+              "htmlId": "info-card-example-7-49",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/408140/Logo-GE.jpg",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/408140/Logo-GE.jpg",
+                "imageActionUrl": "/GE ILUMINACION?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
+            },
+            {
+              "id": "info-card-example-7-50",
+              "htmlId": "info-card-example-7-50",
+              "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/408139/logo-Pintuco.jpg",
+                "mobileImageUrl": "https://abolupanamaprod.vtexassets.com/arquivos/ids/408139/logo-Pintuco.jpg",
+                "imageActionUrl": "/PINTUCO?map=c%2Cb",
+              "blockClass": ["home-slider-7"]
             }
           ]
         }
       },
   "slider-layout#home-slider-7": {
     "props": {
+      "title": "Grid de Marcas (50 logos visibles)",
       "itemsPerPage": {
-        "desktop": 4,
-        "tablet": 2,
-        "phone": 2
+        "desktop": 50,
+        "tablet": 50,
+        "phone": 50
       },
-      "infinite": true,
-      "showNavigationArrows": "never",
+      "infinite": false,
+      "usePagination": false,
+      "navigationStep": 1,
+      "showNavigationArrows": "always",
       "showPaginationDots": "never",
       "blockClass": "home-slider-7"
     }

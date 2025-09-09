@@ -120,53 +120,53 @@
   //Imagenes Facilitadores
   "image#footer-benefits-1": {
     "props": {
-      "src": "https://abolupanamaprod.vteximg.com.br/arquivos/benefit-skusquantity.png",
-      "width": "42px",
-      "height":"38px"
+      "src": "assets/icons/fac-envio.png",
+      "width": "80px",
+      "height":"80px"
     }
   },
   "image#footer-benefits-2": {
     "props": {
-      "src": "https://abolupanamaprod.vteximg.com.br/arquivos/benefit-skusquantity.png",
-      "width": "42px",
-      "height":"38px"
+      "src": "assets/icons/fac-herramienta.png",
+      "width": "80px",
+      "height":"80px"
     }
   },
   
   "image#footer-benefits-3": {
     "props": {
-      "src": "https://abolupanamaprod.vteximg.com.br/arquivos/benefit-skusquantity.png",
-      "width": "42px",
-      "height":"38px"
+      "src": "assets/icons/fac-tienda.png",
+      "width": "80px",
+      "height":"80px"
     }
   },
 
   "image#footer-benefits-4": {
     "props": {
-      "src": "https://abolupanamaprod.vteximg.com.br/arquivos/benefit-skusquantity.png",
-      "width": "42px",
-      "height":"38px"
+      "src": "assets/icons/fac-devolu.png",
+      "width": "80px",
+      "height":"80px"
     }
   },
   "image#footer-benefits-5": {
     "props": {
-      "src": "https://abolupanamaprod.vteximg.com.br/arquivos/benefit-skusquantity.png",
-      "width": "42px",
-      "height":"38px"
+      "src": "assets/icons/fac-tienda.png",
+      "width": "80px",
+      "height":"80px"
     }
   },
   "image#footer-benefits-6": {
     "props": {
-      "src": "https://abolupanamaprod.vteximg.com.br/arquivos/benefit-skusquantity.png",
-      "width": "42px",
-      "height":"38px"
+      "src": "assets/icons/fac-contact.png",
+      "width": "80px",
+      "height":"80px"
     }
   },
   "image#footer-benefits-7": {
     "props": {
-      "src": "https://abolupanamaprod.vteximg.com.br/arquivos/benefit-skusquantity.png",
-      "width": "42px",
-      "height":"38px"
+      "src": "assets/icons/fac-herramienta.png",
+      "width": "80px",
+      "height":"80px"
     }
   },
   

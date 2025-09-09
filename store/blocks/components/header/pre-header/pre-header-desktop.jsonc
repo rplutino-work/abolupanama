@@ -30,7 +30,7 @@
       "blockClass": "pre-header-content"
     },
     "children": [
-      // "image#pre-header-icon",
+      "image#pre-header-icon",
       "rich-text#pre-header-text"
     ]
   },
@@ -42,7 +42,7 @@
   },
   "image#pre-header-icon": {
     "props": {
-      "src": "/arquivos/foot_facebook.svg",
+      "src": "assets/icons/pre-header-repo.png",
       "link": "https://www.facebook.com/abolupanama",
       "width": "22.6px",
       "height":"22.6px",
@@ -63,7 +63,7 @@
       "blockClass": "pre-header-content"
     },
     "children": [
-      // "image#pre-header-icon",
+      "image#pre-header-icon-2",
       "rich-text#pre-header-text-2"
     ]
   },
@@ -73,7 +73,15 @@
       "blockClass": "pre-header-text"
     }
   },
-
+  "image#pre-header-icon-2": {
+    "props": {
+      "src": "assets/icons/pre-header-cod.png",
+      "link": "https://www.facebook.com/abolupanama",
+      "width": "22.6px",
+      "height":"22.6px",
+      "blockClass": ["pre-header-icon"]
+    }
+  },
   //// PRE HEADER 3 ////
   "flex-layout.col#pre-header-3": {
     "props": {
@@ -88,7 +96,7 @@
       "blockClass": "pre-header-content"
     },
     "children": [
-      // "image#pre-header-icon",
+      "image#pre-header-icon-3",
       "rich-text#pre-header-text-3"
     ]
   },
@@ -98,7 +106,15 @@
       "blockClass": "pre-header-text"
     }
   },
-
+  "image#pre-header-icon-3": {
+    "props": {
+      "src": "assets/icons/pre-header-fav.png",
+      "link": "https://www.facebook.com/abolupanama",
+      "width": "22.6px",
+      "height":"22.6px",
+      "blockClass": ["pre-header-icon"]
+    }
+  },
   //// PRE HEADER 4 ////
   "flex-layout.col#pre-header-4": {
     "props": {
@@ -113,7 +129,7 @@
       "blockClass": "pre-header-content"
     },
     "children": [
-      // "image#pre-header-icon",
+      "image#pre-header-icon-4",
       "rich-text#pre-header-text-4"
     ]
   },
@@ -123,7 +139,15 @@
       "blockClass": "pre-header-text"
     }
   },
-
+  "image#pre-header-icon-4": {
+    "props": {
+      "src": "assets/icons/pre-header-mercadeo.png",
+      "link": "https://www.facebook.com/abolupanama",
+      "width": "22.6px",
+      "height":"22.6px",
+      "blockClass": ["pre-header-icon"]
+    }
+  },
   //// PRE HEADER 5 ////
   "flex-layout.col#pre-header-5": {
     "props": {
@@ -138,7 +162,7 @@
       "blockClass": "pre-header-content"
     },
     "children": [
-      // "image#pre-header-icon",
+      "image#pre-header-icon-5",
       "rich-text#pre-header-text-5"
     ]
   },
@@ -148,7 +172,15 @@
       "blockClass": "pre-header-text"
     }
   },
-
+  "image#pre-header-icon-5": {
+    "props": {
+      "src": "assets/icons/pre-header-devolu.png",
+      "link": "https://www.facebook.com/abolupanama",
+      "width": "22.6px",
+      "height":"22.6px",
+      "blockClass": ["pre-header-icon"]
+    }
+  },
   //// PRE HEADER 6 ////
   "flex-layout.col#pre-header-6": {
     "props": {
@@ -163,7 +195,7 @@
       "blockClass": "pre-header-content"
     },
     "children": [
-      // "image#pre-header-icon",
+      "image#pre-header-icon-6",
       "rich-text#pre-header-text-6"
     ]
   },
@@ -171,6 +203,15 @@
     "props":{
       "text": "[Contáctanos](/contact-us)",
       "blockClass": "pre-header-text"
+    }
+  },
+  "image#pre-header-icon-6": {
+    "props": {
+      "src": "assets/icons/pre-header-contact.png",
+      "link": "https://www.facebook.com/abolupanama",
+      "width": "22.6px",
+      "height":"22.6px",
+      "blockClass": ["pre-header-icon"]
     }
   }
 }

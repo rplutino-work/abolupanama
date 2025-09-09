@@ -16,13 +16,10 @@
           "specificationFilters": {
             "hiddenFilters": [
               {
-                "name": "Departamento"
-              },
-              {
-                "name": "Marca"
-              },
-              {
                 "name": "Color"
+              },
+              {
+                "name": "Tamaño"
               }
             ]
           }

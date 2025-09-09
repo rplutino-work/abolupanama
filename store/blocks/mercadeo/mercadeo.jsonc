@@ -1,9 +1,11 @@
 {
   "store.custom#mercadeo": {
-    "children": ["flex-layout.row#mercadeo"]
+    "children": [
+      "flex-layout.row#mercadeo-textarea",
+      "flex-layout.row#mercadeo"]
   },
   "flex-layout.row#mercadeo": {
-    "children": ["flex-layout.row#mercadeo-textarea", "flex-layout.row#mercadeo-banners-wrap"],
+    "children": ["flex-layout.row#mercadeo-banners-wrap"],
     "props": {
       "blockClass": "quickOrderContainer",
       "paddingBottom": 9
@@ -15,33 +17,76 @@
       // "flex-layout.row#quickorder-textarea"
     ],
     "props": {
-      "blockClass": ["textarea", "content-layout"]
+      "blockClass": ["mercadeo-textarea"]
     }
   },
   "rich-text#mercadeo-textarea": {
     "props": {
       "text": "Soluciones de mercadeo para tu negocio",
       "blockClass": [
-        "title-block",
-        "title-textarea"
+        "title-mercadeo"
       ]
     }
   },
   "flex-layout.row#mercadeo-banners-wrap": {
     "children": [
-      "flex-layout.row#mercadeo-banners-1"
+      "list-context.info-card-list#mercadeo-banners"
     ],
     "props": {
-      "blockClass": ["textarea", "content-layout"]
+      "blockClass": ["mercadeo-content-layout"]
     }
   },
-  "flex-layout.row#mercadeo-banners-1": {
-    "children": [
-      "rich-text#mercadeo-textarea"
-      // "flex-layout.row#quickorder-textarea"
-    ],
-    "props": {
-      "blockClass": ["textarea", "content-layout"]
-    }
-  }
+  "list-context.info-card-list#mercadeo-banners": {
+        "children": [
+            "slider-layout#catalogo"
+        ],
+        "props": {
+          "height": "fit-content",
+          "infoCards": [
+             {
+                "id": "mercadeo-2",
+                "htmlId": "mercadeo-1",
+                "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/mercad.jpg",
+                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/mercad.jpg",
+                "imageActionUrl": "/170?map=productClusterIds",
+                "blockClass": ["mercadeo"],
+                "headline": "Solicitar productos de mercadeo"
+            },
+            {
+                "id": "mercadeo-2",
+                "htmlId": "mercadeo-2",
+                "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/contenido--reds.jpg",
+                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/contenido--reds.jpg",
+                "imageActionUrl": "/marketing/catalogo",
+                "blockClass": ["mercadeo"],
+                "headline": "Contenido para redes sociales"
+            },
+            {
+                "id": "mercadeo-3",
+                "htmlId": "mercadeo-3",
+                "isFullModeStyle": false,
+                "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/vercatalog.jpg",
+                "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/vercatalog.jpg",
+                "imageActionUrl": "/marketing/gallery",
+                "blockClass": ["mercadeo"],
+                "headline": "Ver catálogos"
+            }
+          ]
+        }
+      },
+      "slider-layout#catalogo": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 20,
+            "tablet": 2,
+            "phone": 1
+          },
+          "infinite": true,
+          "showNavigationArrows": "mobileOnly",
+          "showPaginationDots": "never",
+          "blockClass": "mercadeo-slider"
+        }
+      }
 }

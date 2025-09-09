@@ -1,0 +1,231 @@
+{
+  "store.custom#catalogo": {
+    "children": [
+      "image#catalogo",
+      "tab-layout#catalogo"]
+  },
+  "image#catalogo": {
+    "props": {
+      "src": "/arquivos/redes-desktop.jpg",
+      "maxHeight": 24,
+      "blockClass": "catalogo"
+    }
+  },
+  "tab-layout#catalogo": {
+    "children": [
+      "tab-list#catalogo",
+      "tab-content#catalogo"
+    ],
+    "props": {
+      "blockClass": "catalogo",
+      "defaultActiveTabId": "catalogo1"
+    }
+  },
+  "tab-list#catalogo": {
+    "children": [
+      "tab-list.item#catalogo1",
+      "tab-list.item#catalogo2"
+    ],
+    "props": {
+      "blockClass": "catalogo"
+    }
+  },
+  "tab-list.item#catalogo1": {
+    "props": {
+      "tabId": "catalogo1",
+      "label": "Imágenes",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#catalogo2": {
+    "props": {
+      "tabId": "catalogo2",
+      "label": "Videos"
+    }
+  },
+  "tab-content#catalogo": {
+    "children": [
+      "tab-content.item#catalogo1",
+      "tab-content.item#catalogo2"
+    ]
+  },
+  "tab-content.item#catalogo1": {
+    "children": [
+      "list-context.info-card-list#catalogo-image-banners"
+    ],
+    "props": {
+      "tabId": "catalogo1"
+    }
+  },
+  "tab-content.item#catalogo2": {
+    "children": [
+      "list-context.info-card-list#catalogo-video-banners"
+    ],
+    "props": {
+      "tabId": "catalogo2"
+    }
+  },
+  "list-context.info-card-list#catalogo-image-banners": {
+    "children": [
+        "slider-layout#catalogo"
+    ],
+    "props": {
+      "height": "fit-content",
+      "infoCards": [
+          {
+            "id": "catalogo-1",
+            "htmlId": "catalogo-1",
+            "isFullModeStyle": false,
+            "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/ids/157114-180-180/post-ejemplo.png",
+            "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/ids/157114-180-180/post-ejemplo.png",
+            "imageActionUrl": "https://www.dropbox.com/sh/wciebstxfb6yyj9/AADDegi7RbbDRkiVo9Ex8oR4a?dl=0",
+            "blockClass": ["catalogo"],
+            "headline": "Post"
+        },
+        {
+            "id": "catalogo-2",
+            "htmlId": "catalogo-2",
+            "isFullModeStyle": false,
+            "imageUrl": "https://pedidos.abolu.com/arquivos/ids/157113-180-180/post-ejemplo.png",
+            "mobileImageUrl": "https://pedidos.abolu.com/arquivos/ids/157113-180-180/post-ejemplo.png",
+            "imageActionUrl": "https://www.dropbox.com/sh/2wpid5ajdpqc51m/AADPhEl80K73Z645PUrITDtYa?dl=0",
+            "blockClass": ["catalogo"],
+            "headline": "Post"
+        },
+        {
+            "id": "catalogo-3",
+            "htmlId": "catalogo-3",
+            "isFullModeStyle": false,
+            "imageUrl": "https://pedidos.abolu.com/arquivos/ids/157112-180-180/post-ejemplo.png",
+            "mobileImageUrl": "https://pedidos.abolu.com/arquivos/ids/157112-180-180/post-ejemplo.png",
+            "imageActionUrl": "https://www.dropbox.com/sh/rk8al9e2hspk1fk/AABKzzMztB37ghImInhqtsnZa?dl=0",
+            "blockClass": ["catalogo"],
+            "headline": "Post"
+        },
+        {
+          "id": "catalogo-4",
+          "htmlId": "catalogo-4",
+          "isFullModeStyle": false,
+          "imageUrl": "https://pedidos.abolu.com/arquivos/ids/157111-180-180/post-ejemplo.png",
+          "mobileImageUrl": "https://pedidos.abolu.com/arquivos/ids/157111-180-180/post-ejemplo.png",
+          "imageActionUrl": "https://www.dropbox.com/sh/axno4ak69s67cvb/AADhrr5bXACCIbmC-WEKvouva?dl=0",
+          "blockClass": ["catalogo"],
+          "headline": "Post"
+        },
+        {
+          "id": "catalogo-5",
+          "htmlId": "catalogo-5",
+          "isFullModeStyle": false,
+          "imageUrl": "https://pedidos.abolu.com/arquivos/ids/157109-180-180/post-ejemplo.png",
+          "mobileImageUrl": "https://pedidos.abolu.com/arquivos/ids/157109-180-180/post-ejemplo.png",
+          "imageActionUrl": "https://www.dropbox.com/sh/qcanpnt74rtm54u/AAAq6u5AObkeRg0bp4J32-wQa?dl=0",
+          "blockClass": ["catalogo"],
+          "headline": "Post"
+        },
+        {
+          "id": "catalogo-6",
+          "htmlId": "catalogo-6",
+          "isFullModeStyle": false,
+          "imageUrl": "https://pedidos.abolu.com/arquivos/ids/157110-180-180/post-ejemplo.png",
+          "mobileImageUrl": "https://pedidos.abolu.com/arquivos/ids/157110-180-180/post-ejemplo.png",
+          "imageActionUrl": "https://www.dropbox.com/sh/x9dwmejtua9x9a6/AADPjXrndYrJ5KLn8GyT4Z1Aa?dl=0",
+          "blockClass": ["catalogo"],
+          "headline": "Post"
+        }
+      ]
+    }
+  },
+  "list-context.info-card-list#catalogo-video-banners": {
+    "children": [
+        "slider-layout#catalogo"
+    ],
+    "props": {
+      "height": "fit-content",
+      "infoCards": [
+          {
+            "id": "catalogo-video-banner",
+            "htmlId": "catalogo-video-banner",
+            "isFullModeStyle": false,
+            "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/banner-redes-sociales-desktop-2.png",
+            "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/banner-redes-sociales-desktop-2.png",
+            "imageActionUrl": "https://www.youtube.com/channel/UCFigga-bkbOWiiCP_jvmJmA",
+            "blockClass": ["catalogo"],
+            "headline": "Canal de YouTube"
+        },
+        {
+            "id": "catalogo-video-1",
+            "htmlId": "catalogo-video-1",
+            "isFullModeStyle": false,
+            "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/ids/157114-180-180/producto-candado.png",
+            "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/ids/157114-180-180/producto-candado.png",
+            "imageActionUrl": "https://www.dropbox.com/sh/u3s1hwjbmc89efm/AACapRptYTSIqXz0TGGHsYF-a/BRANDS?dl=0&preview=brands-06.png&subfolder_nav_tracking=1",
+            "blockClass": ["catalogo"],
+            "headline": "Videos"
+        },
+        {
+            "id": "catalogo-video-2",
+            "htmlId": "catalogo-video-2",
+            "isFullModeStyle": false,
+            "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/ids/157113-180-180/producto-candado.png",
+            "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/ids/157113-180-180/producto-candado.png",
+            "imageActionUrl": "/",
+            "blockClass": ["catalogo"],
+            "headline": "Videos"
+        },
+        {
+            "id": "catalogo-video-3",
+            "htmlId": "catalogo-video-3",
+            "isFullModeStyle": false,
+            "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/ids/157112-180-180/producto-candado.png",
+            "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/ids/157112-180-180/producto-candado.png",
+            "imageActionUrl": "/",
+            "blockClass": ["catalogo"],
+            "headline": "Videos"
+        },
+        {
+          "id": "catalogo-video-4",
+          "htmlId": "catalogo-video-4",
+          "isFullModeStyle": false,
+          "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/ids/157111-180-180/producto-candado.png",
+          "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/ids/157111-180-180/producto-candado.png",
+          "imageActionUrl": "/",
+          "blockClass": ["catalogo"],
+          "headline": "Videos"
+        },
+        {
+          "id": "catalogo-video-5",
+          "htmlId": "catalogo-video-5",
+          "isFullModeStyle": false,
+          "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/ids/157109-180-180/producto-candado.png",
+          "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/ids/157109-180-180/producto-candado.png",
+          "imageActionUrl": "/",
+          "blockClass": ["catalogo"],
+          "headline": "Videos"
+        },
+        {
+          "id": "catalogo-video-6",
+          "htmlId": "catalogo-video-6",
+          "isFullModeStyle": false,
+          "imageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/ids/157110-180-180/producto-candado.png",
+          "mobileImageUrl": "https://abolupanamaprod.vteximg.com.br/arquivos/ids/157110-180-180/producto-candado.png",
+          "imageActionUrl": "/",
+          "blockClass": ["catalogo"],
+          "headline": "Videos"
+        }
+      ]
+    }
+  },
+  "slider-layout#catalogo": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 20,
+        "tablet": 20,
+        "phone": 20
+      },
+      "infinite": false,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "blockClass": "mercadeo-slider"
+    }
+  }
+}

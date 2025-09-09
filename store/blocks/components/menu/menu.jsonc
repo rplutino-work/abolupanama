@@ -61,7 +61,7 @@
       "blockClass": ["category-line"],
       "itemProps": {
         "type": "internal",
-        "href": "/productos",
+        "href": "/168?map=productClusterIds",
         "noFollow": false,
         "tagTitle": "Productos",
         "text": "Productos"
@@ -126,7 +126,7 @@
       "blockClass": ["category-line"],
       "itemProps": {
         "type": "internal",
-        "href": "/productos?order=OrderByReleaseDateDESC",
+        "href": "/168?map=productClusterIds&order=OrderByReleaseDateDESC",
         "noFollow": false,
         "tagTitle": "Lo nuevo",
         "text": "Lo nuevo"

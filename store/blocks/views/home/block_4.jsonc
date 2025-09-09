@@ -1,6 +1,7 @@
 {
   "flex-layout.row#block-4": {
     "props": {
+      "title": "Ofertas del Mes - Productos en Descuento",
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": false,
@@ -19,6 +20,7 @@
   },
   "link#home-block-4": {
     "props": {
+      "title": "Enlace a Ofertas del Mes",
       "href": "/166?map=productClusterIds",
       "label": "Ofertas del mes",
       "blockClass": "home-block-4"
@@ -34,6 +36,7 @@
   },
   "list-context.product-list#block-4": {
     "props": {
+      "title": "Lista de Productos en Oferta (Colección 166)",
       "hideUnavailableItems": false,
       "maxItems": 70,
       "collection": "166"
@@ -47,6 +50,7 @@
   },
   "slider-layout#block-4": {
     "props": {
+      "title": "Slider de Ofertas (4 columnas desktop)",
       "fullWidth": true,
       "itemsPerPage": {
         "desktop": 4,

@@ -1,6 +1,7 @@
 {
   "flex-layout.row#block-6": {
     "props": {
+      "title": "Productos Destacados - Recomendaciones",
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": false,
@@ -19,6 +20,7 @@
   },
   "link#home-block-6": {
     "props": {
+      "title": "Enlace a Productos Destacados",
       "href": "/167?map=productClusterIds",
       "label": "Productos destacados",
       "blockClass": "home-block-6"
@@ -34,6 +36,7 @@
   },
   "list-context.product-list#block-6": {
     "props": {
+      "title": "Lista de Productos Destacados (Colección 167)",
       "hideUnavailableItems": false,
       "maxItems": 70,
       "collection": "167"
@@ -47,6 +50,7 @@
   },
   "slider-layout#block-6": {
     "props": {
+      "title": "Slider de Productos Destacados (4 columnas desktop)",
       "fullWidth": true,
       "itemsPerPage": {
         "desktop": 4,
