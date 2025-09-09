@@ -5,8 +5,9 @@
         "add-to-list-btn",
         "flex-layout.row#product-image-desktop",
         "flex-layout.row#product-name-and-brand",
-        "flex-layout.row#selling-price-savings",
-        "flex-layout.row#buyButtonsSummaryListDesktop"
+        // "flex-layout.row#selling-price-savings",
+        // "flex-layout.row#buyButtonsSummaryListDesktop"
+        "check-permission#permiso_card"
         ],
         "props": {
           "blockClass": "product-card-container"
@@ -113,6 +114,28 @@
       "product-selling-price#summary",
       "product-list-price#summary"
       //"product-price-savings#summary"
+    ]
+  },
+  "check-permission#permiso_card": {
+    "props": {
+      "roles": [
+        "store-admin",
+        "sales-admin",
+        "sales-manager",
+        "sales-representative",
+        "customer-admin",
+        "customer-approver",
+        "customer-buyer"
+      ]
+    },
+    "blocks": [
+      "allowed-content#permiso_card"
+    ]
+  },
+  "allowed-content#permiso_card": {
+    "children": [
+      "flex-layout.row#selling-price-savings",
+        "flex-layout.row#buyButtonsSummaryListDesktop"
     ]
   },
   "product-installments#summary": {
