@@ -1,7 +1,7 @@
 {
   "flex-layout.row#block-2": {
+    "title": "Departamentos - Categorías de Productos",
     "props": {
-      "title": "Departamentos - Categorías de Productos",
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": false,

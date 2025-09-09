@@ -1,7 +1,7 @@
 {
   "flex-layout.row#block-3": {
+    "title": "Power Tools - Herramientas Eléctricas",
     "props": {
-      "title": "Power Tools - Herramientas Eléctricas",
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": false,

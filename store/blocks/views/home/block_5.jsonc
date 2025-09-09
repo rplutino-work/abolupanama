@@ -1,7 +1,7 @@
 {
   "flex-layout.row#block-5": {
+    "title": "Lifetime - Garantía de Por Vida",
     "props": {
-      "title": "Lifetime - Garantía de Por Vida",
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": false,
@@ -14,6 +14,7 @@
     "children": ["list-context.info-card-list#home-slider-5"]
   },
   "list-context.info-card-list#home-slider-5": {
+    "title": "Lista de Banners Lifetime",
         "children": [
             "slider-layout#home-slider-5"
         ],
@@ -41,8 +42,8 @@
         }
       },
   "slider-layout#home-slider-5": {
+    "title": "Slider Lifetime con Autoplay",
     "props": {
-      "title": "Slider Lifetime con Autoplay",
       "itemsPerPage": {
         "desktop": 1,
         "tablet": 1,

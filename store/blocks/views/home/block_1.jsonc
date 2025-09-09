@@ -1,7 +1,7 @@
 {
   "flex-layout.row#block-1": {
+    "title": "Banner Principal - Slider de Promociones",
     "props": {
-      "title": "Banner Principal - Slider de Promociones",
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": false,

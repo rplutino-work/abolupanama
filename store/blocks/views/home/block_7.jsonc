@@ -1,7 +1,7 @@
 {
   "flex-layout.row#block-7": {
+    "title": "Marcas - Logos de Fabricantes",
     "props": {
-      "title": "Marcas - Logos de Fabricantes",
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": false,
@@ -15,8 +15,8 @@
     "children": ["link#home-block-7", "list-context.info-card-list#home-slider-7"]
   },
   "link#home-block-7": {
+    "title": "Enlace a Página de Marcas",
     "props": {
-      "title": "Enlace a Página de Marcas",
       "href": "/marcas",
       "label": "Marcas",
       "blockClass": "home-block-7"
@@ -31,11 +31,12 @@
     }
   },
   "list-context.info-card-list#home-slider-7": {
+    "title": "Lista de Logos de Marcas (50 marcas)",
         "children": [
             "slider-layout#home-slider-7"
         ],
         "props": {
-          "title": "Lista de Logos de Marcas (50 marcas)",
+          
           "height": "fit-content",
           "infoCards": [
              {
@@ -492,8 +493,8 @@
         }
       },
   "slider-layout#home-slider-7": {
+    "title": "Grid de Marcas (50 logos visibles)",
     "props": {
-      "title": "Grid de Marcas (50 logos visibles)",
       "itemsPerPage": {
         "desktop": 50,
         "tablet": 50,

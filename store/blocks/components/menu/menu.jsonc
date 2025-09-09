@@ -33,6 +33,7 @@
     ]
   },
   "mega-menu-trigger-btn": {
+    "title": "Menu",
     "props": {
       "Drawer": "drawer",
       "title": "Menu"

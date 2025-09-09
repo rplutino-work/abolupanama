@@ -60,8 +60,8 @@
     "children": ["logo#footer"]
   },
   "logo#footer": {
+    "title": "Logo",
     "props": {
-      "title": "Logo",
       "href": "/",
       "url": "/arquivos/logo_abolu.svg",
       "width": "167"
