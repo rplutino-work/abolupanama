@@ -8,6 +8,7 @@
   background-color: #fff;
 }
 :global(.vtex-sticky-layout-0-x-container--sticky-header-desktop) .flexRowContent--pre-header {
+  padding: 10px 0px 0px 30px;
   gap: 10px;
   padding-left: 25%;
   justify-content: space-around;
