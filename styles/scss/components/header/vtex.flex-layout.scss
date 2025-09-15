@@ -3,17 +3,15 @@
 //// STICKY HEADER DESKTOP ////
 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header-desktop){
     // height: auto !important;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 :global(.vtex-sticky-layout-0-x-container--sticky-header-desktop){
     padding: 10px 30px 20px 30px;
     box-shadow: 0 0 1em $color-overlay;
     background-color: #fff;
     .flexRowContent--pre-header {
-        padding: 10px 00px 0px 30px;
-        gap: 10px;
-        padding-left: 25%;
-        justify-content: space-around;
+        padding: 10px 10% 0px 20%;
+        justify-content: space-evenly;
         .stretchChildrenWidth{
             width: auto !important;
             .flexRowContent--pre-header-content{

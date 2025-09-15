@@ -6,7 +6,7 @@
 
 .flexCol--content-sabana-col {
   flex-direction: row;
-  padding: 30px;
+  padding: 45px;
   padding-right: 0;
 }
 .flexCol--content-sabana-col .flexRowContent--container-sabana {
@@ -20,7 +20,8 @@
 }
 
 .flexRow--breadcrumbs {
-  padding-left: 30px;
+  padding-top: 10px;
+  padding-left: 45px;
 }
 @media only screen and (max-width: 1023px) {
   .flexRow--breadcrumbs {

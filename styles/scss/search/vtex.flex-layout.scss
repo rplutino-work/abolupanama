@@ -7,7 +7,7 @@
 }
 .flexCol--content-sabana-col {
     flex-direction: row;
-    padding: 30px;
+    padding: 45px;
     padding-right: 0;
     .flexRowContent--container-sabana {
         flex-direction: column;
@@ -20,8 +20,8 @@
     }
 }
 .flexRow--breadcrumbs {
-    // padding-top: 2rem;
-    padding-left: 30px;
+    padding-top: 10px;
+    padding-left: 45px;
     @include respond(phone) {
         padding-top: 1.5rem;
         padding-left: 10px;

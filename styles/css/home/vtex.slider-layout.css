@@ -121,6 +121,7 @@
 /* Estilos para el contenedor del slider 2 */
 :global(.vtex-flex-layout-0-x-flexRow--home-block-2) {
   padding: 3em 0;
+  overflow: visible;
 }
 
 .infoCardContainer--home-slider-2 {
@@ -129,6 +130,8 @@
   height: 150px;
   border-radius: 0.5em;
   justify-content: space-around;
+  overflow: visible;
+  position: relative;
 }
 
 .infoCardCallActionContainer--home-slider-2 {
@@ -144,6 +147,11 @@
 
 .sliderLayoutContainer--home-slider-2 {
   padding: 25px 5rem;
+  overflow: visible;
+}
+
+.sliderLayoutContainer--home-slider-2 .sliderTrackContainer {
+  overflow: visible;
 }
 
 .sliderLayoutContainer--home-slider-2 .paginationDot {
@@ -175,6 +183,7 @@
 :global(.vtex-info-card-list-0-x-home-slider-2) {
   display: flex;
   justify-content: center;
+  overflow: visible;
 }
 
 /* Responsivo para mobile */
@@ -200,13 +209,18 @@
   .infoCardImageContainer--home-slider-2 {
     width: 35%;
     height: 100%;
+    overflow: visible;
+    position: relative;
+    z-index: 10;
   }
   .infoCardImage--home-slider-2 {
     height: 100%;
     transition: transform 0.3s ease;
+    position: relative;
+    z-index: 15;
   }
   .infoCardImage--home-slider-2:hover {
-    transform: scale(1.1);
+    transform: scale(3.1);
     transition: transform 0.3s ease;
   }
   /* Bullets más pequeños en mobile */
@@ -221,6 +235,9 @@
 }
 .infoCardContainer--home-slider-2 .infoCardImageContainer--home-slider-2 {
   transition: transform 0.3s ease;
+  overflow: visible;
+  position: relative;
+  z-index: 10;
 }
 
 /* Estilos para el contenedor del slider 3 */

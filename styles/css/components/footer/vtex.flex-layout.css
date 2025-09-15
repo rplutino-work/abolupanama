@@ -24,13 +24,13 @@
   }
 }
 .flexRow--content-footer-information .flexRowContent--content-footer-information .flexColChild--content-information :global(.vtex-rich-text-0-x-wrapper--informacion-footer-text) :global(.vtex-rich-text-0-x-paragraph--informacion-footer-text) {
-  font-size: 14px;
-  margin: 5px 0;
+  font-size: 16px;
+  margin: 0px 0 15px 10px;
   color: #000;
 }
 @media (min-width: 1024px) {
   .flexRow--content-footer-information .flexRowContent--content-footer-information .flexColChild--content-information :global(.vtex-rich-text-0-x-wrapper--informacion-footer-text) :global(.vtex-rich-text-0-x-paragraph--informacion-footer-text) {
-    text-align: center;
+    text-align: left;
   }
 }
 .flexRow--content-footer-information .flexRowContent--content-footer-information .flexColChild--content-information :global(.vtex-rich-text-0-x-wrapper--informacion-footer-text) :global(.vtex-rich-text-0-x-paragraph--informacion-footer-text) :global(.vtex-rich-text-0-x-link--informacion-footer-text) {
@@ -55,12 +55,12 @@
   min-width: unset !important;
 }
 .flexRow--content-footer-information .flexRowContent--content-footer-information .flexColChild--content-information .flexRow--logo-desktop-footer :global(.vtex-store-components-3-x-logoContainer) :global(.vtex-store-components-3-x-logoImage) {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 .flexRow--content-footer-information .flexRowContent--content-footer-information .flexColChild--content-information :global(.vtex-rich-text-0-x-paragraph--title_footer) {
   font-size: 18px;
   color: #000c7a;
-  margin: 0 0 10px;
+  margin: 10px 0 10px;
   font-weight: 700;
   cursor: pointer;
 }
