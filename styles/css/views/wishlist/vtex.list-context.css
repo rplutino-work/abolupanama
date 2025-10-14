@@ -1,0 +1,18 @@
+.list--wishlist {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+@media (max-width: 1023px) {
+  .list--wishlist {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.list--wishlist .item--wishlist {
+  min-height: 500px;
+}
+@media (max-width: 1023px) {
+  .list--wishlist .item--wishlist {
+    min-height: 300px;
+  }
+}

@@ -102,7 +102,7 @@
   },
   "rich-text#pre-header-text-3":{
     "props":{
-      "text": "[Favoritos](/wish-list)",
+      "text": "[Favoritos](/wishlist)",
       "blockClass": "pre-header-text"
     }
   },
