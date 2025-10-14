@@ -56,6 +56,11 @@
   width: auto !important;
 }
 
+@media (min-width: 1700px) {
+  :global(.vtex-sticky-layout-0-x-container--sticky-header-desktop) .flexRowContent--pre-header {
+    padding: 10px 17% 0px 25%;
+  }
+}
 :global(.vtex-sticky-layout-0-x-container--sticky-header-mobile) {
   background-color: #fff;
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);

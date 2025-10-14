@@ -62,6 +62,15 @@
     }
 }
 
+@media(min-width:1700px){
+    :global(.vtex-sticky-layout-0-x-container--sticky-header-desktop){
+        .flexRowContent--pre-header {
+            padding: 10px 17% 0px 25%;
+        }
+    }
+}
+
+
 //// STICKY HEADER MOBILE ////
 :global(.vtex-sticky-layout-0-x-container--sticky-header-mobile){
     background-color: #fff;

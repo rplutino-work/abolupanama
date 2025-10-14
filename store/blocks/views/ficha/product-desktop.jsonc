@@ -142,7 +142,7 @@
       // "sku-selector#color",
       // "product-quantity#product-quantity",
       // "flex-layout.col#buy-button",
-      "flex-layout.row#product-brand-and-sku",
+      "flex-layout.row#product-brand-and-sku-pdp",
       "flex-layout.row#product-price",
       "sku-selector#color",
       "product-quantity#product-quantity",
