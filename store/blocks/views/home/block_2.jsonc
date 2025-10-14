@@ -111,7 +111,7 @@
         "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "never",
+      "showNavigationArrows": "desktopOnly",
       "showPaginationDots": "always",
       "blockClass": "home-slider-2"
     }

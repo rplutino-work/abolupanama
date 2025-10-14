@@ -81,7 +81,20 @@
       "fullWidth": true,
       "colSizing": "auto"
     },
+    "children": ["flex-layout.row#brand", "product-identifier.summary"]
+  },
+  "flex-layout.row#product-brand-and-sku-pdp": {
+    "props" :{
+      "blockClass": "product-brand-and-sku",
+      "fullWidth": true,
+      "colSizing": "auto"
+    },
     "children": ["flex-layout.row#brand", "product-identifier.product"]
+  },
+  "product-identifier.summary": {
+    "props": {
+      "idField": "skuReferenceId"
+    }
   },
   "product-identifier.product": {
     "props": {

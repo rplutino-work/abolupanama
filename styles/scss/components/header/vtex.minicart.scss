@@ -1,0 +1,13 @@
+/* Estilos para el minicart */
+
+:global(.vtex-minicart-2-x-minicartCheckoutButton--link-cart) {
+    :global(.vtex-button__label) {
+      font-size: 0;
+      
+      &::before {
+        content: 'IR AL CARRITO';
+        font-size: 1rem;
+      }
+    }
+}
+
