@@ -8,10 +8,6 @@
       "responsive-layout.desktop#productos-similares",
       "responsive-layout.mobile#productos-sugeridos-mobile",
       "responsive-layout.mobile#productos-similares-mobile"
-      // "responsive-layout.desktop#ultimos-vistos",
-      // "responsive-layout.mobile#ultimos-vistos",
-      // "responsive-layout.desktop#second_carrusel",
-      // "responsive-layout.mobile#productos-relacionados"
     ]
   },
   "responsive-layout.desktop#productos-sugeridos": {
@@ -24,7 +20,7 @@
     "props": {
       "blockClass": "productos-relacionados",
       // "recommendation": "similars",
-      "recommendation": "suggestions",
+      "recommendation": "view",
       "hideOutOfStockItems": false,
       "productList": {
         "titleText": "Otras personas compraron con este producto:",
@@ -46,7 +42,7 @@
     "props": {
       "blockClass": "productos-relacionados",
       // "recommendation": "similars",
-      "recommendation": "similars",
+      "recommendation": "viewandBought",
       "hideOutOfStockItems": false,
       "productList": {
         "titleText": "Otras personas compraron con este producto:",
@@ -68,7 +64,7 @@
     "props": {
       "blockClass": "productos-relacionados",
       // "recommendation": "similars",
-      "recommendation": "suggestions",
+      "recommendation": "view",
       "hideOutOfStockItems": false,
       "productList": {
         "titleText": "Otras personas compraron con este producto:",
@@ -90,7 +86,7 @@
     "props": {
       "blockClass": "productos-relacionados",
       // "recommendation": "similars",
-      "recommendation": "similars",
+      "recommendation": "viewandBought",
       "hideOutOfStockItems": false,
       "productList": {
         "titleText": "Otras personas compraron con este producto:",
