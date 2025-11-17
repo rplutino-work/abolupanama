@@ -63,6 +63,25 @@
       ]
     }
   },
+  "vtex.menu@2.x:menu#content-new-organization": {
+    "title": "content-footer-3",
+    "props": {
+      "items": [
+        {
+          "id": "menu-footer-content3-1",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organization-request",
+            "noFollow": false,
+            "tagTitle": "new-organization",
+            "text": "Crear organización"
+          }
+        }
+      ]
+    }
+  },
   //Menu content 4
   "vtex.menu@2.x:menu#content-4": {
     "title": "content-footer-4",

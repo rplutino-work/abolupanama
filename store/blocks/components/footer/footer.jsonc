@@ -139,7 +139,8 @@
   "flex-layout.col#content-information-3":{
     "children":[
       "rich-text#title_2",
-      "vtex.menu@2.x:menu#content-3"
+      "vtex.menu@2.x:menu#content-3",
+      "vtex.menu@2.x:menu#content-new-organization"
     ],
     "props":{
       "blockClass": ["content-information", "content-information-3"]
