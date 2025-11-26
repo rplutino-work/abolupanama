@@ -1,1 +1,4 @@
-
+.packageShippingEstimate,
+.packageSLA {
+  display: none;
+}
