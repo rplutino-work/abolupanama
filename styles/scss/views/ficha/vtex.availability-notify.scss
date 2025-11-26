@@ -1,0 +1,94 @@
+:global(.vtex-flex-layout-0-x-flexRow--availability-notify){
+    margin-top: 1.3125rem;   
+
+    .notiferContainer{
+        @media (max-width: 768px) {
+            padding: 0 .9375rem
+        }
+    }
+
+    .title{
+        margin-bottom: .5625rem;
+    }
+
+    .notifyLabel{
+        
+        margin-bottom: 1.25rem;
+        font-size: 0;
+        visibility: hidden;
+
+        &::before{
+            content: "Dejanos tu email y te avisamos cuando vuelva a estar en stock.";
+            font-size: 16px;
+            visibility: visible;
+        }
+    }
+
+    .form{
+        margin-bottom: 0;
+    }
+
+    .content{
+        flex-wrap: wrap;
+
+        @media (max-width: 768px) {
+            display: flex;
+            gap: .75rem
+        }
+
+        .input{
+            width: calc(50% - 0.25rem);
+            margin: 0;
+            padding: 0;
+
+            @media (max-width: 768px) {
+                width: 100%;
+            }
+
+            :global(.vtex-input-prefix__group){
+                border-radius: 1.5rem;
+                border: 1px solid #adadad;
+                padding: 0 .875rem;                
+            }
+
+            :global(.vtex-styleguide-9-x-input){
+                padding: 0;
+                border-radius: 0;
+            }
+
+            :global(.vtex-input__error){
+            }
+        }
+
+        .submit{
+            width: 100%;
+            margin-top: 1.25rem;
+            margin-bottom: 0;
+
+            @media (max-width: 768px) {
+                margin-top: 0;
+            }
+
+            :global(.vtex-button){
+                width: 100%;
+                padding: 0;
+                margin: 0 0 1.875rem 0;
+                border: 0;
+                border-radius: 2.125rem;
+                transition: all .3s ease;
+                font-weight: 300;
+                height: 35px;
+
+                &::hover{
+                }
+            }
+
+            :global(.vtex-button__label){
+                padding: 0;
+                margin: 0;
+                text-transform: none;
+                font-size: 16px;
+            }
+        }
+    }
+}

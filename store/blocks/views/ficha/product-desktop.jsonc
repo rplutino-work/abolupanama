@@ -146,9 +146,18 @@
       "flex-layout.row#product-price",
       "sku-selector#color",
       "product-quantity#product-quantity",
+      "flex-layout.row#availability-notify",
       "flex-layout.col#buy-button"
     ]
   },
+  "flex-layout.row#availability-notify": {
+      "children": [
+        "availability-notify"
+      ],
+      "props": {
+        "blockClass": "availability-notify"
+      }
+    },
   "disallowed-content#user_register": {
     "children": ["rich-text#product-price"]
   },

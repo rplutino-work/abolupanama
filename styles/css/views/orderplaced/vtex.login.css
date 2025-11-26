@@ -1,0 +1,4 @@
+:global(.vtex-order-placed-2-x-noticesList) :global(.vtex-order-placed-2-x-noticeListItem):nth-child(1),
+:global(.vtex-order-placed-2-x-noticesList) :global(.vtex-order-placed-2-x-noticeListItem):nth-child(3) {
+  display: none;
+}
